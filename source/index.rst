@@ -6,6 +6,10 @@
 Welcome to the Stacklands Modding Wiki!
 =======================================
 
+This wiki contains plenty of useful guides and all the information you need to start
+making your own Stacklands mods! If you would like to contribute to this wiki, check
+out the `GitHub repository <https://github.com/stacklandsdev/modding-wiki>`_.
+
 .. toctree::
    :caption: Guides
    :name: guides

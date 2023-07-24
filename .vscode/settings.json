@@ -1,0 +1,8 @@
+{
+    "esbonio.sphinx.confDir": "",
+    "editor.insertSpaces": false,
+    "[restructuredtext]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4
+    }
+}

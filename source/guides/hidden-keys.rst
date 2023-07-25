@@ -26,3 +26,7 @@ page is where they are documented.
 	* - ``K+O+F1``
 	  - During a run
 	  - Opens the debug menu (note: the ``F1`` key has to be pressed while holding the ``K`` and ``O`` keys)
+
+	* - ``F5``
+	  - Anywhere after ``K+O+F1`` was pressed
+	  - Hides GUI

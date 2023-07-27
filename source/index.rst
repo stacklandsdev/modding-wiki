@@ -26,6 +26,7 @@ out the `GitHub repository <https://github.com/stacklandsdev/modding-wiki>`_.
 
    guides/awake-ready
    guides/decompiling
+   guides/dependencies
    guides/enum
    guides/hidden-keys
    guides/localization

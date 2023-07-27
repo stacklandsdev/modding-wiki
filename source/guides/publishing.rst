@@ -40,3 +40,11 @@ To upload the files, simply click the Upload button.
 To finish publishing your mod, set the visibility to "Public" on the Workshop.
 
 .. image:: images/publishing_5.png
+
+Adding a thumbnail
+==================
+
+If you want your Workshop item to have a thumbnail, simply put an image called ``icon.png`` in your mods
+folder. There are no requirements for the resolution, but 512x512 is recommended.
+
+.. image:: images/publishing_6.png

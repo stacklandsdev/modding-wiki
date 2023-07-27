@@ -89,7 +89,7 @@ Step 3. Scripting
 =================
 
 Let's give the red panda the ability to heal by feeding it with an apple. We are going to make
-a new class in the ``Mod.cs`` file for this, inside the ``ModTesting`` namespace. All of the
+a new class in the ``Mod.cs`` file for this, inside the ``ExampleModNS`` namespace. All of the
 explanations can be found in the comments.
 
 If you are new to coding, you should read/watch a couple guides to learn the basics of C#. Such
@@ -98,7 +98,7 @@ a guide is not in the scope of this wiki, but here are some good ones:
 * `Brackeys - How to Program in C# <https://www.youtube.com/playlist?list=PLPV2KyIb3jR4CtEelGPsmPzlvP7ISPYzR>`_
 * `W3Schools - C# Tutorial <https://www.w3schools.com/cs/index.php>`_
 
-Make sure the following code is inside the ``ModTesting`` namespace:
+Make sure the following code is inside the ``ExampleModNS`` namespace:
 
 .. code-block:: c#
 	:linenos:
@@ -137,13 +137,13 @@ Make sure the following code is inside the ``ModTesting`` namespace:
 		}
 	}
 
-To make the red panda use this script, change the ``"script"`` in the JSON to ``ModTesting.RedPanda``.
+To make the red panda use this script, change the ``"script"`` in the JSON to ``ExampleModNS.RedPanda``.
 
 .. code-block::
 	:linenos:
 	:lineno-start: 8
 
-	"script": "ModTesting.RedPanda",
+	"script": "ExampleModNS.RedPanda",
 
 If you build your mod now, the red panda should have all the functionality of the script.
 

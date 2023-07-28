@@ -10,6 +10,8 @@ This wiki contains plenty of useful guides and all the information you need to s
 making your own Stacklands mods! If you would like to contribute to this wiki, check
 out the `GitHub repository <https://github.com/stacklandsdev/modding-wiki>`_.
 
+If you have any questions or feedback, join us in the `Stacklands Modding Discord server <https://discord.gg/j3FjwZVyWh>`_!
+
 .. toctree::
    :caption: Guides
    :name: guides

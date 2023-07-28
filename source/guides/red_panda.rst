@@ -8,7 +8,7 @@ Step 0. Downloading the files
 =============================
 
 * `localization.tsv <https://docs.google.com/spreadsheets/d/e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/pub?gid=0&single=true&output=tsv>`_ - The full localization file for ALL three guides (make sure you download this file as ``localization.tsv``!)
-* `RedPanda.jpg <https://cdn.discordapp.com/attachments/1000188860577349642/1112793577857220638/RedPanda2.png>`_ - Place this in the ``Icons`` folder of your mod. Icon drawn by `lopidav <discord://-/users/357116721812865025>`_
+* `RedPanda.png <https://cdn.discordapp.com/attachments/1000188860577349642/1112793577857220638/RedPanda2.png>`_ - Place this in the ``Icons`` folder of your mod. Icon drawn by `lopidav <discord://-/users/357116721812865025>`_
 
 Step 1. Creating the card
 =========================

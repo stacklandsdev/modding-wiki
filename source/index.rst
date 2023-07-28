@@ -27,6 +27,7 @@ If you have any questions or feedback, join us in the `Stacklands Modding Discor
    :maxdepth: 3
 
    guides/awake-ready
+   guides/cards
    guides/decompiling
    guides/dependencies
    guides/enum

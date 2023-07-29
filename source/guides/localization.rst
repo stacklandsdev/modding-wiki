@@ -56,7 +56,7 @@ To get a translated string, use the ``SokLoc.Translate`` method:
 Using LocParams
 ===============
 
-The localization system provides a very easy for handling variables in strings. By surrounding text with
+The localization system provides a very easy way to handle variables in strings. By surrounding text with
 ``[]``, it's handled as a variable. Example: ``wow, an [epic_param]!``.
 
 .. code-block:: c#
@@ -69,8 +69,8 @@ The localization system provides a very easy for handling variables in strings. 
 Using plurals
 =============
 
-The localization system provides an easy way for handling cases where a string should be translated
-differently based on a variable number. You can seperate the singular and plural forms by prefixing
+The localization system provides an easy way to handle cases where a string should be translated
+differently based on a variable number. You can separate the singular and plural forms by prefixing
 them with ``<one>`` and ``<other>``. Example: ``<one>give me one more coin<other>give me [count] more coins``.
 
 .. code-block:: c#

@@ -29,6 +29,7 @@ If you have any questions or feedback, join us in the `Stacklands Modding Discor
    guides/awake-ready
    guides/cards
    guides/decompiling
+   guides/extracting_assets
    guides/dependencies
    guides/enum
    guides/hidden-keys

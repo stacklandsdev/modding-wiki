@@ -4,12 +4,12 @@ Extracting the Game's Assets
 .. warning::
 	PLEASE DO NOT SHARE EXTRACTED/DECOMPILED ASSETS PUBLICLY
 
-Extracting the game's assets is an easy way to find out how certain features are implemented and what properties built-in cards have.
+Extracting the game's assets is an easy way to find out how certain features are implemented and what properties vanilla cards have.
 
 Setting up AssetRipper
 ======================
 
-Download the latest version of AssetRipper for your operating system from `here <https://github.com/AssetRipper/AssetRipper/releases>`_, extract it, and launch ``AssetRipper.exe``.
+Download the latest version of AssetRipper for your operating system from `here <https://github.com/AssetRipper/AssetRipper/releases/latest>`_, extract it, and launch ``AssetRipper.exe``.
 
 Extracting assets
 =================
@@ -19,7 +19,7 @@ You can leave all the settings on default to export most of the interesting asse
 If you want to let AssetRipper decompile the game's code, set "Script Export Format" to "Decompiled".
 If you don't want to decompile the code (e.g. because you're using one of the methods described in :doc:`Decompiling guide <./decompiling>`), set "Script Content Level" to "Level 0". This will speed up the extraction a bit.
 
-Next, lick ``File -> Open Folder`` and select the ``Stacklands`` or ``Stacklands_Data`` folder. You can find them by right-clicking on the game
+Next, click ``File -> Open Folder`` and select the ``Stacklands`` or ``Stacklands_Data`` folder. You can find them by right-clicking on the game
 on Steam, selecting ``Manage``, and then ``Browse Local Files``.
 
 By default, the directory will be ``C:\Program Files (x86)\Steam\steamapps\common\Stacklands`` on Windows, ``~/Library/Application Support/Steam/steamapps/common/Stacklands`` on Mac, and ``~/.steam/steam/SteamApps/common/Stacklands`` on Linux.

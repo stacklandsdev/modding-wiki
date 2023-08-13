@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-13 10:30+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/decompiling.rst:2 a2218a82705640c78ddc0b0cbd5d6907
+msgid "Decompiling the game"
+msgstr "反编译游戏"
+
+#: ../../source/guides/decompiling.rst:5 16f4a367ce404602bcd8b8963e0a5061
+msgid "PLEASE DO NOT SHARE EXTRACTED/DECOMPILED ASSETS PUBLICLY"
+msgstr "**请不要将导出/反编译的资产公开分享！**"
+
+#: ../../source/guides/decompiling.rst:7 0e54de556484491bb362e2bab713543c
+msgid ""
+"Decompiling the game is the best way to learn about how certain features "
+"are implemented. This guide will teach you how to use various tools to "
+"read the code of Stacklands. The code is compiled into `assemblies "
+"<https://learn.microsoft.com/en-us/dotnet/standard/assembly/>`_, and can "
+"easily be extracted."
+msgstr ""
+"反编译游戏是最好地理解特定功能是如何实现的方式。这篇指南将会指导你使用多"
+"种类型的工具来阅读 Stacklands 的源代码。代码被编译为 `IL 字节码程序集 <https://learn.microsoft.com/zh-cn/dotnet/standard/assembly/>`_，并且可以"
+"被轻松地提取。"
+
+#: ../../source/guides/decompiling.rst:13 eeab4fba90a046949afef76b584883c0
+msgid "Choosing a decompiler"
+msgstr "选择一个反编译器"
+
+#: ../../source/guides/decompiling.rst:15 16b55381cdcd424f8d60787e3c7b5a8c
+msgid ""
+"There are various C# decompilers, each with their own benefits, though "
+"since the core feature set is largely similar, the choice often comes "
+"down to preference."
+msgstr ""
+"C# 反编译器种类繁多，各有各的优点，但由于核心功能集大体相似，因此选择时往"
+"往取决于使用者的偏好。"
+
+#: ../../source/guides/decompiling.rst:18 1e69a7bc3b474bcfb006206b2bfeaa79
+msgid ""
+"`ILSpy <https://github.com/icsharpcode/ILSpy>`_ (windows only) / "
+"`AvaloniaILSpy <https://github.com/icsharpcode/AvaloniaILSpy>`_ (cross-"
+"platform)"
+msgstr ""
+"`ILSpy <https://github.com/icsharpcode/ILSpy>`_ （仅限Windows）/ "
+"`AvaloniaILSpy <https://github.com/icsharpcode/AvaloniaILSpy>`_ （跨平台）"
+
+#: ../../source/guides/decompiling.rst:19 f7cd8e5ea0824e29819e81b4d483a78e
+msgid "`dnSpy <https://github.com/dnSpyEx/dnSpy>`_"
+msgstr "`dnSpy <https://github.com/dnSpyEx/dnSpy>`_"
+
+#: ../../source/guides/decompiling.rst:20 fdfae53f3f444c82b462f1cbd9ae6483
+msgid "`dotPeek <https://www.jetbrains.com/decompiler/>`_"
+msgstr "`JetBrains dotPeek <https://www.jetbrains.com/decompiler/>`_"
+
+#: ../../source/guides/decompiling.rst:22 fbf52212136541cb82b09bc843e078fe
+msgid ""
+"The rest of the guide will focus on ILSpy, but you can find all the "
+"showcased features in other tools."
+msgstr ""
+"本指南的其余部分将重点介绍 ILSpy，但你也可以在其他工具中找到所有展示的功"
+"能。"
+
+#: ../../source/guides/decompiling.rst:25 62b1d402ee4a48409c51124ced6240e5
+msgid "Decompiling the code"
+msgstr "反编译游戏"
+
+#: ../../source/guides/decompiling.rst:27 f099f793b70441df8c4398587f927a1e
+msgid ""
+"Open the ``GameScripts.dll`` file in ILSpy by either dragging it onto "
+"the window or finding it in ``File > Open``. The DLL file is found in "
+"``<Path to Stacklands>/Stacklands_Data/Managed``. If you are interested "
+"in other code, see the :ref:`File guide<File guide>` section."
+msgstr ""
+"在 ILSpy 中打开 ``GameScripts.dll`` 文件，方法是将它拖到窗口上或在 "
+"``File > Open`` 中找到它。DLL 文件位于 ``<Path to Stacklands>/"
+"Stacklands_Data/Managed`` 中。如果您对其他代码感兴趣，请参阅 :ref:`文件指"
+"南 <File guide>` 部分。"
+
+#: ../../source/guides/decompiling.rst:31 b58e5daddefa4f739f78c8134851f611
+msgid ""
+"After opening the DLL, it will appear in the panel on the left. Click "
+"``GameScripts`` and ``-`` to view the list of classes. You can click on "
+"any of them to view its code."
+msgstr ""
+"打开 DLL 后，它将出现在左侧面板中。单击 ``GameScripts`` 和 ``-`` 查看类列"
+"表。您可以点击其中任何一个查看其代码。"
+
+#: ../../source/guides/decompiling.rst:37 7b2d24c50a5f4dd7bc1a0f7382b38fec
+msgid "Exporting the code"
+msgstr "导出代码"
+
+#: ../../source/guides/decompiling.rst:39 2f06fa81ef174753bc7b3488164cd54d
+msgid ""
+"You may export the code to get better integration with certain editors "
+"such as VSCode. This is a completely optional step. Right click "
+"``GameScripts`` and select ``Save Code``, then create a folder where the "
+"code will be exported."
+msgstr ""
+"您可以导出代码，以便更好地与某些编辑器（如 VSCode）集成。这是完全可选的步"
+"骤。右键单击 ``GameScripts`` 并选择 ``保存代码``，然后创建一个用于导出代"
+"码的文件夹。"
+
+#: ../../source/guides/decompiling.rst:48 c2d50fa2189841ce89931802b72c9eb2
+msgid "File guide"
+msgstr "文件指南"
+
+#: ../../source/guides/decompiling.rst:50 a2ad5481702342f19270645522f50a82
+msgid ""
+"The DLL files are found in ``<Path to Stacklands>/Stacklands_Data/"
+"Managed``."
+msgstr ""
+"DLL 文件可以在 ``<Path to Stacklands>/Stacklands_Data/Managed`` 文件夹中"
+"找到。"
+
+#: ../../source/guides/decompiling.rst:54 0e0927a17df84fb0bba26c0f46d75efa
+msgid "``GameScripts.dll``"
+msgstr "``GameScripts.dll``"
+
+#: ../../source/guides/decompiling.rst:55 37eab15324ac4fefa90bcbe971a4357f
+msgid "Contains all of the gameplay related code"
+msgstr "包含所有游戏相关的代码"
+
+#: ../../source/guides/decompiling.rst:57 36e8fde4b1ee4877a0002a1b31fd0fdc
+msgid "``SokLoc.dll``"
+msgstr "``SokLoc.dll``"
+
+#: ../../source/guides/decompiling.rst:58 0af87383b58f41e183b5276956589f52
+msgid "Contains the code of the localization system"
+msgstr "包含本地化系统的代码"

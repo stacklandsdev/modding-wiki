@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 16:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/awake-ready.rst:4 e000305ed10743548031c9a060ed47ab
+msgid "Awake or Ready?"
+msgstr "``Awake`` 还是 ``Ready``？"
+
+#: ../../source/guides/awake-ready.rst:6 8c687c0c98a448628fbdccb66edf253b
+msgid ""
+"The ``Mod`` class has 2 methods which are called during different parts of "
+"the game loading process: ``Awake`` and ``Ready``."
+msgstr ""
+"``Mod`` 类有两个方法，分别在游戏加载的不同阶段被调用：``Awake`` 和 "
+"``Ready``。"
+
+#: ../../source/guides/awake-ready.rst:9 63a310e92ff14567bbb08f9310fba5f4
+msgid "**When to use Awake?**"
+msgstr "什么时候使用 ``Awake``？"
+
+#: ../../source/guides/awake-ready.rst:11 f54acf540a804cb2b0876c0de16d0870
+msgid ""
+"Awake is called before any game data is loaded. This is the part where you "
+"should create your harmony patches, extend enums, and more. ``ModManager`` "
+"is the only available manager at this time, so trying to access other "
+"manager classes will result in errors."
+msgstr ""
+"在加载任何游戏数据之前都会调用 ``Awake``。你应该在这个时候创建兼容补丁、扩"
+"展枚举类等。``ModManager`` 是目前唯一可用的管理器，因此尝试访问其他管理器类"
+"导致错误。"
+
+#: ../../source/guides/awake-ready.rst:15 a7452f1c3b6440259dabbf5fd751c8f3
+msgid "**When to use Ready?**"
+msgstr "什么时候使用 ``Ready``？"
+
+#: ../../source/guides/awake-ready.rst:17 bc3573ca3e594f21aebb541bf9d14035
+msgid ""
+"Ready is called after all game data is loaded. If you want to modify the "
+"data of ``WorldManager.CardDataPrefabs`` for example, this is when you "
+"should do it."
+msgstr ""
+"``Ready`` 方法会在所有游戏数据加载完毕后调用。例如，如果您想修改 "
+"``WorldManager.CardDataPrefabs`` 的数据，应该在这个时候这样做。"
+
+#: ../../source/guides/awake-ready.rst:20 64491071486a4b73bfe3a299b9b1e516
+msgid ":raw-html:`<hr>`"
+msgstr ":raw-html:`<hr>`"
+
+#: ../../source/guides/awake-ready.rst:22 689fcc81bdda4da1b722faf8bee37ae6
+msgid "``Awake()``"
+msgstr "``Awake()``"
+
+#: ../../source/guides/awake-ready.rst:23 432d48c19afd4037acbb847f5f07b677
+msgid "Game data gets loaded"
+msgstr "游戏数据加载完成"
+
+#: ../../source/guides/awake-ready.rst:24 3e0cbddc998f4b8a8ee4b3e596d0264b
+msgid "``Ready()``"
+msgstr "``Ready()``"

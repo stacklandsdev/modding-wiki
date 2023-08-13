@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 19:13+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/red_panda.rst:2 6ed5aa1d7210455ea5e3d43331b8a219
+msgid "Guide 2: Red Panda"
+msgstr "第2章：Red Panda"
+
+#: ../../source/guides/red_panda.rst:4 26dd5318dfab4e5ebc1c42d80b82b9b7
+msgid ""
+"This guide covers the basics of scripting and creating mobs. This guide "
+"assumes that you have already followed `Guide 1: Golden Berry <golden_berry."
+"html>`_."
+msgstr ""
+"本指南涵盖脚本和创建小怪的基础知识。本指南假定您已经学习了 `第1章: Golden "
+"Berry <golden_berry.html>`_ 。"
+
+#: ../../source/guides/red_panda.rst:8 7cf84022779744a49ea34e57c4102092
+msgid "Step 0. Downloading the files"
+msgstr "第0步：下载文件"
+
+#: ../../source/guides/red_panda.rst:10 4be1a388c40a40079aae391e8f9db659
+msgid ""
+"`localization.tsv <https://docs.google.com/spreadsheets/d/"
+"e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/"
+"pub?gid=0&single=true&output=tsv>`_ - The full localization file for ALL "
+"three guides (make sure you download this file as ``localization.tsv``!)"
+msgstr ""
+"`localization.tsv <https://docs.google.com/spreadsheets/d/"
+"e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/"
+"pub?gid=0&single=true&output=tsv>`_ - 所有三个指南的本地化文件（确保你下载文"
+"件并命名为 ``localization.tsv``！）"
+
+#: ../../source/guides/red_panda.rst:11 a3ac37d0c81048c78b2a02dfb6ff3ce7
+msgid ""
+"`RedPanda.png <https://cdn.discordapp.com/"
+"attachments/1000188860577349642/1112793577857220638/RedPanda2.png>`_ - "
+"Place this in the ``Icons`` folder of your mod. Icon drawn by `lopidav "
+"<discord://-/users/357116721812865025>`_"
+msgstr ""
+"`RedPanda.png <https://cdn.discordapp.com/"
+"attachments/1000188860577349642/1112793577857220638/RedPanda2.png>`_ - 把这"
+"个图片放到你的模组的 ``Icons`` 文件夹中。该图标由 `lopidav <discord://-/"
+"users/357116721812865025>`_ 绘制"
+
+#: ../../source/guides/red_panda.rst:14 a682eed96dfd458baf94193fe111053e
+msgid "Step 1. Creating the card"
+msgstr "第1步：创建卡牌"
+
+#: ../../source/guides/red_panda.rst:16 a54989b07b1f4fdaa6e68b2603a2b5c1
+msgid ""
+"Let's set up the very basics of the card first. Create a ``red_panda.json`` "
+"file in the ``Cards/`` folder, and add the following code:"
+msgstr ""
+"让我们先创建这张卡牌的基础信息。在 ``Cards/`` 文件夹下创建一个 ``red_panda."
+"json`` 文件，并添加以下代码："
+
+#: ../../source/guides/red_panda.rst:31 a569bd70995f4492a4d518db00a726c0
+msgid "The card should now show up in the debug menu:"
+msgstr "现在卡牌应该已经出现在调试菜单中："
+
+#: ../../source/guides/red_panda.rst:37 998effe5b2ad4e5981f28948549813dd
+msgid "Possible mistakes:"
+msgstr "可能的错误："
+
+#: ../../source/guides/red_panda.rst:39 8d91eac3d8004275b55aa381fabd183b
+msgid ""
+"If the card name or description shows up as ``---MISSING---``, you are "
+"missing the ``localization.tsv`` file, or it didn't get copied correctly"
+msgstr ""
+"如果卡牌的内容或描述展示为 ``---MISSING---``，你缺少了 ``localization.tsv`` "
+"文件或它没有被正确地拷贝"
+
+#: ../../source/guides/red_panda.rst:40 6c4e9b022cb746e7bd2c399aac03eaf7
+msgid ""
+"If the card doesn't have an image, make sure the file name in the ``Icons`` "
+"folder matches the value of the ``\"icon\"`` property in your JSON"
+msgstr ""
+"如果卡牌没有图片，请确保 ``Icons`` 文件夹中的文件名与你的 JSON 文件中的 "
+"``\"icon`` 属性一致"
+
+#: ../../source/guides/red_panda.rst:43 f4977d65506241f29edd6934f887ad66
+msgid "Step 2. Turning it into an animal"
+msgstr "第2步：配置为动物"
+
+#: ../../source/guides/red_panda.rst:45 ac3309dc172e4144a7d597c00969a2fa
+msgid ""
+"Currently our red panda doesn't do anything, so let's fix that by adding a "
+"script to it."
+msgstr ""
+"目前，我们的 Red Panda 什么也做不了，所以我们要为它添加一个脚本来解决这个问"
+"题。"
+
+#: ../../source/guides/red_panda.rst:55 bc650646ca4c4cf6b4e99196b1969c7e
+msgid ""
+"If we take a look a `the code <decompiling.html>`_, we can see that the "
+"``Combatable`` class (which ``Animal`` inherits from) has a field for "
+"combat stats, which specifies things like the max health, damage, attack "
+"speed, and more."
+msgstr ""
+"如果我们看一下 `代码 <decompiling.html>`_，我们可以看到 ``Combatable`` 类"
+"（ ``Animal`` 继承自该类）有一个战斗数据字段，它指定了最大生命值、伤害、攻击"
+"速度等。"
+
+#: ../../source/guides/red_panda.rst:62 3bd05cdce37d4cb2bcd8f4f45f3e214f
+msgid "Let's implement it with an underscore property:"
+msgstr "让我们用一个下划线属性来实现它："
+
+#: ../../source/guides/red_panda.rst:84 0af9bf141738496b92f9c289dc976d71
+msgid "Our red panda now has the specified stats:"
+msgstr "我们的 Red Panda 现在有了配置后的属性："
+
+#: ../../source/guides/red_panda.rst:89 2238e63d1b2b44529ec2d1e4d9437c81
+msgid "Step 3. Scripting"
+msgstr "第3步：编写脚本"
+
+#: ../../source/guides/red_panda.rst:91 04170eecd3294f1f9360e46d113c969a
+msgid ""
+"Let's give the red panda the ability to heal by feeding it with an apple. "
+"We are going to make a new class in the ``Mod.cs`` file for this, inside "
+"the ``ExampleModNS`` namespace. All of the explanations can be found in the "
+"comments."
+msgstr ""
+"让我们赋予 Red Panda 通过被喂食苹果来自愈的能力。我们将为此在 ``Mod.cs`` 文"
+"件中的 ``ExampleModNS`` 命名空间内创建一个新类。所有的解释都可以在注释中找"
+"到。"
+
+#: ../../source/guides/red_panda.rst:95 8ad52a185c564f01badb2c2d00ae5ee7
+msgid ""
+"If you are new to coding, you should read/watch a couple guides to learn "
+"the basics of C#. Such a guide is not in the scope of this wiki, but here "
+"are some good ones:"
+msgstr ""
+"如果你是编程新手，你应该阅读/观看一些指南来学习 C# 的基础知识。这样的指南不"
+"在本维基的范围之内，但这里有一些不错的指南："
+
+#: ../../source/guides/red_panda.rst:98 0a702244041546ceb2016369e1d00296
+msgid ""
+"`Brackeys - How to Program in C# <https://www.youtube.com/playlist?"
+"list=PLPV2KyIb3jR4CtEelGPsmPzlvP7ISPYzR>`_"
+msgstr ""
+"`Brackeys - How to Program in C# <https://www.youtube.com/playlist?"
+"list=PLPV2KyIb3jR4CtEelGPsmPzlvP7ISPYzR>`_"
+
+#: ../../source/guides/red_panda.rst:99 3fb9d42d274f46a393367988bac76cc3
+msgid "`W3Schools - C# Tutorial <https://www.w3schools.com/cs/index.php>`_"
+msgstr "`W3Schools - C# Tutorial <https://www.w3schools.com/cs/index.php>`_"
+
+#: ../../source/guides/red_panda.rst:101 80ebaa3e8aa84246b3425b2806b5e221
+msgid "Make sure the following code is inside the ``ExampleModNS`` namespace:"
+msgstr "确保以下代码在 ``ExampleModNS`` 命名空间内："
+
+#: ../../source/guides/red_panda.rst:140 755dfd3aeadf481da019ddf2d3dbacdd
+msgid ""
+"To make the red panda use this script, change the ``\"script\"`` in the "
+"JSON to ``ExampleModNS.RedPanda``."
+msgstr ""
+"想要让 Red Panda 使用这个脚本，我们需要将 JSON 文件中的 ``\"script\"`` 字段"
+"修改为 ``ExampleModNS.RedPanda``。"
+
+#: ../../source/guides/red_panda.rst:148 6e630899e74a46d09c207abe1f5f4fb3
+msgid ""
+"If you build your mod now, the red panda should have all the functionality "
+"of the script."
+msgstr "如果你现在构建你的模组，Red Panda 应该已经具备了脚本的所有功能。"

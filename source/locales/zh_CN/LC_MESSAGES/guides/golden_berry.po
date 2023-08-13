@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 17:19+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/golden_berry.rst:4 4673f560802a4c84b19b48b75b989821
+msgid "Guide 1: Golden Berry"
+msgstr "第1章：Golden Berry"
+
+#: ../../source/guides/golden_berry.rst:6 2c7f6e9d0bcc4606a5802a0435a583fc
+msgid ""
+"This guide covers the basics of making a new card with a JSON file and "
+"localization. This guide assumes that you've already read `The Tutorial "
+"<tutorial.html>`_."
+msgstr ""
+"本指南介绍了使用 JSON 文件制作新卡和本地化的基本知识，并假定你已经阅读过`快速"
+"入门 <Tutorial.html>`_。"
+
+#: ../../source/guides/golden_berry.rst:10 c74b2557277846f6b2e0709fba9cc9ad
+msgid "Step 0. Downloading the files"
+msgstr "第0步：下载文件"
+
+#: ../../source/guides/golden_berry.rst:12 954d43bd310c489682daf2276c196b8e
+msgid ""
+"`localization.tsv <https://docs.google.com/spreadsheets/d/"
+"e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/"
+"pub?gid=0&single=true&output=tsv>`_ - The full localization file for ALL "
+"three guides (make sure you download this file as ``localization.tsv``!)"
+msgstr ""
+"`localization.tsv <https://docs.google.com/spreadsheets/d/"
+"e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/"
+"pub?gid=0&single=true&output=tsv>`_ - 所有三个指南的本地化文件（确保你下载文"
+"件并命名为 ``localization.tsv``！）"
+
+#: ../../source/guides/golden_berry.rst:14 7bb9d4b517984079a2559b942515a331
+msgid "Put the localization document in your mods folder (next to ``Mod.cs``)."
+msgstr "把本地化文档放到你的模组文件夹（在 ``Mod.cs`` 一级）。"
+
+#: ../../source/guides/golden_berry.rst:17 5bfadf97c1f249cbb6c3fc83a64d9f06
+msgid "Step 1. Creating the JSON file"
+msgstr "第1步：创建 JSON 文件"
+
+#: ../../source/guides/golden_berry.rst:19 194a1078cfd94867b76a2a8afc13a413
+msgid ""
+"All custom cards (and ideas and packs) are created with JSON files. Let's "
+"take a look at the bare minimum need to create our first card! Create a "
+"``golden_berry.json`` file in the ``Cards/`` folder, and add the following "
+"code:"
+msgstr ""
+"所有自定义卡牌（以及点子和卡包）都是用 JSON 文件创建的。让我们来看看创建我们"
+"的第一张卡的最低需求！在 ``Cards/`` 文件夹中创建 ``golden_berry.json`` 文件，"
+"并添加以下代码："
+
+#: ../../source/guides/golden_berry.rst:31 35f2d4b832464f9a8b6cb274694ece73
+msgid ""
+"``id`` is the cards ID. This must be a unique string, so it's highly "
+"recommended to prefix it with your mods ID! ``nameTerm`` and "
+"``descriptionTerm`` are terms (see the `Localization <localization.html>`_ "
+"section for more info) for the cards name and description respectively. You "
+"should use terms whenever possible, but you can choose to use "
+"``nameOverride`` or ``descriptionOverride`` for quickly trying things out."
+msgstr ""
+"``id`` 是这张卡片的 ID。这必须是一个独特的字符串，所以我们推荐是用你的 MOD "
+"的 ID 作为它的前缀！``nameTerm`` 和 ``descriptionTerm`` 是这张卡牌的名称与描"
+"述的本地化表达键（参考`本地化 <localization.html>`_章节以获取更多信息）。在任"
+"何时候都应该使用本地化键，但是你可以在开发时使用 ``nameOverride`` 或 "
+"``descriptionOverride`` 以快速测试。"
+
+#: ../../source/guides/golden_berry.rst:37 1cb44051f0bb4f42846b2c3b39b1d72d
+msgid "Step 2. Testing the mod"
+msgstr "第2步：测试 MOD"
+
+#: ../../source/guides/golden_berry.rst:39 db1325a683b340a09cfcb56f44a48f51
+msgid ""
+"Let's run a quick test to make sure everything is working! Simply run the "
+"``build.py`` script (ideally from a terminal), and if everything went right, "
+"you should see a similar output:"
+msgstr ""
+"让我们进行一个快速测试，以确保一切正常！只需运行 ``build.py`` 脚本（需要已经"
+"安装了 Python 环境，并且最好是从终端），如果一切顺利，应该会看到类似的输出："
+
+#: ../../source/guides/golden_berry.rst:48 867c18b16d554c28b2b37ec727a72fa7
+msgid ""
+"If you set up everything correctly, you should now see your mod in game! You "
+"can verify it's loaded by checking the Mods menu:"
+msgstr ""
+"如果你设置正确，你现在应该在游戏中看到你的 mod 了！可以通过检查 Mods 菜单来验"
+"证它是否已加载："
+
+#: ../../source/guides/golden_berry.rst:52 3613cac51fe6433da32904dafe687330
+msgid ""
+"If you can see the mod, that likely means your card is loaded too. While in "
+"a run, you can open the debug menu by holding the K and O keys and pressing "
+"F1. Head to the \"Cards\" tab and search for the Golden Berry card, and "
+"click the text to spawn it!"
+msgstr ""
+"如果你能看到mod，那可能意味着你的卡牌也被加载了。在运行过程中，您可以通过按住"
+"K和O键并按F1打开调试菜单。前往“卡牌”选项卡，搜索 Golden Berry，然后点击文本生"
+"成它！"
+
+#: ../../source/guides/golden_berry.rst:58 b9bb9da46f924b75ac45af67401319d3
+msgid ""
+"If your card doesn't show up in the debug menu, there could be a few things "
+"going wrong:"
+msgstr "如果您的卡牌没有显示在调试菜单中，可能是由于以下问题："
+
+#: ../../source/guides/golden_berry.rst:60 483b247b83354b309ba143d6f34ced72
+msgid ""
+"If the mod is crossed out in the Mods menu, that means it's disabled. Enable "
+"it by clicking the \"Disable/Enable Mods\" button at the bottom of the Mods "
+"screen."
+msgstr ""
+"如果 mod 在 Mods 菜单中被划掉，那就意味着它被禁用了。通过单击 Mods 页面底部"
+"的“Disable/Enable Mods”（禁用/启用 Mods）按钮启用它。"
+
+#: ../../source/guides/golden_berry.rst:61 8c08db7304bb4eed847bf896d80155dd
+msgid ""
+"If the card name shows up as ``---MISSING---`` in the debug menu, the "
+"localization.tsv file didn't get copied correctly."
+msgstr ""
+"如果卡牌名在调试菜单中显示为 ``---MISSING---``，则说明 ``localization.tsv`` 文件没有被正确复制。"
+
+#: ../../source/guides/golden_berry.rst:64 81690fafc0854fc1b2a057634c4156e4
+msgid "Step 3. Making the card useful"
+msgstr "第3步：让卡牌变得有用"
+
+#: ../../source/guides/golden_berry.rst:66 47745782c210495b8985684a55728217
+msgid "But first, let's make it look a bit nicer:"
+msgstr "首先，我们先让它看上去好看一点："
+
+#: ../../source/guides/golden_berry.rst:79 81a393cadc654153b00b839cf4445b44
+msgid ""
+"``icon`` is the cards icon. This may be a PNG file in the Images folder of "
+"your mod (such as \"Example.png\"), or the ID of a card. If you provide a "
+"card ID, the icon will be \"borrowed\" from that card. ``value`` is the "
+"value of your card, you may set this to -1 if you want the card to be "
+"unsellable. Don't forget to build your mod after making changes to the JSON "
+"file!"
+msgstr ""
+"``icon`` 代表这个卡牌的图标。这可以是一个位于你的图片文件夹中的 PNG 文件（例"
+"如 ``Example.png``）或者一个其他卡牌的 ID。如果你使用一个卡牌 ID，那么这张卡"
+"牌的图标将会与 ID 对应的卡牌一样。``value`` 是你的卡牌的价值，可以将这一条目"
+"设置为 -1 如果你想让卡牌不可出售。不要忘了在对 JSON 文件作出修改后重新构建你"
+"的模组！"
+
+#: ../../source/guides/golden_berry.rst:83 3d83dbc8db9c4739b206b0d39ef4c943
+msgid "Our golden berry now looks like a berry, and can be sold for 10 gold."
+msgstr "我们的金浆果现在看上去跟浆果一样，然后可以卖出10个金币。"
+
+#: ../../source/guides/golden_berry.rst:87 fce0749da3794a10b5ca3223f666ce8c
+msgid ""
+"Now, we will turn it into a food that our villagers can consume. We can add "
+"functionality to our card with the ``script`` property, where the value may "
+"be the name of any class that extends ``CardData``. In our case, this will "
+"be the ``Food`` class. We will also need to set the ``type`` of our card to "
+"``Food``."
+msgstr ""
+"现在，我们会把它变成一个我们的村民可以食用的食物。我们可以使用 ``script`` 属"
+"性为我们的卡牌添加功能，其值可以是任何继承了 ``CardData`` 的类名。在我们这"
+"里，这应该是 ``Food`` 类。我们同时应该将 ``type`` 属性设置为 ``Food``。"
+
+#: ../../source/guides/golden_berry.rst:106 1197edd810a8470888560524a93175a5
+msgid ""
+"Our card now looks like any other food card (and can be stacked on them)! "
+"Villagers can also consume it, however it's only worth 1 food point. For "
+"further functionality, we will need to use :raw-html:`<u>Underscore "
+"Properties</u>`."
+msgstr ""
+"我们的卡牌现在看上去和其他任何食物卡牌一样（同时也可以与他们堆叠在一起）！村"
+"民也可以食用它们，虽然它只能提供1点食物。为了实现更多功能，我们需要食用 :raw-"
+"html:`<u>下划线属性</u>`。"
+
+#: ../../source/guides/golden_berry.rst:109 e688870d445a4d13b41c6f4947ddbac7
+msgid ""
+"Underscore Properties are any key which starts with an underscore (_). The "
+"available properties depend on the selected script. All public fields in the "
+"classes are available as underscore properties. If you `decompiled the game "
+"<decompiling.html>`_, you can easily take a look at them. Let's take a look "
+"at the code of the ``Food`` class! We can find the ``Food`` class in "
+"``GameScripts.dll``, alongside all the base game code."
+msgstr ""
+"下划线属性代表由下划线（_）开头的任何键。可选的属性值取决于你所使用的脚本类"
+"型。所有公开字段都可以作为下划线属性使用。如果你已经 `反编译 <decompiling."
+"html>`_了游戏，你可以轻松地看到它们。让我们看一看 ``Food`` 类的代码！我们可以"
+"在 ``GameScripts.dll`` 中找到 ``Food`` 类，和其他游戏底层代码一起。"
+
+#: ../../source/guides/golden_berry.rst:116 4cf89f2e71fa43a88d7bab5026a24caa
+msgid ""
+"We can see a ``FoodValue`` field, and if we do some further digging into the "
+"code, we can figure out that this holds the food points of a food card. If "
+"we want to set this value in a JSON file, we can simply prefix the field "
+"name with an underscore, like so: ``\"_FoodValue\": 10``. In the screenshot "
+"we can also see a ``CanSpoil`` field, so let's set that to false."
+msgstr ""
+"我们可以看到一个 ``FoodValue`` 字段，如果我们进一步深入代码，我们可以发现这个"
+"字段控制一个食物卡的食物点数。如果我们想要在 JSON 文件中配置这个值，我们只需"
+"要在字段名前面加上一个下换线，像这样：``\"_FoodValue\": 10``。在这个截图中我"
+"们也可以看到一个 ``CanSpoil`` 字段，让我们把它设置为 ``false``。"
+
+#: ../../source/guides/golden_berry.rst:135 2f4f88b382d44bd8887d822346ea96cb
+msgid ""
+"If we spawn a new Golden Berry card, we can see it has 10 food points and "
+"will no longer spoil on the island."
+msgstr ""
+"如果我们现在创建一个新的 Golden Berry 卡牌，我们可以看到它有10点食物点并且在"
+"岛屿上不会腐烂。"
+
+#: ../../source/guides/golden_berry.rst:138 04789151d3224ed0b42134ad354211dc
+msgid "Step 4. Making the card pretty"
+msgstr "第4步：美化卡牌"
+
+#: ../../source/guides/golden_berry.rst:140 b5381d1953194deea81f627ad7e77483
+msgid ""
+"We can also specify a custom color palette in the JSON to change how the "
+"card looks. These are done with the ``_HasUniquePalette`` and ``_MyPalette`` "
+"underscore properties."
+msgstr ""
+"我们还可以在JSON中指定一个自定义调色板来更改卡片的外观。这些都是通过配置 "
+"``_HasUniquePalette`` 和 ``_MyPalette`` 下划线属性完成的。"
+
+#: ../../source/guides/golden_berry.rst:164 55664171a67642ae951adb9323562caa
+msgid ""
+"The colors in ``_MyPalette`` are hex colors. We can also add ``\"_IsShiny\": "
+"true`` to make the card shiny like a coin. Our final card will look like so:"
+msgstr ""
+"在 ``_MyPalette`` 中使用的颜色是十六进制颜色。我们也可以添加 ``\"_IsShiny\": "
+"true`` 来让这个卡变得金光闪闪，就像金币一样。我们的最终成果将会像这样："
+
+#: ../../source/guides/golden_berry.rst:170 137b3d1c257d42c9915ac393db2c8574
+msgid "Step 5. Creating the idea"
+msgstr "第5步：创建一个点子"
+
+#: ../../source/guides/golden_berry.rst:172 995b94fe53a94f00b1c74270df0444c8
+msgid ""
+"If we want players to know how to make a Golden Berry, we need to tell them "
+"with an idea card. Idea cards are also created as JSON files in the "
+"``Blueprints/`` folder. Create a file called ``golden_berry_idea.json`` in "
+"the folder, and add the following code:"
+msgstr ""
+"如果我们想让玩家知道如何制作 Golden Berry，我们需要用一张点子卡牌来告诉他们。"
+"创意卡也是通过 ``Blueprints/`` 文件夹中的 JSON 文件进行创建和配置。在文件夹中"
+"创建一个名为 ``golden_berry_idea.json`` 的文件，并添加以下代码："
+
+#: ../../source/guides/golden_berry.rst:184 2568ecbd7a5a43aba1e6648ac15b0216
+msgid ""
+"Don't build your mod just yet, as this will cause errors! The blueprint "
+"needs to specify one or more :raw-html:`<u>subprints</u>`. Subprints are "
+"what actually hold the \"recipe\" for a card. Many blueprints in the base "
+"game (such as Blueprint_Growth) hold dozens of subprints."
+msgstr ""
+"现在还不要构建你的模组，因为它会出错！蓝图需要指定至少一个 :raw-html:"
+"`<u>subprints</u>`。子蓝图（subprints）才真正控制一张卡牌的配方。许多游戏中的"
+"蓝图都有大量的子蓝图（例如 ``Blueprint_Growth``）。"
+
+#: ../../source/guides/golden_berry.rst:205 94d0775b9e244c6692601287aa337487
+msgid ""
+"A subprint object needs to specify 4 things (at least): the required cards "
+"(seperated by a comma), a result card, the time it will take (in seconds), "
+"and a text for the status. We can now spawn the idea card from the debug "
+"menu, and it will also show up in the Ideas menu."
+msgstr ""
+"子打印对象需要指定4件事（至少）：所需卡牌（用逗号分隔）、产出卡牌、所需时间"
+"（以秒为单位）和状态文本。我们现在可以从调试菜单中生成点子卡，它也将显示在点"
+"子菜单中。"
+
+#: ../../source/guides/golden_berry.rst:214 d2d32b00488042a2b1e03dd75e14a925
+msgid "Step 6. Adding the idea to packs"
+msgstr "第6步：将点子添加到卡牌包"
+
+#: ../../source/guides/golden_berry.rst:216 ece48c80b5e24a92a5c9f608379f074e
+msgid ""
+"To make sure the idea card is available in card packs, we need to write a "
+"bit of code. In the ``Ready`` method of your ``Mod`` class, add the "
+"following line of code:"
+msgstr ""
+"为了确保点子卡在卡牌包中可用，我们需要写一小点代码。在你的 ``Mod`` 类的 "
+"``Ready`` 方法中，添加以下代码："
+
+#: ../../source/guides/golden_berry.rst:224 5ef6b7bce7f9459b98f15b7dedb8a774
+msgid ""
+"This will add the blueprint to the CookingIdea set card bag (with a weight "
+"of 1, same as every other card in the bag), so it will appear in the Curious "
+"Cuisine pack (as long as the idea hasn't been discovered yet)."
+msgstr ""
+"这将把蓝图添加到 ``CookingIdea`` 集合中（权重为1，与包中的其他卡相同），因此"
+"它将出现在 ``Curious Cuisine`` 卡包中（只要这个点子还没有被发现）。"

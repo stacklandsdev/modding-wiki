@@ -20,4 +20,4 @@ logs that mods make. Similarly to the built-in one, it also has the "Open log fi
 
 .. image:: images/logs_2.png
 
-.. [1] Windows: ``%userprofile%\AppData\LocalLow\sokpop\Stacklands\Player.log`` | Mac: ``~/Library/Application Support/com.sokpop.Stacklands/Player.log``
+.. [1] Windows: ``%userprofile%\AppData\LocalLow\sokpop\Stacklands\Player.log`` | Mac: ``~/Library/Logs/sokpop/Stacklands/Player.log``

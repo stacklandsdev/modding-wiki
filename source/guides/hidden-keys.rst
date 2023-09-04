@@ -30,3 +30,22 @@ page is where they are documented.
 	* - ``F5``
 	  - Anywhere after ``K+O+F1`` was pressed
 	  - Hides GUI
+
+
+Launch Options
+==============
+
+Stacklands includes some launch options to disable certain features. In steam you can input these
+in the ``Properties > General > Launch Options`` text field.
+
+.. list-table::
+	:header-rows: 1
+
+	* - Option
+	  - Function
+
+	* - ``--no-intro``
+	  - Disables the Sokpop intro
+
+	* - ``--no-mods``
+	  - Completely disables the mod loader

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 19:25+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/logs.rst:2 337be893048c487480551612d27e6975
+msgid "Viewing Logs"
+msgstr "查看日志"
+
+#: ../../source/guides/logs.rst:4 8b6ba892c18941cda74a4be345f6a28d
+msgid ""
+"The log file [1]_ contains everything written by the ``Debug.Log`` (base game) and the "
+"``Logger.Log`` (mods) functions. The log file can be viewed in the game in 2 different "
+"ways."
+msgstr ""
+"日志文件 [1]_ 包含了任何使用 ``Debug.Log`` （原版游戏）和 ``Logger.Log`` （模组）函数写入"
+"的内容。日志文件可以通过两种不同的方法在游戏内阅读。"
+
+#: ../../source/guides/logs.rst:7 587dd39ce20c4eaba8abb7863228290d
+msgid "**Using the built-in log viewer**"
+msgstr "**使用内置日志阅读器**"
+
+#: ../../source/guides/logs.rst:9 a871c8b54b0f412689d165628a582e6d
+msgid ""
+"The built-in log viewer can be opened at any time by pressing the ``F3`` key. The \"Open "
+"log file\" button will open the log file in your default text editor, and the \"Clear\" "
+"button will clear only the log viewer, not the log file."
+msgstr ""
+"按 ``F3`` 键可随时打开内置日志查看器。“打开日志”按钮将在默认文本编辑器中打开日志文件，而 "
+"\"清除 \"按钮将只清除日志查看器，而不清除日志文件。"
+
+#: ../../source/guides/logs.rst:15 7673b7b24ae741a095ae430614dae114
+msgid "**Using UnityExplorer**"
+msgstr "**使用 UnityExplorer**"
+
+#: ../../source/guides/logs.rst:17 81ea0f6cf261409fb55815f65a4075d4
+msgid ""
+"`UnityExplorer <https://steamcommunity.com/sharedfiles/filedetails/?id=2966585489>`_ "
+"also includes a log viewer, which can be toggled with the \"Log\" button in its menu. "
+"However, the UnityExplorer log may not contain all logs that mods make. Similarly to the "
+"built-in one, it also has the \"Open log file\" and \"Clear\" buttons."
+msgstr ""
+"`UnityExplorer <https://steamcommunity.com/sharedfiles/filedetails/?id=2966585489>`_ 也包"
+"含一个日志查看器，可以通过菜单中的“日志”按钮进行切换。不过，UnityExplorer 的日志可能并不"
+"包含 mod 制作的所有日志。与内置日志查看器类似，它也有“打开日志文件”和“清除”按钮。"
+
+#: ../../source/guides/logs.rst:23 ca9b268effa34a48b39b0535bd44ceff
+#, python-format
+msgid ""
+"Windows: ``%userprofile%\\AppData\\LocalLow\\sokpop\\Stacklands\\Player.log`` | Mac: ``~/"
+"Library/Application Support/com.sokpop.Stacklands/Player.log``"
+msgstr ""
+"Windows: ``%userprofile%\\AppData\\LocalLow\\sokpop\\Stacklands\\Player.log`` | Mac: ``~/"
+"Library/Application Support/com.sokpop.Stacklands/Player.log``"

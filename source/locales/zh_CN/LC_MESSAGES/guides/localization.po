@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-13 10:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/localization.rst:2 005f4c511e3741f6a14697e2a34e3ae8
+msgid "Localization"
+msgstr "本地化"
+
+#: ../../source/guides/localization.rst:4 ac00aa7d837045c9a357f1d32f5c9de8
+msgid ""
+"Stacklands has a built-in localization system in the form of the "
+"``SokLoc`` class, the source code of which can be found in ``SokLoc."
+"dll``. You should use localization for your mod even if you only provide "
+"translations for a single language, because other modders can easily "
+"create translation mods for yours."
+msgstr ""
+"堆叠大陆有一个内置本地化系统 ``SokLoc`` 类，其源代码可以在 ``SokLoc."
+"dll`` 中找到。即使你只提供单一语言的翻译，你也应该为你的模组使用本地化，"
+"这样其他模组可以很容易地为你的模组创建翻译模组。"
+
+#: ../../source/guides/localization.rst:10 12e95ee58315438fb35596de7b8095f4
+msgid "Creating your localization document"
+msgstr "创建你的本地化文档"
+
+#: ../../source/guides/localization.rst:12 6bdb3a78e2c14940b967f15ce41f5756
+msgid ""
+"Localization documents are in `TSV format <https://en.wikipedia.org/wiki/"
+"Tab-separated_values>`_, which you can easily create using Google Sheets "
+"or Excel."
+msgstr ""
+"本地化文档使用 `TSV 格式 <https://zh.wikipedia.org/wiki/Tab-"
+"separated_values>`_, 你可以使用谷歌表格或 Excel 轻松创建。"
+
+#: ../../source/guides/localization.rst:15 9b8cebbfed074fb0aa10d1b16d6cf0c7
+msgid "The first row of the document should look like this:"
+msgstr "文档的第一行应该像这样："
+
+#: ../../source/guides/localization.rst:23 a4de669f950a41fba0b38707302a9572
+msgid ""
+"You do not need to make columns for languages you don't provide "
+"translations for! They will automatically fall back to the English "
+"column."
+msgstr "无需为不提供翻译的语言设置栏目！它们会自动回落到英文栏。"
+
+#: ../../source/guides/localization.rst:25 1e04ead342f34607a5a09186eb386e6e
+msgid ""
+"Make sure your terms are unique, prefixing them with your mod's ID is an "
+"easy way to ensure this."
+msgstr "确保你的本地化键是唯一的，使用模组 ID 作为前缀是一种简单的方法。"
+
+#: ../../source/guides/localization.rst:30 2e364796add2414eb85912ff4f7305e7
+msgid "Loading your localization document into the game"
+msgstr "在游戏中加载你的本地化文档"
+
+#: ../../source/guides/localization.rst:32 a1aa16a213d9456da1fb788a979eab7d
+msgid ""
+"If there is a ``localization.tsv`` file in your mod's folder, the game "
+"will automatically load it. You can also load any file using the "
+"``SokLoc.LoadTermsFromFile()`` method, like so:"
+msgstr ""
+"如果你的模组文件夹中有一个 ``localization.tsv`` 文件，游戏会自动加载它。"
+"你也可以使用 ``SokLoc.LoadTermsFromFile()`` 方法加载任意文件，就像这样："
+
+#: ../../source/guides/localization.rst:45 d87790d742e342c1bedc93d73833fb48
+msgid "Using SokLoc"
+msgstr "使用 ``SokLoc``"
+
+#: ../../source/guides/localization.rst:47 d26189c6ecd845378dd37e486899ac93
+msgid "To get a translated string, use the ``SokLoc.Translate`` method:"
+msgstr "为了获取一个已经翻译过的字符串，使用 ``SokLoc.Translate`` 方法："
+
+#: ../../source/guides/localization.rst:57 3db73ab051f246f0906801d1982a0c05
+msgid "Using LocParams"
+msgstr "使用 ``LocParams``"
+
+#: ../../source/guides/localization.rst:59 1f5f7e1c760f4f13bcc710546dececcb
+msgid ""
+"The localization system provides a very easy way to handle variables in "
+"strings. By surrounding text with ``[]``, it's handled as a variable. "
+"Example: ``wow, an [epic_param]!``."
+msgstr ""
+"本地化系统提供了一种非常简单的方法来处理字符串中的变量。用 ``[]`` 包围文"
+"本，就能将其作为变量处理。例如：``wow, an [epic_param]!``。"
+
+#: ../../source/guides/localization.rst:70 3ab24a42c7df4bd89049de8d0e5f2c8a
+msgid "Using plurals"
+msgstr "使用复数形式"
+
+#: ../../source/guides/localization.rst:72 4ac8602a67d5429181c1cd606b73e3ab
+msgid ""
+"The localization system provides an easy way to handle cases where a "
+"string should be translated differently based on a variable number. You "
+"can separate the singular and plural forms by prefixing them with "
+"``<one>`` and ``<other>``. Example: ``<one>give me one more "
+"coin<other>give me [count] more coins``."
+msgstr ""
+"本地化系统提供了一种简便的方法来处理根据可变数字对字符串进行不同翻译的情"
+"况。您可以用 ``<one>`` 和 ``<other>`` 分开单数和复数形式。例如： "
+"``<one>give me one more coin<other>give me [count] more coins``。"
+
+#: ../../source/guides/localization.rst:83 1e01f25048ff43c2829e71222c35dd30
+msgid "Exporting your document in TSV format"
+msgstr "将你的文档导出为 TSV 格式"
+
+#: ../../source/guides/localization.rst:86 85be1e9ae46c4f678e6e0444850172ae
+msgid "Excel"
+msgstr "Excel"
+
+#: ../../source/guides/localization.rst:88 c4ce7f3816c74228800ee67cf8265b9e
+msgid ""
+"``File > Save As`` and select ``Tab Separated Value (.txt)`` as the "
+"format."
+msgstr ""
+"``文件 > 另存为`` 然后选择 ``文本文件(制表符分隔)(*.txt)`` 作为格式（不同"
+"版本可能有出入）。"
+
+#: ../../source/guides/localization.rst:91 af29149f16ba443dae725e6721fe00d1
+msgid "Don't forget to change the file extension to ``.tsv``!"
+msgstr "不要忘了将文件拓展名更改为 ``.tsv``！"
+
+#: ../../source/guides/localization.rst:94 f01974efc215440f8c3d4608b98a0524
+msgid ""
+"Excel may add an empty line to the end of the file, which can cause "
+"Stacklands to parse it improperly. If this is the case, simply remove "
+"the last empty line in the file."
+msgstr ""
+"Excel 可能会在文件末尾添加空行，这可能会导致游戏解析错误。如果出现这种情"
+"况，只需删除文件中的最后一行空行即可。"
+
+#: ../../source/guides/localization.rst:97 4e5d6da362244758b94cffbd83466d9f
+msgid "Google Sheets"
+msgstr "谷歌表格"
+
+#: ../../source/guides/localization.rst:99 94816ccee74a459c9706742e4aceaf90
+msgid "``File > Download > Tab Seperated values (.tsv)``."
+msgstr "``文件 > 下载 > 文本文件(制表符分隔)(.tsv)``。"

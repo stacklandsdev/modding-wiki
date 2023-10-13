@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 19:04+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/tutorial.rst:2 19c273579419495a92b004785fcd85e7
+msgid "Guide 0: The Tutorial"
+msgstr "第0章：快速入门"
+
+#: ../../source/guides/tutorial.rst:4 ed6bd2deac36471a8b11f5672f7d0fb3
+msgid ""
+"Welcome to the section of the wiki simply titled \"The Tutorial\". This page "
+"will guide you through setting up the mod template, and creating a few of "
+"your own cards!"
+msgstr ""
+"欢迎来到 Wiki 的入门部分。这篇文章将会指导你配置 Mod 模板，并创建一些你自己的"
+"卡牌！"
+
+#: ../../source/guides/tutorial.rst:8 ca5a4adc3d0d470da752d37d07630630
+msgid "Step 0. Requirements"
+msgstr "第0步：依赖与环境要求"
+
+#: ../../source/guides/tutorial.rst:10 13f5dec814e8451ab192bafcefcad4f5
+msgid "Stacklands"
+msgstr "Stacklands/堆叠大陆（游戏本体）"
+
+#: ../../source/guides/tutorial.rst:11 226e4b18e4a4434a932e4786cea38433
+msgid "`.NET SDK 7.0 <https://dotnet.microsoft.com/en-us/download>`_"
+msgstr "`.NET SDK 7.0 <https://dotnet.microsoft.com/en-us/download>`_"
+
+#: ../../source/guides/tutorial.rst:12 6d0d7e52462c4d659a7532579c604d39
+msgid ""
+"`Python <https://www.python.org/downloads/>`_ (not necessary, but lets you "
+"use a helpful build script)"
+msgstr ""
+"`Python3 <https://www.python.org/downloads/>`_ （非必须，但是可以让你使用一些"
+"有用的构建脚本）"
+
+#: ../../source/guides/tutorial.rst:13 a7e84c6038974b77a56ecc8e6e52bc5e
+msgid "A bit of programming experience, or the desire to learn"
+msgstr "一些编程经验，或者学习的欲望。（C♯/Unity）"
+
+#: ../../source/guides/tutorial.rst:15 7773a2199cc7477c85fd9067c63cddbb
+msgid ""
+"If you don't have a favorite one already, you wil also need to pick a code "
+"editor. While you can technically write your mods in notepad, code editors "
+"come with many benefits such as autocompletion, syntax highlighting, "
+"powerful extensions, and everything else you could ask for when making mods. "
+"Here are some recommended code editors:"
+msgstr ""
+"如果你还没有一个最喜欢的，你还需要选择一个代码编辑器 CE 或集成开发环境 IDE。"
+"虽然从技术上讲，你可以在记事本中编写你的 mod，但代码编辑器有很多好处，如自动"
+"完成、语法突出显示、强大的扩展，以及制作 mod 时所需的一切。以下是一些推荐的代"
+"码编辑器："
+
+#: ../../source/guides/tutorial.rst:20 e4996fcf8e5247b49a8e2c14a67831d9
+msgid "Recommended code editors"
+msgstr "推荐的代码编辑器"
+
+#: ../../source/guides/tutorial.rst:23 00fea33d28764ac88b11f1c47d9451aa
+msgid "Code editor"
+msgstr "代码编辑器"
+
+#: ../../source/guides/tutorial.rst:24 3c9b4648aec543d68f79b049d5bfcd6e
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/guides/tutorial.rst:26 f9bed9672f2f4c709554e8aebf3ed8f6
+msgid ""
+"`Visual Studio Code <https://code.visualstudio.com>`_ + `C# extension "
+"<https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>`_"
+msgstr ""
+"`Visual Studio Code <https://code.visualstudio.com>`_ + `C# extension "
+"<https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>`_"
+
+#: ../../source/guides/tutorial.rst:27 a138d54be05e432d8c2e6cf76553b466
+msgid ""
+"Visual Studio Code is a very lightweight code editor, perfect for weaker "
+"hardware and quick development. It is fully free and open-source, and has "
+"amazing extension support."
+msgstr ""
+"Visual Studio Code 是一个非常轻量级的代码编辑器，非常适合较弱的硬件和快速开"
+"发。它是完全免费和开源的，并且有惊人的扩展支持。"
+
+#: ../../source/guides/tutorial.rst:29 8c6ad5274b40456aaf60d5e3b6e39f1e
+msgid "`Visual Studio 2022 <https://visualstudio.microsoft.com/vs/>`_"
+msgstr "`Visual Studio 2022 <https://visualstudio.microsoft.com/vs/>`_"
+
+#: ../../source/guides/tutorial.rst:30 7db42db0c0fa4b21978b8b6639b47e7b
+msgid ""
+"Visual Studio 2022 is a heavier `IDE <https://en.wikipedia.org/wiki/"
+"Integrated_development_environment>`_ with excellent tools for C# "
+"development, and hundreds of great features that bigger mods will definitely "
+"find useful."
+msgstr ""
+"Visual Studio 2022 是一个更加复杂和笨重的 `IDE <https://zh.wikipedia.org/"
+"wiki/Integrated_development_environment>`_，拥有优秀的 C# 开发工具，以及数百"
+"个更大的 MOD 肯定会发现有用的伟大功能。同时，该 IDE 也是微软推荐的 C# 开发环"
+"境。"
+
+#: ../../source/guides/tutorial.rst:32 f909eed93a2e453ab1b47a847a2ade98
+msgid "`Rider <https://www.jetbrains.com/rider/>`_"
+msgstr "`Rider <https://www.jetbrains.com/rider/>`_"
+
+#: ../../source/guides/tutorial.rst:33 2ebd5d66ba2e40d0b808c36795cfa5b0
+msgid ""
+"Rider is a paid IDE that more advanced developers will find many reasons to "
+"appreciate, and it will be familiar to people who have used IntelliJ IDEA or "
+"PyCharm before."
+msgstr ""
+"Rider 是一款付费的 IDE，对于高级开发者具有很大的吸引力，作为 JetBrains 的另一"
+"款 IDE，以前使用过 IntelliJ IDEA 或 PyCharm 的人都会熟悉它。"
+
+#: ../../source/guides/tutorial.rst:36 49082ade93884da7b90cb6bb734e49fc
+msgid "(Optional) Step 0.1. Decompiling the game"
+msgstr "（可选）第0.1步：反编译游戏"
+
+#: ../../source/guides/tutorial.rst:38 03fd546b411c4fce8bc25a390f08bcc5
+msgid ""
+"`Decompiling the game <decompiling.html>`_ is the best way to learn about "
+"how certain features are implemented, and is a highly recommended step for "
+"any developer."
+msgstr ""
+"`反编译游戏 <decompiling.html>`_是最好的了解某些功能的具体实现的最佳方法，对"
+"于任何开发者来说都是一个强烈推荐的步骤。"
+
+#: ../../source/guides/tutorial.rst:42 2e5fb17157d1463a818de55321267d4e
+msgid "Step 1. Setting up the template"
+msgstr "第1步：创建并配置模板"
+
+#: ../../source/guides/tutorial.rst:44 667bce9238764f2c90660f240e7d01a2
+msgid ""
+"The easiest way to set up the mod template is by using `GitHub Desktop "
+"<https://desktop.github.com/>`_. After downloading it and signing in with "
+"your account, Open the `Mod Template page <https://github.com/stacklandsdev/"
+"mod-template>`_ and click the \"Use this template\" button. After that, "
+"configure some basic data about the new repository."
+msgstr ""
+"设置 Mod 模板的最简单的方法是使用 `GitHub Desktop <https://desktop.github."
+"com/>`_。下载并使用你的 GitHub 账户登录后，打开 `Mod Template 页面 <https://"
+"github.com/stacklandsdev/mod-template>`_ 并点击“Use this template”按钮。在那"
+"之后，一些有关新仓库的的基本数据需要配置。"
+
+#: ../../source/guides/tutorial.rst:52 3cbee964cfe142c5b38c092d2a21c5ee
+msgid ""
+"After your repository has been created, open it with GitHub Desktop, and "
+"choose a folder where the files will be downloaded."
+msgstr ""
+"创建存储库后，使用 GitHub Desktop 打开存储库，然后选择下载文件的文件夹。"
+
+#: ../../source/guides/tutorial.rst:59 53b1c334f3a44f6781649046dd5d79e5
+msgid ""
+"You can now open the files in your favorite code editor, and configure the "
+"following things:"
+msgstr "现在，您可以在代码编辑器中打开文件，并配置以下内容："
+
+#: ../../source/guides/tutorial.rst:61 471dc112e467491d98217f0edce8dcb6
+msgid ""
+"In ``Mod.csproj.user``, set ``<stacklands>`` to the directory where you "
+"installed Stacklands."
+msgstr ""
+"在 ``Mod.csproj.user`` 中，设置 ``<stacklands>`` 为你安装 Stacklands 的安装目"
+"录。"
+
+#: ../../source/guides/tutorial.rst:62 f96319583b484f1c9672e89fceac3b73
+msgid ""
+"In ``manifest.json``, configure your mods name and ID. Make sure the ID "
+"doesn't include any spaces or other special characters!"
+msgstr ""
+"在 ``manifest.json`` 中，配置你的 MOD 名称和 ID。确保 ID 不包含任何空格和特殊"
+"字符！"
+
+#: ../../source/guides/tutorial.rst:63 30c7a047fc50442296de80122dfe0e1c
+msgid ""
+"In ``Mod.csproj``, set ``<AssemblyName>`` to your mods ID. By default this "
+"is \"ExampleMod\"."
+msgstr ""
+"在 ``Mod.csproj`` 中，将 ``<AssemblyName>`` 设置为你的 MOD 的 ID。默认为 "
+"“ExampleMod”。"
+
+#: ../../source/guides/tutorial.rst:64 38f526298e42416a81535599d7fc72c2
+msgid ""
+"In ``Mod.cs``, change ``ExampleMod`` to your mods ID, and ``ExampleModNS`` "
+"to your mods ID followed by \"NS\". This is used to differentiate between "
+"your mod and others."
+msgstr ""
+"在 ``Mod.cs`` 中，将 ``ExampleMod`` 修改为你的 MOD 的 ID，``ExampleModNS`` 修"
+"改为你的 MOD 的 ID 并加上 “NS”的后缀。这是用于将你的 MOD 与其他人区分开。"
+
+#: ../../source/guides/tutorial.rst:66 407d4bbb42c64ee6b4050c96a627b69f
+msgid ""
+"The guides in this wiki will use the default values, such as \"ExampleMod\"."
+msgstr "此wiki中的指南将使用默认值，例如“ExampleMod”。"
+
+#: ../../source/guides/tutorial.rst:69 2a082d6df8cc4de081a522f060592765
+msgid "Step 2. Pick a guide"
+msgstr "第2步：选择一个指南"
+
+#: ../../source/guides/tutorial.rst:71 203953d78020421b8333cbef33623639
+msgid ""
+"This wiki features 3 more tutorials that fully guide you through making new "
+"content:"
+msgstr "此wiki还提供了3个教程，可全面指导新内容的创作："
+
+#: ../../source/guides/tutorial.rst:73 0ea938293d334da8b7bcb62bc65dd9e7
+msgid ""
+"`Golden Berry <golden_berry.html>`_ - Covers the basics of making a new card "
+"(and the idea for it) with a JSON file and localization"
+msgstr ""
+"`Golden Berry <golden_berry.html>`_ - 介绍了使用 JSON 文件和本地化制作新卡的"
+"基础知识（和对应的点子）"
+
+#: ../../source/guides/tutorial.rst:74 76c2d27d005d443f8c8f2e1572f1812f
+msgid ""
+"`Red Panda <red_panda.html>`_ - Covers the basics of scripting and creating "
+"mobs"
+msgstr "`Red Panda <red_panda.html>`_ - 涵盖了编写脚本和创建小怪的基础知识"
+
+#: ../../source/guides/tutorial.rst:75 6500cead055a4c8fa1511d852824d7a5
+msgid ""
+"TBD - Advanced guide, covers creating new equipment and a new villager type"
+msgstr "TBD - 高级指南，涵盖创建新设备和新村民类型"

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 16:35+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/config.rst:2 b76dfd49ec0b48d6820483b7467449cc
+msgid "Using the Config system"
+msgstr "使用设置系统"
+
+#: ../../source/guides/config.rst:4 887134b397a643189ea14c386698514a
+msgid ""
+"Stacklands includes a config system that you can use to offer various "
+"options to players of your mod. Each Mod has its own config file "
+"(``ConfigFile``), which you can access with ``Mod.Config`` (you don't need "
+"to create your own!). The ``config.json`` file is stored in the mods folder."
+msgstr ""
+"Stacklands 包含一个设置系统，你可以用它为你的Mod玩家提供各种选项。每个 Mod 都"
+"有自己的配置文件 ( ``ConfigFile`` )，您可以使用 ``Mod.Config`` 访问该文件（您"
+"无需创建自己的配置文件！）。``config.json`` 文件保存在 mod 文件夹中。"
+
+#: ../../source/guides/config.rst:9 070ec07da7f4442fa770978f653b9266
+msgid "Accessing a config entry"
+msgstr "使用设置系统"
+
+#: ../../source/guides/config.rst:11 ad915aa81ef645df946affc366e1a6d3
+msgid ""
+"Each ``ConfigFile`` stores any number of config entries. You can access an "
+"entry with the ``ConfigFile.GetEntry<T>()`` function. If an entry by that "
+"name doesn't exist yet, it will be automatically created when accessing it. "
+"You can also specify a default value for the entry if it doesn't exist."
+msgstr ""
+"每个 ``ConfigFile`` 存储任意数量的设置条目。你可以使用 ``ConfigFile."
+"GetEntry<T>()`` 方法访问条目。如果该名称的条目不存在，则在访问该条目时会自动"
+"创建该条目，或者可以由你指定其的默认值。"
+
+#: ../../source/guides/config.rst:15 00488399debd490aa0b76c3e3514c295
+msgid ""
+"You can access or set the value of the entry with the ``Value`` and "
+"``BoxedValue`` properties, depending on the type you need."
+msgstr "根据所需，你可以将设置数值类型设置为 ``Value`` 或 ``BoxedValue``。"
+
+#: ../../source/guides/config.rst:19 75ab11cdb6004c3f8e05b1e71f2df548
+msgid "Example for creating config entries"
+msgstr "配置项示例"
+
+#: ../../source/guides/config.rst:35 4871acec8c8743e9871088405de60be3
+msgid ""
+"The accessed config entries are added to the mods options menu, which can be "
+"accessed in ``Mod Options > <Mod Name>``, where the previous code will "
+"produce the following:"
+msgstr ""
+"访问的配置条目会被添加到mods选项菜单中，可以通过 ``Mod 选项 > <MO名称> `` 访"
+"问，其中上部分代码将会产生以下内容："
+
+#: ../../source/guides/config.rst:40 39fbe912eeae4712aeafa8bf53fa72ef
+msgid "And the mods ``config.json`` will contain:"
+msgstr "然后 MOD 的 ``config.json`` 会包含以下内容："
+
+#: ../../source/guides/config.rst:54 092f6cc995e8472f95033223fdd611f2
+msgid "Customizing the UI"
+msgstr "定制 UI 界面"
+
+#: ../../source/guides/config.rst:56 b63b1c3341594fa1a3d326c0b8c200c8
+msgid "The Mod Options UI can be configured in 2 ways:"
+msgstr "MOD 的选项 UI 可以通过以下两种方式配置："
+
+#: ../../source/guides/config.rst:58 a93a888fa59d4dc89f6b5620f5686207
+msgid ""
+"Using ``ConfigUI`` (``ConfigEntryBase.UI``) to customize the name and tooltip"
+msgstr "使用 ``ConfigUI`` （ ``ConfigEntryBase.UI`` ）以定制名称和悬浮提示栏"
+
+#: ../../source/guides/config.rst:59 88d9beb0088c4d8d9cc76f84b4109919
+msgid "Hiding the automatically created UI and constructing your own"
+msgstr "隐藏自动创建的 UI 并构建你自己的"
+
+#: ../../source/guides/config.rst:62 ae0288be4d1f4f0ca5a08b10fcb36714
+msgid "Using ConfigUI"
+msgstr "使用 ``ConfigUI``"
+
+#: ../../source/guides/config.rst:64 8ce12da5c929481f955df05a865cf7e6
+msgid ""
+"You can use the ``ConfigEntryBase.UI`` field to store any arbitrary data "
+"about the config entry. Some keys are used by the default Mod Options "
+"screen, a list of which can be found below. Mod developers can use the data "
+"to create customizable UI for types which are not supported in the base "
+"game, such as dropdowns for enums or sliders for selecting number ranges."
+msgstr ""
+"你可以使用 ``ConfigEntryBase.UI`` 字段以存储有关配置项的任何数据。某些键被默"
+"认 Mod 选项窗口使用，其列表在下面可以找到。Mod 开发人员可以使用这些数据为基础"
+"游戏中并不支持的数据类型创建自定义的界面，例如枚举类型的下拉菜单或者选择数字"
+"范围的滑块。"
+
+#: ../../source/guides/config.rst:69 cfd12f5e48614175b856c3baf0135cfb
+msgid ""
+"The ``ConfigUI`` class (accessed as ``ConfigEntryBase.UI``) stores data "
+"about what to display in the mod options menu for the config entry."
+msgstr ""
+"``ConfigUI`` 类（使用 ``ConfigEntryBase.UI`` 访问）会存储在配置项的 MOD 选项"
+"菜单中显示内容的数据。"
+
+#: ../../source/guides/config.rst:73 2d6a6979ce844206be2f969159a28dd1
+msgid "Example use of ExtraData"
+msgstr "``ExtraData`` 使用示例"
+
+#: ../../source/guides/config.rst:82 56ef23d61f06470aa8b5a7c4bc2f2188
+msgid "The previous code will produce the following:"
+msgstr "上面的代码将会得到如下结果："
+
+#: ../../source/guides/config.rst:88 67bcc4a8ee6b411c83e272780e94c744
+msgid "Using OnUI"
+msgstr "使用 ``OnUI``"
+
+#: ../../source/guides/config.rst:90 db086235f59441a389f1969fba4ad659
+msgid ""
+"You can further customize the UI for a config entry with the ``ConfigUI."
+"OnUI`` function, which is called when the UI for the config entry is "
+"generated upon opening the Mod Options screen."
+msgstr ""
+"你可以使用 ``ConfigUI.OnUI`` 方法进一步自定义配置项的 UI，该函数在打开 MOD 选"
+"项界面并生成配置项时被调用。"
+
+#: ../../source/guides/config.rst:94 5d607d9abef245febe20a776a35e1589
+msgid "Example use of ConfigEntry.OnUI"
+msgstr "``ConfigEntry.OnUI`` 使用示例"
+
+#: ../../source/guides/config.rst:103 b6e7ce5d0ce645728c2c6dde6d248f1a
+msgid ""
+"When used alongside enabling the ``ConfigEntry<T>.UI.Hidden`` field, you can "
+"fully customize the UI. The following example is taken from the "
+"`UnityExplorer mod <https://steamcommunity.com/sharedfiles/filedetails/?"
+"id=2966585489>`_, its purpose is to call a function to open a custom options "
+"menu."
+msgstr ""
+"当与 ``ConfigEntry<T>.UI.Hidden`` 字段一同使用时，你可以完全自定义界面。以下"
+"示例取自于 `UnityExplorer Mod <https://steamcommunity.com/sharedfiles/"
+"filedetails/?id=2966585489>`_，其目的是调用一个函数以打开自定义选项菜单。"

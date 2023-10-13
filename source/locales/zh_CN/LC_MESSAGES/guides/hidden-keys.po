@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-13 10:42+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/hidden-keys.rst:2 b6bd9284335c45b6b5d3e271548156f5
+msgid "Hidden Keys"
+msgstr "隐藏快捷键"
+
+#: ../../source/guides/hidden-keys.rst:4 d0b77c634bd84612a1eb9f1c2a952f1d
+msgid ""
+"Stacklands has some secret menus and features that can be accessed by "
+"pressing certain keys. This page is where they are documented."
+msgstr ""
+"Stacklands 有一些隐藏菜单和功能，可以通过按下某些特定的按键来访问。本页"
+"是记录它们的地方。"
+
+#: ../../source/guides/hidden-keys.rst:10 79eacd993d584d38b807b72a32962337
+msgid "Key"
+msgstr "键"
+
+#: ../../source/guides/hidden-keys.rst:11 f4ecde59edbc4686b0199cf9e51a1b63
+msgid "Where"
+msgstr "可以使用的时机"
+
+#: ../../source/guides/hidden-keys.rst:12 79562e198efb4aaaa42b19a0833b1f98
+msgid "Function"
+msgstr "功能"
+
+#: ../../source/guides/hidden-keys.rst:14 99382bd549744b17ab7342c15bde15f9
+msgid "``Escape``"
+msgstr "``Escape``"
+
+#: ../../source/guides/hidden-keys.rst:15 ecce8e8a9fef42c69c30dbc954900b1e
+msgid "Sokpop intro"
+msgstr "Sokpop 欢迎界面"
+
+#: ../../source/guides/hidden-keys.rst:16 f28a770f56a44d27a9c4eff332a2675f
+msgid "Skips the intro"
+msgstr "跳过欢迎界面"
+
+#: ../../source/guides/hidden-keys.rst:18 ced50d9f689b464cb1c6c4d9954df3e8
+msgid "``F3``"
+msgstr "``F3``"
+
+#: ../../source/guides/hidden-keys.rst:19 6060839f6751425a98023d02d6bf7b35
+msgid "Anywhere after the intro"
+msgstr "在欢迎界面后的任何时候"
+
+#: ../../source/guides/hidden-keys.rst:20 f54b223aa4b74c299649ae33c2bf09df
+msgid "Opens the log viewer"
+msgstr "打开日志浏览器"
+
+#: ../../source/guides/hidden-keys.rst:22 914117344c8244908b2d0fc0be7022ca
+msgid "``U``"
+msgstr "``U``"
+
+#: ../../source/guides/hidden-keys.rst:23 37541c26413d4078abbbbe67f9f3a03c
+msgid "In a mods options menu"
+msgstr "在模组选项菜单"
+
+#: ../../source/guides/hidden-keys.rst:24 e0f4b95b63f741b8a2c40e7cc9a76eb5
+msgid "Opens the Workshop uploader menu"
+msgstr "打开工坊上传器菜单"
+
+#: ../../source/guides/hidden-keys.rst:26 87af24c5eb1e41d6a3ee5a0daa0d76fc
+msgid "``K+O+F1``"
+msgstr "``K+O+F1``"
+
+#: ../../source/guides/hidden-keys.rst:27 43dce86dde694bcb82a04e0734eaa5a4
+msgid "During a run"
+msgstr "在一局游戏中"
+
+#: ../../source/guides/hidden-keys.rst:28 87e07d2d45e149acbcb3db7668d68015
+msgid ""
+"Opens the debug menu (note: the ``F1`` key has to be pressed while "
+"holding the ``K`` and ``O`` keys)"
+msgstr ""
+"打开调试菜单（备注：``F1`` 键应该在按住 ``K`` 和 ``O`` 时按下）"
+
+#: ../../source/guides/hidden-keys.rst:30 10775976bffa460088a94e400954d1af
+msgid "``F5``"
+msgstr "``F5``"
+
+#: ../../source/guides/hidden-keys.rst:31 2b706532da1d4378a1825840be7ab4ff
+msgid "Anywhere after ``K+O+F1`` was pressed"
+msgstr ""
+"在 ``K+O+F1`` 按下后的任何时候"
+
+#: ../../source/guides/hidden-keys.rst:32 c591c4ea0a4c45689ae29c5cf8719954
+msgid "Hides GUI"
+msgstr "隐藏调试面板"

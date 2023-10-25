@@ -32,6 +32,7 @@ If you have any questions or feedback, join us in the `Stacklands Modding Discor
    guides/dependencies
    guides/enum
    guides/hidden-keys
+   guides/schema.rst
    guides/localization
    guides/life-cycle
    guides/config

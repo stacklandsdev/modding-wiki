@@ -23,11 +23,13 @@ need to create our first card! Create a ``golden_berry.json`` file in the ``Card
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"descriptionTerm": "examplemod_golden_berry_description"
 	}
 
+``$schema`` refers to a `JSON schema <schema.html>`_ file, which provides autocompletion features in some code editors.
 ``id`` is the cards ID. This must be a unique string, so it's highly recommended to prefix it with your mods ID!
 ``nameTerm`` and ``descriptionTerm`` are terms (see the `Localization <localization.html>`_ section for more info)
 for the cards name and description respectively. You should use terms whenever possible, but you can choose to use
@@ -69,6 +71,7 @@ But first, let's make it look a bit nicer:
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"descriptionTerm": "examplemod_golden_berry_description",
@@ -92,6 +95,7 @@ need to set the ``type`` of our card to ``Food``.
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"descriptionTerm": "examplemod_golden_berry_description",
@@ -121,6 +125,7 @@ of a food card. If we want to set this value in a JSON file, we can simply prefi
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"descriptionTerm": "examplemod_golden_berry_description",
@@ -144,6 +149,7 @@ We can also specify a custom color palette in the JSON to change how the card lo
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"descriptionTerm": "examplemod_golden_berry_description",
@@ -176,6 +182,7 @@ in the ``Blueprints/`` folder. Create a file called ``golden_berry_idea.json`` i
 	:linenos:
 
 	{
+		"$schema": "../schemas/blueprint.schema.json",
 		"id": "examplemod_blueprint_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"group": "Cooking"
@@ -189,6 +196,7 @@ of subprints.
 	:linenos:
 
 	{
+		"$schema": "../schemas/blueprint.schema.json",
 		"id": "examplemod_blueprint_golden_berry",
 		"nameTerm": "examplemod_golden_berry_name",
 		"group": "Cooking",

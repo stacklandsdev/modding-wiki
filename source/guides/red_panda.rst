@@ -20,6 +20,7 @@ Let's set up the very basics of the card first. Create a ``red_panda.json`` file
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_redpanda",
 		"nameTerm": "examplemod_redpanda_name",
 		"descriptionTerm": "examplemod_redpanda_description",
@@ -65,6 +66,7 @@ Let's implement it with an underscore property:
 	:linenos:
 
 	{
+		"$schema": "../schemas/card.schema.json",
 		"id": "examplemod_redpanda",
 		"nameTerm": "examplemod_redpanda_name",
 		"descriptionTerm": "examplemod_redpanda_description",

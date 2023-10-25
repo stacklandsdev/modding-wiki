@@ -31,6 +31,10 @@ page is where they are documented.
 	  - Anywhere after ``K+O+F1`` was pressed
 	  - Hides GUI
 
+	* - ``F6``
+	  - Anywhere after the intro
+	  - Opens the JSON Schema generator
+
 
 Launch Options
 ==============

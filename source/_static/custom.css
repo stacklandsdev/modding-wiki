@@ -2,9 +2,9 @@
 	max-width: 1000px !important;
 }
 
-div[role=contentinfo] {
+/*div[role=contentinfo] {
 	display: none;
-}
+}*/
 
 /*h3 {
 	font-family: monospace

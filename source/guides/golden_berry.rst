@@ -35,6 +35,11 @@ need to create our first card! Create a ``golden_berry.json`` file in the ``Card
 for the cards name and description respectively. You should use terms whenever possible, but you can choose to use
 ``nameOverride`` or ``descriptionOverride`` for quickly trying things out.
 
+.. note::
+	Your code editor may warn you about missing localization terms. This warning happens because the schema was not generated
+	while your localization file was loaded. Your mod :raw-html:`<u>will work</u>` regardless of the warning, as the schema
+	is not used for validation purposes in the game. You can fix this by `regenerating the schema <schema.html>`_.
+
 Step 2. Testing the mod
 =======================
 

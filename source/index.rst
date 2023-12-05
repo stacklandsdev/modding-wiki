@@ -31,6 +31,7 @@ If you have any questions or feedback, join us in the `Stacklands Modding Discor
    guides/decompiling
    guides/dependencies
    guides/enum
+   guides/extracting_assets
    guides/hidden-keys
    guides/schema.rst
    guides/localization

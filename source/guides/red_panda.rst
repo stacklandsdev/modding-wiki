@@ -8,7 +8,7 @@ Step 0. Downloading the files
 =============================
 
 * `localization.tsv <https://docs.google.com/spreadsheets/d/e/2PACX-1vRz14Suj2hTlJyyaTcCfImANxQ9kA8xOk4JuUOWDu0oIvDO0jJxvkQiEZmDeCFhE5_fmokzkW60Df5W/pub?gid=0&single=true&output=tsv>`_ - The full localization file for ALL three guides (make sure you download this file as ``localization.tsv``!)
-* `RedPanda.png <https://modding.stacklands.co/en/latest/_images/RedPanda.png>`_ - Place this in the ``Icons`` folder of your mod. Icon drawn by `lopidav <discord://-/users/357116721812865025>`_
+* `RedPanda.png <https://raw.githubusercontent.com/stacklandsdev/modding-wiki/main/source/guides/images/RedPanda.png>`_ - Place this in the ``Icons`` folder of your mod. Icon drawn by `lopidav <discord://-/users/357116721812865025>`_
 
 Step 1. Creating the card
 =========================

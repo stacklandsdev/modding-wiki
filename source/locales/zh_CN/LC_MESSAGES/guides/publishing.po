@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-13 10:14+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/publishing.rst:2 fbe22e84a3994cbd93138fa1c58e86c8
+msgid "Publishing your mod"
+msgstr "发布你的模组"
+
+#: ../../source/guides/publishing.rst:5 4a5c6a05da3242ccb8d0d6bcf5bdf22f
+msgid "Uploading your code to GitHub"
+msgstr "将代码上传到 GitHub"
+
+#: ../../source/guides/publishing.rst:7 bba06c696f384d05aaa1508e9657eda7
+msgid ""
+"It is highly recommended to upload your code to GitHub so other "
+"developers can contribute bugfixes and anyone can easily make sure it "
+"doesn't contain anything malicious. If you used GitHub Desktop to set up "
+"the mod template, this process is incredibly simple."
+msgstr ""
+"强烈建议将你的代码上传到 GitHub，这样其他开发者就可以贡献错误修正，任何人"
+"都可以轻松确保代码不包含任何恶意内容。如果你使用 GitHub Desktop 设置了 "
+"MOD 模板，那么这个过程就简单得令人难以置信。"
+
+#: ../../source/guides/publishing.rst:11 66bad8a955274c198eae948a0f13e545
+msgid ""
+"First, create a commit. Your changes will show up in the GitHub Desktop "
+"app. Click the \"Commit\" button to create the commit."
+msgstr ""
+"首先，创建一个 commit。你的更改将显示在 GitHub 桌面应用中。点击“commit”按"
+"钮创建提交。"
+
+#: ../../source/guides/publishing.rst:16 8d7af7f11c7d45ca9fbe58c8703dd456
+msgid ""
+"Now you need to push the commit to GitHub, which the app will prompt you "
+"to do."
+msgstr "现在，您需要将 commit 推送到 GitHub，应用程序会提示你这样做。"
+
+#: ../../source/guides/publishing.rst:20 f7c446ab12c64d30b11e24d934804ff1
+msgid "Your changes will now appear on your GitHub repository."
+msgstr "现在，你的更改将出现在 GitHub 仓库中。"
+
+#: ../../source/guides/publishing.rst:24 96c69431e7e9437f9a8d09d39fd4682d
+msgid "Uploading your mod to the Steam Workshop"
+msgstr "将你的 MOD 上传到 Steam 创意工坊"
+
+#: ../../source/guides/publishing.rst:26 9a459c27196b4a55b987598aa46caa21
+msgid ""
+"To upload your mod to the Steam Workshop, go into your mods options "
+"menu, and press the ``U`` key to open the workshop uploader menu."
+msgstr ""
+"要将你的 MOD 上传到 Steam 创意工坊，请进入你的“MOD 选项”菜单，然后按 :"
+"raw-html`<kbd>U</kbd>`键打开创意工坊上传器菜单。"
+
+#: ../../source/guides/publishing.rst:29 657551c99b4247a38040bdccf11481e0
+msgid ""
+"For the initial upload, you will be prompted to create a Steam Workshop "
+"item."
+msgstr "首次上传时，系统会提示您创建一个 Steam 创意工坊项目。"
+
+#: ../../source/guides/publishing.rst:33 5bc88ac6300647558335252140d36994
+msgid ""
+"After the item has been created, a ``workshop.txt`` file will be created "
+"in the mods folder. Be sure to copy this to your source folder!"
+msgstr ""
+"在创建项目后，一个 ``workshop.txt`` 文件会在你的模组文件夹中被创建。请确"
+"保你把它复制到你的源代码文件夹中！"
+
+#: ../../source/guides/publishing.rst:36 1169c6f11d4447eea19b3645b6c19558
+msgid "To upload the files, simply click the Upload button."
+msgstr "要上传文件，只需单击上传按钮。"
+
+#: ../../source/guides/publishing.rst:40 be333fec07e94b6baa8c754712569813
+msgid ""
+"To finish publishing your mod, set the visibility to \"Public\" on the "
+"Workshop."
+msgstr "要完成mod的发布，请在工作坊中将可见性设置为“公共”。"
+
+#: ../../source/guides/publishing.rst:45 88e38605e5f34fd992cce4ce4535a276
+msgid "Adding a thumbnail"
+msgstr "添加缩略图"
+
+#: ../../source/guides/publishing.rst:47 e17109710c4f4d48a263b0e00db2cbdb
+msgid ""
+"If you want your Workshop item to have a thumbnail, simply put an image "
+"called ``icon.png`` in your mods folder. There are no requirements for "
+"the resolution, but 512x512 is recommended."
+msgstr ""
+"如果你想让你的创意工坊项目有缩略图，只需在你的模组文件夹中放一个名为 "
+"``icon.png`` 的图像。分辨率没有要求，但建议使用 512x512。"

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 17:30+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/enum.rst:2 4da3b994c6fb4c338e27553336e1fb83
+msgid "Extending Enums"
+msgstr "扩展枚举类"
+
+#: ../../source/guides/enum.rst:4 6dc0b4bff8db4b3b87f41a15343eb984
+msgid ""
+"This guide will introduce you to the :code:`EnumHelper` class, and will "
+"provide examples for extending various enums found in the game."
+msgstr ""
+"这个指南会指导你使用 ``EnumHelper`` 类，并提供一些扩展不同枚举类的示例。"
+
+#: ../../source/guides/enum.rst:7 a8958caa88954ba5b994efd0bb0aebeb
+msgid ""
+"The EnumHelper module is fully generic, and works with any enum, even "
+"those which are not part of the vanilla game. Consider the following "
+"code:"
+msgstr ""
+"``EnumHelper`` 模块是完全通用的，可以与任何枚举一起使用，即使是那些不属于"
+"原版游戏的枚举。请查看以下代码："
+
+#: ../../source/guides/enum.rst:34 22627550da5143918a1e35c778d4144e
+msgid ""
+"The above code snippet creates a circle shape, however, it can only be a "
+"circle or a triangle, what if we wanted a square? For this, we can use "
+"the :code:`EnumHelper.ExtendEnum` function, like so:"
+msgstr ""
+"上面的代码片段创建了一个圆形，但是，它只能是圆形或三角形，如果我们想要一"
+"个正方形呢？为此，我们可以使用 ``EnumHelper.ExtendedEnum`` 函数，如下所"
+"示："
+
+#: ../../source/guides/enum.rst:54 ac09a4623ee049478ffbf175540ffc09
+msgid "Example: Creating A Custom CardType"
+msgstr "示例：创建一个自己的卡牌类型"
+
+#: ../../source/guides/enum.rst:56 22b3a46501bc4b18845a270398422509
+msgid ""
+"If your mod adds custom cards, you may also want to create custom types "
+"for some of them. Simply extend the ``CardType`` enum in your mods Awake "
+"method (see `Awake or Ready? <awake-ready.html>`_), so it runs before "
+"the cards are loaded."
+msgstr ""
+"如果你的 mod 添加了自定义卡，你可能还想为其中一些创建自定义类型。只需扩展 ``Mods.Awake`` 方法中的 ``CardType`` 枚举"
+"（请参阅 `Awake 还是 Ready？ <awake-ready.html>`_），即可在加载卡牌之前运行。"

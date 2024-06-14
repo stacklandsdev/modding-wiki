@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 16:53+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/index.rst:15
+msgid "Guides"
+msgstr "指南"
+
+#: ../../source/index.rst:25
+msgid "Topics"
+msgstr "主题"
+
+#: ../../source/index.rst:7 f6ed4954ebfc412098df041b41127c06
+msgid "Welcome to the Stacklands Modding Wiki!"
+msgstr "欢迎来到 Stacklands / 堆叠大陆 模组制作 Wiki！"
+
+#: ../../source/index.rst:9 efde8700d190452a907eae5938e42790
+msgid ""
+"This wiki contains plenty of useful guides and all the information you "
+"need to start making your own Stacklands mods! If you would like to "
+"contribute to this wiki, check out the `GitHub repository <https://"
+"github.com/stacklandsdev/modding-wiki>`_."
+msgstr ""
+"这个 Wiki 包含大量有用的指南和制作自己的 MOD 中需要的所有信息！如果你想要"
+"对此 Wiki 作出贡献，请查看 `GitHub 仓库 <https://github.com/"
+"stacklandsdev/modding-wiki>`_。"
+
+#: ../../source/index.rst:13 f73e712ecfdb4763834a1be54b2e17ec
+msgid ""
+"If you have any questions or feedback, join us in the `Stacklands "
+"Modding Discord server <https://discord.gg/j3FjwZVyWh>`_!"
+msgstr ""
+"如果你有任何问题或者反馈，请加入 `Stacklands Modding Discord 服务器 "
+"<https://discord.gg/j3FjwZVyWh>`_！"

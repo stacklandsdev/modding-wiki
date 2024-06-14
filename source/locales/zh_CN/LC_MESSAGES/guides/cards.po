@@ -1,0 +1,4578 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the Stacklands Modding
+# Wiki package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacklands Modding Wiki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 15:19+0800\n"
+"PO-Revision-Date: 2023-08-12 16:17+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../../source/guides/cards.rst:2 f0f7a57429c84542b55478bf3dffd127
+msgid "Card IDs"
+msgstr "卡牌ID"
+
+#: ../../source/guides/cards.rst:4 47ccdb60332b439780b700fc85c9f1f7
+msgid ""
+"This page documents the list of card IDs. These are available as static "
+"const values in the ``Cards`` class as well."
+msgstr ""
+"本章记录了游戏中所有卡牌的ID。这些值也可以在 ``Cards`` 类中作为静态常量"
+"使用。"
+
+#: ../../source/guides/cards.rst:11 aa18fa3674a4483f84125de0cca3972a
+msgid "Name"
+msgstr "名称"
+
+#: ../../source/guides/cards.rst:12 9a7fb402b25746519d6af78fe88ca1b4
+msgid "ID"
+msgstr "ID"
+
+#: ../../source/guides/cards.rst:13 c4a3fc277ffa4770a49a7cc6d2dd521e
+msgid "DLC"
+msgstr "DLC"
+
+#: ../../source/guides/cards.rst:15 ecae6a5054834779b0b81e5bb293f29a
+msgid "Altar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:16 1b6bb5b619e04a5297c9935abf9f8743
+msgid "``altar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:17 ../../source/guides/cards.rst:21
+#: ../../source/guides/cards.rst:25 ../../source/guides/cards.rst:57
+#: ../../source/guides/cards.rst:69 ../../source/guides/cards.rst:81
+#: ../../source/guides/cards.rst:113 ../../source/guides/cards.rst:133
+#: ../../source/guides/cards.rst:173 ../../source/guides/cards.rst:201
+#: ../../source/guides/cards.rst:205 ../../source/guides/cards.rst:277
+#: ../../source/guides/cards.rst:281 ../../source/guides/cards.rst:285
+#: ../../source/guides/cards.rst:289 ../../source/guides/cards.rst:291
+#: ../../source/guides/cards.rst:313 ../../source/guides/cards.rst:329
+#: ../../source/guides/cards.rst:333 ../../source/guides/cards.rst:337
+#: ../../source/guides/cards.rst:377 ../../source/guides/cards.rst:389
+#: ../../source/guides/cards.rst:401 ../../source/guides/cards.rst:409
+#: ../../source/guides/cards.rst:433 ../../source/guides/cards.rst:437
+#: ../../source/guides/cards.rst:449 ../../source/guides/cards.rst:453
+#: ../../source/guides/cards.rst:457 ../../source/guides/cards.rst:461
+#: ../../source/guides/cards.rst:497 ../../source/guides/cards.rst:557
+#: ../../source/guides/cards.rst:561 ../../source/guides/cards.rst:565
+#: ../../source/guides/cards.rst:581 ../../source/guides/cards.rst:589
+#: ../../source/guides/cards.rst:597 ../../source/guides/cards.rst:601
+#: ../../source/guides/cards.rst:609 ../../source/guides/cards.rst:629
+#: ../../source/guides/cards.rst:633 ../../source/guides/cards.rst:637
+#: ../../source/guides/cards.rst:645 ../../source/guides/cards.rst:657
+#: ../../source/guides/cards.rst:661 ../../source/guides/cards.rst:677
+#: ../../source/guides/cards.rst:693 ../../source/guides/cards.rst:737
+#: ../../source/guides/cards.rst:741 ../../source/guides/cards.rst:785
+#: ../../source/guides/cards.rst:801 ../../source/guides/cards.rst:809
+#: ../../source/guides/cards.rst:817 ../../source/guides/cards.rst:829
+#: ../../source/guides/cards.rst:833 ../../source/guides/cards.rst:841
+#: ../../source/guides/cards.rst:845 ../../source/guides/cards.rst:849
+#: ../../source/guides/cards.rst:853 ../../source/guides/cards.rst:869
+#: ../../source/guides/cards.rst:893 ../../source/guides/cards.rst:913
+#: ../../source/guides/cards.rst:917 ../../source/guides/cards.rst:921
+#: ../../source/guides/cards.rst:945 ../../source/guides/cards.rst:949
+#: ../../source/guides/cards.rst:953 ../../source/guides/cards.rst:957
+#: ../../source/guides/cards.rst:1005 ../../source/guides/cards.rst:1013
+#: ../../source/guides/cards.rst:1021 ../../source/guides/cards.rst:1025
+#: ../../source/guides/cards.rst:1033 ../../source/guides/cards.rst:1037
+#: ../../source/guides/cards.rst:1041 ../../source/guides/cards.rst:1045
+#: ../../source/guides/cards.rst:1049 ../../source/guides/cards.rst:1053
+#: ../../source/guides/cards.rst:1061 ../../source/guides/cards.rst:1065
+#: ../../source/guides/cards.rst:1073 ../../source/guides/cards.rst:1093
+#: ../../source/guides/cards.rst:1101 ../../source/guides/cards.rst:1125
+#: ../../source/guides/cards.rst:1133 ../../source/guides/cards.rst:1197
+#: ../../source/guides/cards.rst:1209 ../../source/guides/cards.rst:1221
+#: ../../source/guides/cards.rst:1225 ../../source/guides/cards.rst:1229
+#: ../../source/guides/cards.rst:1245 ../../source/guides/cards.rst:1273
+#: ../../source/guides/cards.rst:1277 ../../source/guides/cards.rst:1289
+#: ../../source/guides/cards.rst:1369 ../../source/guides/cards.rst:1429
+#: ../../source/guides/cards.rst:1441 ../../source/guides/cards.rst:1445
+#: ../../source/guides/cards.rst:1457 ../../source/guides/cards.rst:1461
+#: ../../source/guides/cards.rst:1465 ../../source/guides/cards.rst:1469
+#: ../../source/guides/cards.rst:1473 ../../source/guides/cards.rst:1489
+#: ../../source/guides/cards.rst:1493 ../../source/guides/cards.rst:1497
+#: ../../source/guides/cards.rst:1501 ../../source/guides/cards.rst:1505
+#: ../../source/guides/cards.rst:1513 ../../source/guides/cards.rst:1537
+#: ../../source/guides/cards.rst:1541 ../../source/guides/cards.rst:1557
+#: ../../source/guides/cards.rst:1561 ../../source/guides/cards.rst:1569
+#: ../../source/guides/cards.rst:1573 ../../source/guides/cards.rst:1593
+#: ../../source/guides/cards.rst:1641 ../../source/guides/cards.rst:1645
+#: ../../source/guides/cards.rst:1649 ../../source/guides/cards.rst:1653
+#: ../../source/guides/cards.rst:1657 ../../source/guides/cards.rst:1661
+#: ../../source/guides/cards.rst:1665 ../../source/guides/cards.rst:1693
+#: ../../source/guides/cards.rst:1697 ../../source/guides/cards.rst:1701
+#: ../../source/guides/cards.rst:1713 ../../source/guides/cards.rst:1717
+#: ../../source/guides/cards.rst:1741 ../../source/guides/cards.rst:1757
+#: ../../source/guides/cards.rst:1761 ../../source/guides/cards.rst:1773
+#: ../../source/guides/cards.rst:1833 ../../source/guides/cards.rst:1837
+#: ../../source/guides/cards.rst:1841 ../../source/guides/cards.rst:1897
+#: ../../source/guides/cards.rst:1921 ../../source/guides/cards.rst:1925
+#: ../../source/guides/cards.rst:1929 ../../source/guides/cards.rst:1965
+#: ../../source/guides/cards.rst:1981 ../../source/guides/cards.rst:1985
+#: ../../source/guides/cards.rst:1989 ../../source/guides/cards.rst:1997
+#: ../../source/guides/cards.rst:2001 ../../source/guides/cards.rst:2033
+#: ../../source/guides/cards.rst:2037 012ca6e1493f4cedbda4c61b1b375ca3
+#: 04a60e908f834e15a097d5b21fe451a9 06d62294d7c242b58aede0201f4320a4
+#: 074d3a7bfe304d59b0be8851bdb6cad0 07abf2b1d55b4e18a5032cc0c98eecd0
+#: 08195cc8bba646c5a2828d583d19f63c 087123d7c1aa4d9593db03de6bcb2113
+#: 0aa873b123e44c9da367acb4b1f80c68 0fbcff2b4caf4713b8381c706a16aebd
+#: 13dd4aec29214e51b0c793d2114f164d 15f8934b4b464a0591cc556f4ba06cf1
+#: 17ca381b0b094e7b9203ca5006f59e6e 19a66ef6b9184ff8888cfdacdf7e8b2e
+#: 1b87a1338e574ce4b032e625949d69fc 1ccb68b8b93e4566bba072c19207d1f7
+#: 245baaf79b7441f68cb5a297418654c4 254e5378262a424cae18aa6ed6173d3b
+#: 26145359501942f591737ec2015c1dd8 28ee4c6a5f534529b0937fb1ec8258d3
+#: 293d0404191c4aac95c3e90ccb9b1da1 29f154c0ad4a42e289393675b94ef7d9
+#: 2aee400569f346d78e923dd838a1ef1d 2b02e26e63974340a45b33b5de607d51
+#: 2bd50f7a77c84f50bdb663ad7a8eeacc 2d3857c2c12b4f06b4ad12a9dac573dc
+#: 2d9768ec33d64179afb952289c64b24c 3045cbe58050482c990eee7eb9935cd5
+#: 3486f7bb362f4b08a3db1f0721779c99 3489a82a6a4245eb83e709b188200819
+#: 35097f8c87864f2b8c1e2fbbcef0dc62 35abfd12fd18496ba9306b8c6fbfa919
+#: 370512a996224d29bbc633eb8135813f 37424a69fc6c4daf93482032b10fe5b7
+#: 383838bd70794cc09b49c8233640c0fe 3bf823134add4e71a40d976f86b31122
+#: 3c3fcc7dc6954ba7897102909be211eb 3d2c6227c98d4b8d9b52afe1b12bcb67
+#: 3d35f7dccd654198ad3c456c6b9250d1 3dccec2fb127417d8d0a99f4b3bcd750
+#: 3f6a939909964d959bc539b74b93eb07 40e9f634d5ea4d4c848f4e5b9758978d
+#: 42223f170d82409ca84950ab428c279f 4412aefdd7044773a1fec710d6990dff
+#: 447447d1cc564eaabb4d11282dd4dd33 488a9604e9d548c493abc6656209f9d3
+#: 4ea532683bbe40a3a8573c673dee06c1 4eed20594caf4c7791abc416577ababb
+#: 502d03c00ab34cc2ba2cbcf57dc39be3 5357b2330ac74aef83cef6b01c591f0a
+#: 53961144bc00458d8dcbf299b46d8c7e 53bb0fc8622f4410a99ab72f6c3e60b7
+#: 53d8470979a6464eb9eaa9e206ea8692 5576b957e2264d06b4dd31b896e7ac56
+#: 5e8c26f91d3e4e40b3d847bb5e0584b7 5fce9f19f8234e30830ce14f8a314cad
+#: 60d5603f317348a0a8c318f46be2bd8e 612095ca884b4b03911452f175845ca4
+#: 6214770b13bc4f95b2e6642c48f83e2d 6459d6d9048642dc8e5f23a6a3ecd219
+#: 663564d18ef74552ad29964141a90fcc 686e1a557ac34240b024c9c746adb806
+#: 6947c299dc324d68b9dbee9d879b306c 6a502da95031433499a784ad221945d6
+#: 6ab3aba0088844299775c151c3c3ce47 6aca7a4306bc4be78f4abe29809b1ca6
+#: 6d14a298283447ab944606a4e2285fdb 6d91a85b237c4901ae26165c645d6213
+#: 6db5aec976814405840a02a1c7c5b03b 6f12f688527c4344865124b90efbd32a
+#: 702355c4600e4d549a402de0d280dbca 70d1330bab4d49f492809a4f4521440c
+#: 7174466db15d46bbaf0cb571d9e436bf 78d8f3c03390459b92bfe60172b1199e
+#: 7f64a1c3bf074d8c9df7e0dfa37f4ca5 825a3b8e10d54da7af6e0328119126a4
+#: 82e09bcfa01b48b7b043808bbb195296 860d5749572c435fadcd9cf44d354264
+#: 883b25c8cbd44c478c9a384cfb956992 889cdb88114048e5a6e95eb110b71316
+#: 88a7c36ad8e14dadb4d09640e6224340 88dced3886f444ddbceb06a920063c48
+#: 88ed99b884034daebd12192ae07dc6cf 899754f5546044da83ef2b34673885a0
+#: 8c417342ea06458e93443e757505be06 8d64bd5a592a4f1db88a7f6b4be48045
+#: 9010262f528b46108763416afe956282 918686eb26fa4409abdf52339f713f46
+#: 93e7a44fbff74891875182e2f61b7749 9417ed23787a4fd486deff5c882e0de7
+#: 98315ed9edbe469fa5d7cef1f2304d31 98cde8a772b547299b9c5ab77c907db1
+#: 9b9ccdb2fddb499580a0ccd1cebb209e 9bca2c2a6ebc484a941239b49dcc67d2
+#: 9c57d0ff61b6492b85c6f0e07d56c653 9d14262e377d4f978626f8df91dc9bc4
+#: 9e5296b9559042a3b317a7b13f02cfea a101497a1ae44921b4ae9a8fa94fd07a
+#: a2419d6593984aaea4d8d8b3a0c0d3d5 a43c9707ab14430a92b80d219d21248a
+#: abf183d3558a483eb47f04b7fda6dc99 b1255cf402f54d5dafe20553bfdb2f43
+#: b258abed248f49a790d2dba234ca79aa b47fe656e82541df8a3f016623477bcd
+#: b6190b2774974a7cbd0cb7120f439e2c b67341ba19e24c15b9d603510420e1d0
+#: b687ce65d1994187a5fff7d73f7a585b b8240518c51843fab1687d820686bb6a
+#: bb994279255a45c6ad29a87673014ee1 bc799aac6a74496dbe39827ad75b7b51
+#: bddb1bf045d346bf824dc5007148ac45 bee0d234e69748fbb8eab82d2184c115
+#: c028fd67b9674020ba752a3b0052d717 c1140a147ff64ab39700fb6d89d61ce6
+#: c13c884d86c4466393faa0ee4d279d07 c14d162f78de447ea4f9322b48c87298
+#: c61574088d77445fa47830dd71594be2 c74d8231bb77466fb5e835e61ebb8372
+#: c88485acc63240738524a2c5830f1002 c9989612e5ca4282a4bd573346ea75b3
+#: d2147ad4b2604aa28dac26bfa25c563c d21fc7c4b2e04a2cbdd0d4e75a48cec8
+#: d30d3c4415c24152966ed32ba906d683 d30fe2796b4e46e1946449558f282df5
+#: d3ca53e3c58040a7b42aa6b9d0ab286c d533a57f1fda42a7be6c310eb785480b
+#: d560b3bfb4864093ab9c95718b62c071 d618f2ecd1374e4998aef03e4f2a009a
+#: d69e0946f94847538672ded6f0378e28 deb673267acd4a279f9018003fbb1c3e
+#: e237017a0ec14bef9036c62ea1dbbf44 e2df2d2064544dbc80d1df7241150869
+#: e5ad0d1954cb43f0be1be10d1a196022 e614828867f8446582c35bb16c9f6dbe
+#: e81486b1bb1544299c0fd46438a2739a e8cfbbcb581944efbb61423f9ffd8346
+#: e976d79789a54ce8b3f6b189cbbdb324 ec06c13db1764d0cb30135f67aeec23f
+#: ec6f416b75814625acf75bb72b5ff629 ee95d003347449a7be78f127e46fe0e2
+#: f2ede2983c2e402d802587e07a5e1bfd f47740c50caa4bc8a8fedb5099da701a
+#: f7b017ea06ca469f8401c9b82837be07 f7d161ae94084507907c5e9f6f965694
+#: f99cedcedba941c38a87e77c1137bfd3 f9f17d5ca2c24db38d689c745bc4d5ba
+#: fb95ac57288a4712906d152dee2b6953 ffe7805dca7e44ef9399567a9df71781
+msgid "Cursed Worlds"
+msgstr ""
+
+#: ../../source/guides/cards.rst:19 3fb4979039ad4cd49fcc9ff768849260
+msgid "Angry Royal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:20 21fc8703db2b4edc854ca9ffe74fffd2
+msgid "``angry_royal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:23 5b3c321761764799aef78fe360f4678c
+msgid "Animal Cage"
+msgstr ""
+
+#: ../../source/guides/cards.rst:24 36b4245973ee469aa7022eb3ad36f650
+msgid "``animal_cage``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:27 b7068fc974b34b00bb84f6000e420694
+msgid "Animal Pen"
+msgstr ""
+
+#: ../../source/guides/cards.rst:28 43bf325dfde2446e9667b068925e539a
+msgid "``animal_pen``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:29 ../../source/guides/cards.rst:33
+#: ../../source/guides/cards.rst:37 ../../source/guides/cards.rst:41
+#: ../../source/guides/cards.rst:45 ../../source/guides/cards.rst:49
+#: ../../source/guides/cards.rst:53 ../../source/guides/cards.rst:61
+#: ../../source/guides/cards.rst:65 ../../source/guides/cards.rst:73
+#: ../../source/guides/cards.rst:77 ../../source/guides/cards.rst:85
+#: ../../source/guides/cards.rst:89 ../../source/guides/cards.rst:93
+#: ../../source/guides/cards.rst:97 ../../source/guides/cards.rst:101
+#: ../../source/guides/cards.rst:105 ../../source/guides/cards.rst:109
+#: ../../source/guides/cards.rst:117 ../../source/guides/cards.rst:121
+#: ../../source/guides/cards.rst:125 ../../source/guides/cards.rst:129
+#: ../../source/guides/cards.rst:137 ../../source/guides/cards.rst:141
+#: ../../source/guides/cards.rst:145 ../../source/guides/cards.rst:149
+#: ../../source/guides/cards.rst:153 ../../source/guides/cards.rst:157
+#: ../../source/guides/cards.rst:161 ../../source/guides/cards.rst:165
+#: ../../source/guides/cards.rst:169 ../../source/guides/cards.rst:177
+#: ../../source/guides/cards.rst:181 ../../source/guides/cards.rst:185
+#: ../../source/guides/cards.rst:189 ../../source/guides/cards.rst:193
+#: ../../source/guides/cards.rst:197 ../../source/guides/cards.rst:209
+#: ../../source/guides/cards.rst:213 ../../source/guides/cards.rst:217
+#: ../../source/guides/cards.rst:221 ../../source/guides/cards.rst:225
+#: ../../source/guides/cards.rst:229 ../../source/guides/cards.rst:233
+#: ../../source/guides/cards.rst:237 ../../source/guides/cards.rst:241
+#: ../../source/guides/cards.rst:245 ../../source/guides/cards.rst:249
+#: ../../source/guides/cards.rst:253 ../../source/guides/cards.rst:257
+#: ../../source/guides/cards.rst:261 ../../source/guides/cards.rst:265
+#: ../../source/guides/cards.rst:269 ../../source/guides/cards.rst:273
+#: ../../source/guides/cards.rst:293 ../../source/guides/cards.rst:297
+#: ../../source/guides/cards.rst:301 ../../source/guides/cards.rst:305
+#: ../../source/guides/cards.rst:309 ../../source/guides/cards.rst:317
+#: ../../source/guides/cards.rst:321 ../../source/guides/cards.rst:325
+#: ../../source/guides/cards.rst:341 ../../source/guides/cards.rst:345
+#: ../../source/guides/cards.rst:349 ../../source/guides/cards.rst:353
+#: ../../source/guides/cards.rst:357 ../../source/guides/cards.rst:361
+#: ../../source/guides/cards.rst:365 ../../source/guides/cards.rst:369
+#: ../../source/guides/cards.rst:373 ../../source/guides/cards.rst:381
+#: ../../source/guides/cards.rst:385 ../../source/guides/cards.rst:393
+#: ../../source/guides/cards.rst:397 ../../source/guides/cards.rst:405
+#: ../../source/guides/cards.rst:413 ../../source/guides/cards.rst:417
+#: ../../source/guides/cards.rst:421 ../../source/guides/cards.rst:425
+#: ../../source/guides/cards.rst:429 ../../source/guides/cards.rst:441
+#: ../../source/guides/cards.rst:445 ../../source/guides/cards.rst:465
+#: ../../source/guides/cards.rst:469 ../../source/guides/cards.rst:473
+#: ../../source/guides/cards.rst:477 ../../source/guides/cards.rst:481
+#: ../../source/guides/cards.rst:485 ../../source/guides/cards.rst:489
+#: ../../source/guides/cards.rst:493 ../../source/guides/cards.rst:501
+#: ../../source/guides/cards.rst:505 ../../source/guides/cards.rst:509
+#: ../../source/guides/cards.rst:513 ../../source/guides/cards.rst:517
+#: ../../source/guides/cards.rst:521 ../../source/guides/cards.rst:525
+#: ../../source/guides/cards.rst:529 ../../source/guides/cards.rst:533
+#: ../../source/guides/cards.rst:537 ../../source/guides/cards.rst:541
+#: ../../source/guides/cards.rst:545 ../../source/guides/cards.rst:549
+#: ../../source/guides/cards.rst:553 ../../source/guides/cards.rst:569
+#: ../../source/guides/cards.rst:573 ../../source/guides/cards.rst:577
+#: ../../source/guides/cards.rst:585 ../../source/guides/cards.rst:593
+#: ../../source/guides/cards.rst:605 ../../source/guides/cards.rst:613
+#: ../../source/guides/cards.rst:617 ../../source/guides/cards.rst:621
+#: ../../source/guides/cards.rst:625 ../../source/guides/cards.rst:641
+#: ../../source/guides/cards.rst:649 ../../source/guides/cards.rst:653
+#: ../../source/guides/cards.rst:665 ../../source/guides/cards.rst:669
+#: ../../source/guides/cards.rst:673 ../../source/guides/cards.rst:681
+#: ../../source/guides/cards.rst:685 ../../source/guides/cards.rst:689
+#: ../../source/guides/cards.rst:697 ../../source/guides/cards.rst:701
+#: ../../source/guides/cards.rst:705 ../../source/guides/cards.rst:709
+#: ../../source/guides/cards.rst:713 ../../source/guides/cards.rst:717
+#: ../../source/guides/cards.rst:721 ../../source/guides/cards.rst:725
+#: ../../source/guides/cards.rst:729 ../../source/guides/cards.rst:733
+#: ../../source/guides/cards.rst:745 ../../source/guides/cards.rst:749
+#: ../../source/guides/cards.rst:753 ../../source/guides/cards.rst:757
+#: ../../source/guides/cards.rst:761 ../../source/guides/cards.rst:765
+#: ../../source/guides/cards.rst:769 ../../source/guides/cards.rst:773
+#: ../../source/guides/cards.rst:777 ../../source/guides/cards.rst:781
+#: ../../source/guides/cards.rst:789 ../../source/guides/cards.rst:793
+#: ../../source/guides/cards.rst:797 ../../source/guides/cards.rst:805
+#: ../../source/guides/cards.rst:813 ../../source/guides/cards.rst:821
+#: ../../source/guides/cards.rst:825 ../../source/guides/cards.rst:837
+#: ../../source/guides/cards.rst:857 ../../source/guides/cards.rst:861
+#: ../../source/guides/cards.rst:865 ../../source/guides/cards.rst:873
+#: ../../source/guides/cards.rst:877 ../../source/guides/cards.rst:881
+#: ../../source/guides/cards.rst:885 ../../source/guides/cards.rst:889
+#: ../../source/guides/cards.rst:897 ../../source/guides/cards.rst:901
+#: ../../source/guides/cards.rst:905 ../../source/guides/cards.rst:909
+#: ../../source/guides/cards.rst:925 ../../source/guides/cards.rst:929
+#: ../../source/guides/cards.rst:933 ../../source/guides/cards.rst:937
+#: ../../source/guides/cards.rst:941 ../../source/guides/cards.rst:961
+#: ../../source/guides/cards.rst:965 ../../source/guides/cards.rst:969
+#: ../../source/guides/cards.rst:973 ../../source/guides/cards.rst:977
+#: ../../source/guides/cards.rst:981 ../../source/guides/cards.rst:985
+#: ../../source/guides/cards.rst:989 ../../source/guides/cards.rst:993
+#: ../../source/guides/cards.rst:997 ../../source/guides/cards.rst:1001
+#: ../../source/guides/cards.rst:1009 ../../source/guides/cards.rst:1017
+#: ../../source/guides/cards.rst:1029 ../../source/guides/cards.rst:1057
+#: ../../source/guides/cards.rst:1069 ../../source/guides/cards.rst:1077
+#: ../../source/guides/cards.rst:1081 ../../source/guides/cards.rst:1085
+#: ../../source/guides/cards.rst:1089 ../../source/guides/cards.rst:1097
+#: ../../source/guides/cards.rst:1105 ../../source/guides/cards.rst:1109
+#: ../../source/guides/cards.rst:1113 ../../source/guides/cards.rst:1117
+#: ../../source/guides/cards.rst:1121 ../../source/guides/cards.rst:1129
+#: ../../source/guides/cards.rst:1137 ../../source/guides/cards.rst:1141
+#: ../../source/guides/cards.rst:1145 ../../source/guides/cards.rst:1149
+#: ../../source/guides/cards.rst:1153 ../../source/guides/cards.rst:1157
+#: ../../source/guides/cards.rst:1161 ../../source/guides/cards.rst:1165
+#: ../../source/guides/cards.rst:1169 ../../source/guides/cards.rst:1173
+#: ../../source/guides/cards.rst:1177 ../../source/guides/cards.rst:1181
+#: ../../source/guides/cards.rst:1185 ../../source/guides/cards.rst:1189
+#: ../../source/guides/cards.rst:1193 ../../source/guides/cards.rst:1201
+#: ../../source/guides/cards.rst:1205 ../../source/guides/cards.rst:1213
+#: ../../source/guides/cards.rst:1217 ../../source/guides/cards.rst:1233
+#: ../../source/guides/cards.rst:1237 ../../source/guides/cards.rst:1241
+#: ../../source/guides/cards.rst:1249 ../../source/guides/cards.rst:1253
+#: ../../source/guides/cards.rst:1257 ../../source/guides/cards.rst:1261
+#: ../../source/guides/cards.rst:1265 ../../source/guides/cards.rst:1269
+#: ../../source/guides/cards.rst:1281 ../../source/guides/cards.rst:1285
+#: ../../source/guides/cards.rst:1293 ../../source/guides/cards.rst:1297
+#: ../../source/guides/cards.rst:1301 ../../source/guides/cards.rst:1305
+#: ../../source/guides/cards.rst:1309 ../../source/guides/cards.rst:1313
+#: ../../source/guides/cards.rst:1317 ../../source/guides/cards.rst:1321
+#: ../../source/guides/cards.rst:1325 ../../source/guides/cards.rst:1329
+#: ../../source/guides/cards.rst:1333 ../../source/guides/cards.rst:1337
+#: ../../source/guides/cards.rst:1341 ../../source/guides/cards.rst:1345
+#: ../../source/guides/cards.rst:1349 ../../source/guides/cards.rst:1353
+#: ../../source/guides/cards.rst:1357 ../../source/guides/cards.rst:1361
+#: ../../source/guides/cards.rst:1365 ../../source/guides/cards.rst:1373
+#: ../../source/guides/cards.rst:1377 ../../source/guides/cards.rst:1381
+#: ../../source/guides/cards.rst:1385 ../../source/guides/cards.rst:1389
+#: ../../source/guides/cards.rst:1393 ../../source/guides/cards.rst:1397
+#: ../../source/guides/cards.rst:1401 ../../source/guides/cards.rst:1405
+#: ../../source/guides/cards.rst:1409 ../../source/guides/cards.rst:1413
+#: ../../source/guides/cards.rst:1417 ../../source/guides/cards.rst:1421
+#: ../../source/guides/cards.rst:1425 ../../source/guides/cards.rst:1433
+#: ../../source/guides/cards.rst:1437 ../../source/guides/cards.rst:1449
+#: ../../source/guides/cards.rst:1453 ../../source/guides/cards.rst:1477
+#: ../../source/guides/cards.rst:1481 ../../source/guides/cards.rst:1485
+#: ../../source/guides/cards.rst:1509 ../../source/guides/cards.rst:1517
+#: ../../source/guides/cards.rst:1521 ../../source/guides/cards.rst:1525
+#: ../../source/guides/cards.rst:1529 ../../source/guides/cards.rst:1533
+#: ../../source/guides/cards.rst:1545 ../../source/guides/cards.rst:1549
+#: ../../source/guides/cards.rst:1553 ../../source/guides/cards.rst:1565
+#: ../../source/guides/cards.rst:1577 ../../source/guides/cards.rst:1581
+#: ../../source/guides/cards.rst:1585 ../../source/guides/cards.rst:1589
+#: ../../source/guides/cards.rst:1597 ../../source/guides/cards.rst:1601
+#: ../../source/guides/cards.rst:1605 ../../source/guides/cards.rst:1609
+#: ../../source/guides/cards.rst:1613 ../../source/guides/cards.rst:1617
+#: ../../source/guides/cards.rst:1621 ../../source/guides/cards.rst:1625
+#: ../../source/guides/cards.rst:1629 ../../source/guides/cards.rst:1633
+#: ../../source/guides/cards.rst:1637 ../../source/guides/cards.rst:1669
+#: ../../source/guides/cards.rst:1673 ../../source/guides/cards.rst:1677
+#: ../../source/guides/cards.rst:1681 ../../source/guides/cards.rst:1685
+#: ../../source/guides/cards.rst:1689 ../../source/guides/cards.rst:1705
+#: ../../source/guides/cards.rst:1709 ../../source/guides/cards.rst:1721
+#: ../../source/guides/cards.rst:1725 ../../source/guides/cards.rst:1729
+#: ../../source/guides/cards.rst:1733 ../../source/guides/cards.rst:1737
+#: ../../source/guides/cards.rst:1745 ../../source/guides/cards.rst:1749
+#: ../../source/guides/cards.rst:1753 ../../source/guides/cards.rst:1765
+#: ../../source/guides/cards.rst:1769 ../../source/guides/cards.rst:1777
+#: ../../source/guides/cards.rst:1781 ../../source/guides/cards.rst:1785
+#: ../../source/guides/cards.rst:1789 ../../source/guides/cards.rst:1793
+#: ../../source/guides/cards.rst:1797 ../../source/guides/cards.rst:1801
+#: ../../source/guides/cards.rst:1805 ../../source/guides/cards.rst:1809
+#: ../../source/guides/cards.rst:1813 ../../source/guides/cards.rst:1817
+#: ../../source/guides/cards.rst:1821 ../../source/guides/cards.rst:1825
+#: ../../source/guides/cards.rst:1829 ../../source/guides/cards.rst:1845
+#: ../../source/guides/cards.rst:1849 ../../source/guides/cards.rst:1853
+#: ../../source/guides/cards.rst:1857 ../../source/guides/cards.rst:1861
+#: ../../source/guides/cards.rst:1865 ../../source/guides/cards.rst:1869
+#: ../../source/guides/cards.rst:1873 ../../source/guides/cards.rst:1877
+#: ../../source/guides/cards.rst:1881 ../../source/guides/cards.rst:1885
+#: ../../source/guides/cards.rst:1889 ../../source/guides/cards.rst:1893
+#: ../../source/guides/cards.rst:1901 ../../source/guides/cards.rst:1905
+#: ../../source/guides/cards.rst:1909 ../../source/guides/cards.rst:1913
+#: ../../source/guides/cards.rst:1917 ../../source/guides/cards.rst:1933
+#: ../../source/guides/cards.rst:1937 ../../source/guides/cards.rst:1941
+#: ../../source/guides/cards.rst:1945 ../../source/guides/cards.rst:1949
+#: ../../source/guides/cards.rst:1953 ../../source/guides/cards.rst:1957
+#: ../../source/guides/cards.rst:1961 ../../source/guides/cards.rst:1969
+#: ../../source/guides/cards.rst:1973 ../../source/guides/cards.rst:1977
+#: ../../source/guides/cards.rst:1993 ../../source/guides/cards.rst:2005
+#: ../../source/guides/cards.rst:2009 ../../source/guides/cards.rst:2013
+#: ../../source/guides/cards.rst:2017 ../../source/guides/cards.rst:2021
+#: ../../source/guides/cards.rst:2025 ../../source/guides/cards.rst:2029
+#: 00e8393dcd3d4bbc8b97788d09143ace 01a3ade93bef48448ab43040eb63783f
+#: 039c614e53944043bac215272d2ad6b4 0438995953654d91b117794445a02c4d
+#: 04abba5c111545448831f2633086ae94 05f6bc7dac5846419599f4f84c547a27
+#: 06f5a3ade2774820b0dcaf73b80d48a5 07a565a814234b3c9cdf74a7418dbefa
+#: 083335e264de42bab2f67a64d34e3574 08724515fd16400f99376068573637e4
+#: 08e259ed6d264b0badf4c10b1955b09d 090b6d597b5340b1b22491a188f53698
+#: 091207af3215406385229b2e3df2b88c 0a1f158c36274895b93dc1aa0dfe8e78
+#: 0a6a362013a44d0b9519fd2597a6a431 0b129378a0fd4d63bd39c370c33819a8
+#: 0b1f7c7c0dc54ef2891fdce601f451c2 0be9f36cd24746bbb6f528a712d90304
+#: 0cc0b373cd86427092333242ce5a1ed6 0d439c1509774d279c6412c256e2cb01
+#: 0d8d7ad728464e768b562355a5c76ff5 0d9c5e6dda5442d98e612e32a4530bca
+#: 0db65842c4f646d1aab1ed563c5ddaca 0de4b5519f12478c97a5d2537b5df0c1
+#: 0e1940a4bfca4fc788194bd1ff810995 0f037d48807a4fc094569a32208f30f5
+#: 10522bd7a24e497dadc81ff108ae51b8 109b655d0bbc4abd90f3dee942762351
+#: 112cabe62b27450da9a4de4dec731b5d 119253f08ad24afd81b487f50c25e4aa
+#: 12a2c16bc26b40f38da01e6ee8595ca0 12f04a2584524468bdf498e49591dcd9
+#: 131e463ffffa453c9299316a879ab4e2 133cc55f855646b597a3ed0b460d2267
+#: 1425c1d10311420ab2691303d0f058dc 14dc5da3de234f68a8758fa8061098a1
+#: 17a00771f7d74c92b7a6ebd3978da640 17d4c330fbc04d34b2bed37c2445e64f
+#: 191c447d2a0e498a8a57415663feb606 199d2ba496cd47caa5ea4e9547277f43
+#: 19e48c82a79b46bab2d1dde2befb016c 1a39036292e14c1ca901b4e2bc13056c
+#: 1ac0161f93ed4f2788463f16015ef2ef 1c7e499987fb4ebe81bc5ae5849797c8
+#: 1ca066ca0a61437e9a194f63fbdbb5e0 1d4d0e6e2eef46cca56978850cf60ce3
+#: 1e551533e13f4252b29f0cbbc11c64f3 1eba30fdfb91476ea960b33418d9963a
+#: 1ed101d2288340378b1680b8771aad08 208b9bd87b74471fac9189cb03c00677
+#: 213a043be7f04753ab761a0f18e40715 2164c10c8dc54059bb68ba3b2de7d2c9
+#: 2519d61291ed442c9f2e2a1bdac9ec88 2588ce69c0c6469d94a4d49e1f0b401a
+#: 25b6fc142fd64e4d8249dea465d671a3 275edaf631ae4e26b5ffa07da9ff3db9
+#: 27691b8b61f34e8eb3db377e2e3dd02d 27889e8401324507a046a7511e9570a2
+#: 27912d234b024a66b7c3327baa089136 28d2c82c8e6e434c89d332bf4d4f9065
+#: 29b73886775b4b37828638d2db593fa3 2bc4a820a41044c9aaa46a588c46747d
+#: 2bd1c0360f9e46428e45bd40da3aa86d 2e2ba1f0498147059ca7659726cf1ba8
+#: 2e48b68ce642486b91e2da68cb6f9646 2e7ab10bcb5f415f9a69af30299a2d31
+#: 313b3e95b2324e1c8b8ff380d1788fa4 3378393d0be64dc99c3af60ef4434243
+#: 344cefe5a9f6483bb35012ae1a5c5713 35dcc05dc7e24a858f0db5cde5f4be8d
+#: 35e31a72d3a64838b9ad87a3bbbf9b4d 3608c38663f4440a9c5e56fe0c867397
+#: 363c06fc94994052a8a0f63aac854753 371ba26698e04c79843508f8f365467f
+#: 38705cf845d24100b98f19cef5a70ead 3a31db9870564eb5ad65f54abbe42d8b
+#: 3a4132e1982d48919854d391abc91353 3a5105309ea748d7b622d72aada2b574
+#: 3f0e94b1dec94794a792e4ea2c5c1311 3f13057c789c488385b81d740bdf80b9
+#: 3f412f644dd34d388171107a3896edd2 4177cf6dab7a4e59b263ed39fe8b3d46
+#: 419acb8405804e54980395fdd8d79d8d 424975e43279403db4cda7821ae3f4b1
+#: 43d3e896dfdc4aafa11a554082e0c5ff 43eeeef4bb294ccc8525f3d3a8882ea8
+#: 43f5574309c1400bb5c851b686e5f6a9 464bc3a432b44a8ab2f2575041e3b0f3
+#: 46c8914fec364a55ad74ecc0d44b82e9 46fe2ed2cf19426f9a2c85af7dac140f
+#: 4752178edd8440ea8ea5a2ed4111cfa6 48261f3173374b978e43d4560e338512
+#: 49331ea0455e45a0be2d72db404e16ba 497a420d73594445b0f39ea02363405f
+#: 49a2a21016384f88bce1d73ee7985851 4a1252c4184c4b949c98394f933ac4c4
+#: 4c8604270463492a98f3e900d580c4e7 4cab95f204f34958a366d42b5d684286
+#: 4ce9b78ae6244c9e922737429d1490b5 4d19a700c2954f928c70e650583f9e18
+#: 4d67d946255c4b9b88ec49ff5a9b9206 4dbf7cf081ad4d27b1aab8cf32db1b82
+#: 4eda0de489d643c7b94bab4068e2c28e 4f9b0181ad5b46f0a62372fd007a47c0
+#: 4f9fc12c35924fa9a340ef387d2472df 5011248100584f13962563d2f72e5375
+#: 5157b1f67d4c4ee1a72d917f0dff6139 525e4d6ce9d24f8b97a18cc8e2d4d430
+#: 52f6cbab31ba44619834f6a0a3c822b2 536eae984cde4b7097969b1722f912af
+#: 540129d520cf4ca2aead20b45874a37e 54cec32337064d1c87a74d35feb5085b
+#: 5a4393fded034c57801cb56d0a8d255e 5a788cfe75384f48ad510b6fb559326b
+#: 5acb7112d04a4719bfb911737ede83fb 5b2e2c207271475f9a3cbe995bb5df8c
+#: 5bae129c80a241c78ac34260ef731890 5c9fe7b5eb5d4a1d9af0bbe49d0db22b
+#: 5d2e30b570e04bfea29f5306e03c6e99 5d4e7bb01320425c9d661c239e5bdacf
+#: 5d81e0a554d84d878e6715a6bb4eaf4b 5e88e14ab6b247bf97fc73253ec14804
+#: 5f165089bba54905929111f7a3a3580e 608bee7865104159b35562eec2e418bb
+#: 6284d6fe0d2e4ffcabf9ec14fdea7232 642e202bdd2646bf8fe715919fc87677
+#: 64ede741b21c4c5eabeb474b0f077751 677bd76d2b6f43e594c065b0aed3df67
+#: 67c84ca1c0ea42d88dcb725d8a84e911 686ea76a43b24a918dea33745298893a
+#: 688eaf1823f24b5daa10e14b22f23ee0 68f86cc8e9d649a2bf4dca3202c9da09
+#: 6971f7b81af544c1b75fcdd32815b7a6 6992e4825aff42f29f9634d8711a00a4
+#: 69c66dbefeb54695923d571c7ddd5ab1 6a1501a81db647a4ae5ae781c3db3c70
+#: 6b473370aa134fe7904975d31f695470 6b6376f605874cfca69a64bf343fcdaa
+#: 6de3646069444a4db98b2250a4e826e7 6e87c20bf5b94e09aafe8049e7c47a19
+#: 6f3adfb8f075482c8dfe04a7630d9673 70f3f2bf7efe47d5b65335b83adcfeed
+#: 71024b58d0244eaea1aee472364891a8 712ce6afb8c04cacaab2266e469e5e99
+#: 725a86682800407a818c75a1419e149d 726123ce482a4697971942c9b84bd728
+#: 72e31e6170ff4a1b9e56afdfddfaa2f7 73feae4cd3b544c282c375c3ee6f0d55
+#: 751f205ebf944f3ea12b346f788635e5 7567c9869c264094abd1ce83ab0fe2b8
+#: 75deea19fb2b4d9e82d56de47dd858a5 76094874749c4b019f4b4b405d35ccf9
+#: 7648b5dc7cfe4629a04ba4ff3458fcb0 774490bb9d824da3bb9a8ce7ce63a358
+#: 776549e468f14f66b90088334b5a6537 786ae852176349b680f605386b6fbf2d
+#: 786d9bbcede84c2587a225e284ef080d 78ffeae8b35445b6b919d9a10b9a13ff
+#: 793be52c035f4c6797d52af0b441e3f8 797f9f0cc48c44879a33a700a5a1e57f
+#: 7b7490f6efb3459bb18857db0310667b 7bdf3494a4de4f7ba64b5bc0839b836f
+#: 7c51b6dff34c4e44b2f0dd8d7659e866 7d6ab208ade4447e96dadae09ad15822
+#: 7e0e08e027b7452191912eb930ec0fc5 7e705404583e4407a2b47f5c8a4ebe27
+#: 7f2a98e780d24a209abcc76b80df0ef5 8080c775c28b46f9b3c35abf3223cce6
+#: 80f98b5bdcb043019141442e78c811db 818c2c47ea5a4ded9ca06874184ae118
+#: 82745e8bf7b74cc687bd9b0d781294bb 83b95054d3584f57ac472f529d25f9ed
+#: 84035b2984624ca2920f76ba9f264a14 84bf57d33e5d41da98e4597b439a1063
+#: 8523c373528d444595fcaee83c548e95 8772cc8f6d9b498b8be52a592eb29649
+#: 87c976342abc4674abb53de98362e9f3 87fa913262c94bd38d06ffe9a82070a0
+#: 88179673e95e4cbbb41bd9befe12b77f 890be85d1c794accb298d9885ba3b433
+#: 89b2069356da4fedb81d71d521de5b0b 8b2eea70b8354969b90ccf3681f474d2
+#: 8c6e9c4c11084811bbfd9c32883b669a 8d50b454445545f781cd78a31fac3333
+#: 8dbcc70804c44bb4b6a93d3a52e8e7e5 8e1d23172d51492fa2432d4bf2eeb67a
+#: 91a3756d1a794557ae5d9f070cb9075f 921a7894804141d389f7929274368a6b
+#: 9281bd1b485449a492fad79cf1ce0e47 92d99a13d65f4fbe81166aa0067a2e43
+#: 93ae726fef20491d9e0d0ba06cb2af72 9414e5f2c5e740c4b9b0f944708218dd
+#: 94c163187a8f480b84c94a391d8cce80 952ecdb2736d4c359a79ae852c228c3f
+#: 962ae4b796c44b269b58e5af83891d3e 963a67ae1ab041d0bd4c05bcaff5ee0e
+#: 96b0e151ae7b48e68fd73b2a1207446e 9810ca4ea6d5402db7b2d08f0e04cd61
+#: 989f8abd654d40e7b589fc7c9014bc72 99e7fe1927014a8d9ecc08fefdae6f55
+#: 9a04a14fa9a34781b5e0b93e4489065c 9abd4b86fc1f46c3b25c2a435ced2544
+#: 9ac9888f2d52492ab79da889ef7a2853 9b385ad38b9046358487ac16dc99d1bd
+#: 9b4a087e91374ac3b3f79273ac11a11e 9b8289933b5c4893b02ae7154761337c
+#: 9c9878db59084cb290293010b82f60aa 9cad1c7448c143ab9e739e4c1ae7e61a
+#: 9d0199e145ec4783b3f476718cf6fa05 9d7ad1863fb4443788383cac2ceefe3b
+#: 9fc7c171f1074646b1bd427cf7ea1cfb a0108c9fe968402194b1f13853af323e
+#: a1bee399374d4d0b9a4a88c3ad22507a a28e7645fa784304af77bfa0af54ab38
+#: a304583b5ae0441993ee126f484de5a4 a4fb2ac6cbc147d29c3e4c60a1bb32ae
+#: a571df7cb0b84a658bcff709ed0ce151 a5a109cf131449428b8b40bedd772dfc
+#: a5e69c541d0f413890e6d7d8634f58d9 a62c744c3ede4508b4770c15dd318c69
+#: a63743f09b90481cbeced436165c1a1c a638261413064dcdb154a35442a3ae8f
+#: a663245a24154538ba9df22307a479a3 a6ab0b4dda9249d98b958581e3f6119f
+#: a71cf85b18fa45caa9156d55369d0048 a776928350c9428c80ea922cd6bcddb5
+#: a83af9eefc704c66ab62359108690aac a83eed24ea3c4825b0914a528ca00e18
+#: aa148365cb324c518c455cdf50d14419 aa8a5cc77cc74e4da12c0991f49a6809
+#: aa99752200bb4a879d8819dcc0c5f4ab aadee94bdd8540c0b922aef1b97890c4
+#: ab48dbb4e4364c349f931cf98aeaf3e8 ad0b22edf0ee4c5f8baefd68b5b8d7db
+#: ad134018547a4fd0bf33c2590b9ce31f add3d802d5bd4f89a99038b2561d9565
+#: aea70374457345fc88494a806233da5a affa76f3bbed4752a5633c9218c0208b
+#: b0cecbc6e29c4e8b824aba71e9d6b2e0 b146a0da93674911a13b4dd7abfd8201
+#: b172411a30864b6191e4fdee2ddeef0a b2c5abba09da468ca9003a4ab0638dfc
+#: b3a1613adb7f4af69edeb892f4f3923c b449212b870c445496693b9f29807c5d
+#: b44f4592c415427bb2a5baa34d55396e b467c6ae76404465a967ada294edc9f5
+#: b59cf051f32249f99bdb611ceaba76d7 b635e956d2db4a4a99bf7653c35511f5
+#: b71a0015811847669de7f9c4a37f88e9 b83a2c0b4c674d54acbdc698c5be8ee7
+#: b845e524f73b4127bb44f0d8e6e2c32b b89a7efbb0a44de6b50b33bd578b786a
+#: b9b52f2369ae46318a13f673a5bfd2f1 bac2aa5c5edb48cfa58f2fa9e0a0c5ad
+#: bba6a2e41efd4d63a81dedde2ecb801e bbd56a29470b4170a6847bcc06e56afc
+#: bc0331004d1d4e159401168ebfb186fa bc332ce595384126b8108b05251c6c8e
+#: bd76437455a14912bcd1e9a485098d08 bda7e1bab05549a7a6acc8377f1961c4
+#: be419578aae54dda96bdec127e887ab9 bf31966830e149b88e62bfbc4296b268
+#: c095723f13554d488a5e3c82030a8e3e c0cfa4db46b94fb6a6fc5d22b78cc278
+#: c1c63b9d893a4ae5b11870836a3ef125 c1e64908b64c42858085ddc497f2ad67
+#: c280848ef9f14aadb55f931915910904 c2e818014c2942209e7e2f35d6c06714
+#: c30bd76429f847b4b8b097cb07b4d987 c3660331039143db95b645efa379e870
+#: c37e3185a6ca434e9b9de930a9842237 c44d73bc1e5849628d8fe4bb13f6a275
+#: c5c7a617d3f146daa37b71636c958348 c689f2059e62400e8b5892d9e3ebd824
+#: c96557b16f504888b8a575bf194a49ea c973d3b466744ff7a0910b0b2000c539
+#: c99f77684b2d4e968f8ff677c81644b7 ced23469aa10491ab876839238c5b0fb
+#: cf18fe04515447b9975e9b50e78bf42c cfa7342baa5b4234ab8d6720ee296fee
+#: cff2eed40fac4ea7844bdc292a3597f1 d0278fd10e4a491ca0834c596579f6ab
+#: d04490d98e484c1fbacb6a8a810c9b9a d0b73853df3a45a9acfc0df79151bcd5
+#: d115c1f92c284a49b73986dc19e8c089 d12b7be85b14443ea2806699ed955dfe
+#: d192ef3b37874e57bec2d4ccc29878f4 d2ee368633c9442db0113ba4a7a896ad
+#: d32eb801cb154abb98191ed2e1d3aef0 d386f8248c294321bbc461d7de2bb624
+#: d3ece6fcf78c443e94852b211ead721d d4d54614b77b44c8b6dcedfdf687d11a
+#: d4f009956da848e5bfd0489a64c960c9 d5b6cf1cb94f46a4b3b2da8a189eed8e
+#: d5cfa8609d55437180fdb99b2cf39f75 d5cfc872e8d443ce923eb2ce69551185
+#: d6735a2c9d984024b7c514b1bd51a8f8 d6863ba60df84055899b36ab19be5beb
+#: d7f480d21cc04aa6bb7c5a7ca55a82b5 d871afc2a7a740eea76c7178d9e621aa
+#: d8d460b916fc426aba022879e31e322f d97d1550baef4c169dac6d34834d00cd
+#: da82c6ade52c4eadb3ae69e8749a044f dadda1a772bd42b4872203528c50af5c
+#: db10a6b24cc4461fb8ab64b46b98dd07 dc1287cb022b447aa1b3d4c21b70d282
+#: dc7dd7d775a4406e88c7170147212a1a dcd537f5fddd44b3b6b062261ba8cdb4
+#: dd93ad41276843a58514a6a439645361 ddca7e18fbfa4e148b20131af60583b8
+#: de0a004dbbac41b79e2e0db18918c3a7 de7d1b90896946e6a445552fc6a6c214
+#: deb4715078034a06b75e321a249e9d31 dfa4e3beeff24b9a95acb019c4c781de
+#: e0ff0e0e26824b21957007651970e0fd e1958bd41a1d4f9abcf86dfc7dd3f4c2
+#: e27afd6bbe9f4a80858da581890b7e96 e298bc8708644b97ad62f5b6602e921e
+#: e34a09c3111e4361857ea06e5f5d330e e3f1238b0400481db85d6f3c16955b87
+#: e4fef053245f4b368f429a4497a89d1b e505b8a929cd4394ae19ef8ce273d8a4
+#: e58e87e8fbf344f4bfd8fb818500fe98 e59b234733e841e8976d0b84640528c9
+#: e6290d9a9f38483caa3a34b4eac7dc2e e6b3f8cf34524ca49f9d82d5eef8b7cf
+#: e724c930816c49f3ac64b06df96efd97 e7274758fc1b4ac0a976ecaee2bbcbf4
+#: e76da981459849488012e94c3de0b30c e8264e0f018042e58c829deb7830e05d
+#: e8fd11b6616a482cb309f3bd13ed2e0d ea3cea4c070e4565ac08edc103016224
+#: eadb1e43cff0488c93592c13fd4aa2f5 eae1dae415ee4717ada5545495ff4083
+#: eb45eabd798d40479f14f95c5a729063 ec7eb0e5b107437f916006fe03686968
+#: ecf6c9cf28054d1f8bb267c973756f56 ee0b08071651431884b8b179f9fdca46
+#: eec2644d93054a2bb4b5c3d335f941f7 f0be2a78a981499daeeb54ed0808fcc2
+#: f201803aeae340798c2b34dfd1f467f9 f3e20aa3dc404d8c8b9faf80c2cf1736
+#: f45c26227dc642618834b7dc9e2469de f48d3f4a0b364df0bade11ee9fe6426f
+#: f4f52802bea94892a2bf1cf3653f8eba f5a2307092bd4bfa9fbf6b4a75e8a7e9
+#: f5aafcb492a047b598c1c84e358299f9 f5af2b7bf8f1497b86f9d1735f5180d3
+#: f5d54dd6560e4851b9476c9b53a589c5 f6699723237345a5b57857528033a8e6
+#: f73673ff91ef454b9cfa1f23de444e23 f87e02e85cb34e9d82483fb1376e3bb3
+#: f8e5466be19f40c0a03c88155919c7a7 f930a77f4c434fbd81ca6f5f17ab03d5
+#: f99b291b170a4fdaaf278ad5495aecd4 f9e71c42b23e488397ab512fca833fea
+#: fa4c11b8fdc44fffa304ee609ddb7d87 fa6e99c035494fa5b511d44e3aa7715d
+#: fb519d15e9724015b24f747889bc4e76 fef29dd298a3436fa536047bc15e4d3c
+msgid "Base game"
+msgstr ""
+
+#: ../../source/guides/cards.rst:31 cab04a7456e64d2580178bba071d4011
+msgid "Apple"
+msgstr ""
+
+#: ../../source/guides/cards.rst:32 ba3cfec7e50d44819ebccbf71444404e
+msgid "``apple``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:35 2634820193664c6f96fc0e948d581197
+msgid "Apple Tree"
+msgstr ""
+
+#: ../../source/guides/cards.rst:36 24ab3d944bfc47d5a222d85f916cb6b6
+msgid "``apple_tree``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:39 aebcd779d2de4c27869c431120aa399e
+msgid "Aquarium"
+msgstr ""
+
+#: ../../source/guides/cards.rst:40 fcf50c7faa8d4ec78ef7f76fe94066a2
+msgid "``aquarium``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:43 8dd9ab54ef694a6cab3cff855376aaf8
+msgid "Archer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:44 d80c68224ba34b93a85f7cc2e1f91d25
+msgid "``archer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:47 2f1cc5c1e4204925badb755436b81b6e
+msgid "Axe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:48 f5becc045770447aa907e491b622afd5
+msgid "``axe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:51 b3a1f5ae349048539420ec05d939f04b
+msgid "Baby"
+msgstr ""
+
+#: ../../source/guides/cards.rst:52 b4cd0f35f46e46cfb28151eb0522bbaf
+msgid "``kid``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:55 119b351fd7454fcf97c6dcf51610ea36
+msgid "Baby Dragon"
+msgstr ""
+
+#: ../../source/guides/cards.rst:56 f6c9dbde0d0245e49e1050db345e6d96
+msgid "``baby_dragon``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:59 c2d5700409a64e8e8f2e9b670addfd3b
+msgid "Banana"
+msgstr ""
+
+#: ../../source/guides/cards.rst:60 90052d5f42c94529a575bf0f573fdcac
+msgid "``banana``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:63 9041eef01b4d4dc4ba55749c0eebfed7
+msgid "Banana Tree"
+msgstr ""
+
+#: ../../source/guides/cards.rst:64 940766bedee54f5f999401f141c32b62
+msgid "``banana_tree``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:67 bb626a5565c64d9abafdd868fe467e15
+msgid "Barrel"
+msgstr ""
+
+#: ../../source/guides/cards.rst:68 ca6c8e4008c7463cbe0fcaa33b847ac0
+msgid "``barrel``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:71 5e86943f7a4d4043863b71d23e2ff86b
+msgid "Bear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:72 43eb1f7b13a2451b96b8bbd555e4233b
+msgid "``bear``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:75 d0f80337579c4e89a9fd66e8dfd0689e
+msgid "Bear Claw"
+msgstr ""
+
+#: ../../source/guides/cards.rst:76 ae48046d06934d758ae44e0dcbc829b0
+msgid "``bear_claw``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:79 898760f9eb7e46c1b1dae00c41e95891
+msgid "Beer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:80 2060fd92135d4000915d3f0c16cef52a
+msgid "``beer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:83 db32974b270d4504a8d012caf641f2d3
+msgid "Berry"
+msgstr ""
+
+#: ../../source/guides/cards.rst:84 7afc43a87a074b21a51fc2d19870bfb3
+msgid "``berry``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:87 8ff55b4aab9947a599b233441c8b101e
+msgid "Berry Bush"
+msgstr ""
+
+#: ../../source/guides/cards.rst:88 af4f1da6a6d940138810d41265565f41
+msgid "``berrybush``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:91 dbb81a974d2d447c93425c13e3b4a058
+msgid "Blowpipe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:92 ca5d2f0b0fe64d1498d71c39ab7a90c6
+msgid "``blowpipe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:95 5e2f4146b3c44d1eb00ab24e41be107e
+msgid "Blunderbuss"
+msgstr ""
+
+#: ../../source/guides/cards.rst:96 b55d08482d7048b2a49c708e32e88aee
+msgid "``blunderbuss``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:99 2941521a7295450d97792eb357557459
+msgid "Bone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:100 27a411e5fe2f4f80a04c003d4002c1e9
+msgid "``bone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:103 9704fd8a7e534e808751fb98bb9d1cb9
+msgid "Bone Spear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:104 bd73679294c14431aba9b84090f8d35e
+msgid "``bone_spear``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:107 5c8556ba3bae4e289714fb6b398286d7
+msgid "Bone Staff"
+msgstr ""
+
+#: ../../source/guides/cards.rst:108 897c2fad37bc493680327b38e3f36656
+msgid "``bone_staff``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:111 fe463dbaea9b4eef97bbd88e7bec4a7d
+msgid "Book"
+msgstr ""
+
+#: ../../source/guides/cards.rst:112 3ada71c414ba4b91ae66dbc3298349f0
+msgid "``book``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:115 11441765de9044dea5d0ca7b89ae7775
+msgid "Boomerang"
+msgstr ""
+
+#: ../../source/guides/cards.rst:116 46c579f1b08b4e158ed2f039655d7958
+msgid "``boomerang``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:119 93277244aba24648be6af528cda44019
+msgid "Bottle of Rum"
+msgstr ""
+
+#: ../../source/guides/cards.rst:120 57ba9346bdb147de8a4487f4120af399
+msgid "``bottle_of_rum``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:123 d1cccfd742b349b8833528864a4ae041
+msgid "Bottle of Water"
+msgstr ""
+
+#: ../../source/guides/cards.rst:124 fc4ed649778443f9aa3e34e0132aeb21
+msgid "``bottle_of_water``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:127 b9ffe19226dc43d285357a83a998a889
+msgid "Bow"
+msgstr ""
+
+#: ../../source/guides/cards.rst:128 eac2cd2396cf436c8980e3df50253f2b
+msgid "``bow``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:131 3d96db27758a45958368dfd0ccf36a4b
+msgid "Bread"
+msgstr ""
+
+#: ../../source/guides/cards.rst:132 f0e31cfaf332460d8fdb47e85b9d7fa9
+msgid "``bread``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:135 071efc8671e144e6a2fab8ab6ce034a2
+msgid "Breeding Pen"
+msgstr ""
+
+#: ../../source/guides/cards.rst:136 412f4eb021ab4df6a4fc385ee983d9f9
+msgid "``breeding_pen``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:139 a28fce1c762c4998926106cac49052cf
+msgid "Brick"
+msgstr ""
+
+#: ../../source/guides/cards.rst:140 e3a3c13935ab47cdbdcae5b3cbe45ad3
+msgid "``brick``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:143 af6dddeaca334062b735e03a1132f6f2
+msgid "Brickyard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:144 bebc8ac394174c7cbf0561d1a1412d59
+msgid "``brickyard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:147 928b8d3899394972bfba7227573a1995
+msgid "Broken Bottle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:148 7b5e0ce70fe24c27bac1e008e7864eb2
+msgid "``broken_bottle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:151 41243ffe4e11442b98fe1d53301e07d8
+msgid "Builder"
+msgstr ""
+
+#: ../../source/guides/cards.rst:152 513babbaf2b843c9b421ed90bcc45afa
+msgid "``builder``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:155 c653a023c27c482ebb77754b2dd89391
+msgid "Butchery"
+msgstr ""
+
+#: ../../source/guides/cards.rst:156 ad55874daa4a4123a6a84806346d3e9b
+msgid "``slaughter_house``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:159 392e6cb3481f43a8af18852188aec531
+msgid "Campfire"
+msgstr ""
+
+#: ../../source/guides/cards.rst:160 7c918965e7144896a8b2c19bfe5e1e00
+msgid "``campfire``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:163 b9a2ae5386c9473d9b3935f301082205
+msgid "Cane Sugar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:164 2bda7574830c455f922bd49bf100ef16
+msgid "``sugar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:167 af0eb127300b4349bfcf424ac713fc24
+msgid "Carrot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:168 97f79b270b03440e88dc70fd30cafc4e
+msgid "``carrot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:171 7e750f3bce304a79ad9e0777916bedb5
+msgid "Cat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:172 a2f61d0885fb43d18f556ffe4847d223
+msgid "``cat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:175 8cd6db668e3b474f8aa931cad84c1d96
+msgid "Catacombs"
+msgstr ""
+
+#: ../../source/guides/cards.rst:176 28f99f368ca043a49676435953755c93
+msgid "``catacombs``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:179 564aaf5f4d6641788f037eb3a58acd6e
+msgid "Cathedral"
+msgstr ""
+
+#: ../../source/guides/cards.rst:180 3b107753c9004642a63e63d0c77610e9
+msgid "``cathedral``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:183 2b7a44f9bfe14eaea2e1d50213a6d01d
+msgid "Cave"
+msgstr ""
+
+#: ../../source/guides/cards.rst:184 0817811605254210b51aaef3e490ef00
+msgid "``cave``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:187 478a766d7cd24af999cbaba39c4a0f93
+msgid "Ceviche"
+msgstr ""
+
+#: ../../source/guides/cards.rst:188 3f636f4247d64a2c9401598b41014bd6
+msgid "``ceviche``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:191 b4aaf0c45e934b499d86fd3153140ab4
+msgid "Chainmail Armor"
+msgstr ""
+
+#: ../../source/guides/cards.rst:192 6f58cc870e7d44a98ea08ee684f03fe8
+msgid "``chainmail_armor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:195 7e5bd1382cfb4f689f823f50d946f5f2
+msgid "Charcoal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:196 8e9f35b774244c34aa6bd1f822a2d1f5
+msgid "``charcoal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:199 e975c475b05745088498870ca6d11ed9
+msgid "Charity"
+msgstr ""
+
+#: ../../source/guides/cards.rst:200 062c8789d97e4d2dba06e26520755905
+msgid "``charity``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:203 cae45f99711c48b0a0ca94503da97188
+msgid "Cheese"
+msgstr ""
+
+#: ../../source/guides/cards.rst:204 cf2d83ee79544ce29d9fbbadb92c7f5f
+msgid "``cheese``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:207 02457978269948738c91e822a2614020
+msgid "Chicken"
+msgstr ""
+
+#: ../../source/guides/cards.rst:208 592077289d724dca9e2d3ed3030dc366
+msgid "``chicken``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:211 2bc3b0a96ce1416c9b357b8216e1f2e2
+msgid "Chili Pepper"
+msgstr ""
+
+#: ../../source/guides/cards.rst:212 072468800c584bbc94199ec8db463f1c
+msgid "``chili_pepper``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:215 c057a9d5e0b743388e241fa68babd12f
+msgid "Club"
+msgstr ""
+
+#: ../../source/guides/cards.rst:216 ab1e00513c2b47b798632e2da0b2b8ea
+msgid "``club``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:219 ab51fcf028bb42468583d43590e8b95c
+msgid "Cod"
+msgstr ""
+
+#: ../../source/guides/cards.rst:220 b22c189347f64f93905e31f59bbfbc33
+msgid "``cod``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:223 f51f4352a03643b2b80d8776192ac90a
+msgid "Coin"
+msgstr ""
+
+#: ../../source/guides/cards.rst:224 da083ae791f04e5a8f08e2588d14eed6
+msgid "``gold``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:227 ba0931e2c8324ac2bba3c92b502dbbc3
+msgid "Coin Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:228 d613c40721d24948959415e98bf7a1bf
+msgid "``coin_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:231 e99c8a3a1ece4dbda906ac7d502f62bf
+msgid "Composter"
+msgstr ""
+
+#: ../../source/guides/cards.rst:232 e0c10f72c04d46c39f902b0752ed13e4
+msgid "``composter``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:235 9655126281e942c6b4a8e3daf5f61e91
+msgid "Cooked Crab"
+msgstr ""
+
+#: ../../source/guides/cards.rst:236 092c3d7e82204b929d27cf54926f03ee
+msgid "``cooked_crab_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:239 b040eb08f9b347ebbc52f3a841212c68
+msgid "Cooked Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:240 aa20713e72224218962bb9e78ef9af7e
+msgid "``cooked_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:243 8071c0bee7724aa6ae6d44f792b2ff57
+msgid "Corpse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:244 eef6dcd312304c9daca838c4cfbc5857
+msgid "``corpse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:247 255357ec055c4924bbb9059ae308134e
+msgid "Cotton"
+msgstr ""
+
+#: ../../source/guides/cards.rst:248 fed35ba56087452494d9d5dcba29d08a
+msgid "``cotton``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:251 1a6bf6bb977743ccab529fa556f83580
+msgid "Cotton Plant"
+msgstr ""
+
+#: ../../source/guides/cards.rst:252 e197005f961141108e33460023549802
+msgid "``cotton_plant``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:255 4d38313405ed43ae8c5a4eb93912ff42
+msgid "Cow"
+msgstr ""
+
+#: ../../source/guides/cards.rst:256 5e6e35405e2a42d9b18f4affc37937ac
+msgid "``cow``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:259 7c8817fec3b940888fde3eb6b8d9d285
+msgid "Crab"
+msgstr ""
+
+#: ../../source/guides/cards.rst:260 6872ecdfba824b098d349e6cad598d36
+msgid "``crab``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:263 156937ddd68e4eeb84a914a9031add44
+msgid "Crab Scale Armor"
+msgstr ""
+
+#: ../../source/guides/cards.rst:264 453fca2fb8554a358b6c4b4b5e431e1a
+msgid "``crab_scale_armor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:267 a9cb4fea23664f78a8388cf9af900cb9
+msgid "Crane"
+msgstr ""
+
+#: ../../source/guides/cards.rst:268 507f68a1a7c1420fbc24bdec6b3c6a0c
+msgid "``conveyor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:271 c0b725582af7439b9d3f7258b1b929cd
+msgid "Crossbow"
+msgstr ""
+
+#: ../../source/guides/cards.rst:272 0489950dc51d421fa8e91a988c75285d
+msgid "``crossbow``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:275 27fa12508dd1468bb9d2ece7315b3531
+msgid "Curse of Death"
+msgstr ""
+
+#: ../../source/guides/cards.rst:276 e87a40d04c7b43b5848644bdd4ad26b8
+msgid "``death_curse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:279 e04d84fcf2ed45e8bfca8d59e207c195
+msgid "Curse of Greed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:280 c2b5537a090543a7b40020578fd76d9c
+msgid "``greed_curse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:283 cc813959d82145f7963dc15cd4f72173
+msgid "Curse of Sadness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:284 eabbb45cbd8d4636b38fbe2df45d4d5f
+msgid "``happiness_curse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:287 b7c33aefb13c4af9a16a87317df85996
+msgid "Cursed Wand"
+msgstr ""
+
+#: ../../source/guides/cards.rst:288 f3fd2b9c3bc848cd8c933e84c60dc011
+msgid "``cursed_wand``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:292 8f3d8418b14e44a6a32180e041070028
+msgid "``card_display_spirit_dlc``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:295 33ae61d5e9db433bb149326274283db4
+msgid "Dark Amulet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:296 353dc6b8e3ae49d88cecaf12cd112a88
+msgid "``dark_amulet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:299 304ba9c8c0f84c56a2faf00fe2228562
+msgid "Dark Elf"
+msgstr ""
+
+#: ../../source/guides/cards.rst:300 728b513604254d879b238e3b4377b2c0
+msgid "``dark_elf``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:303 9219736d764d43eea4d0a741d874d776
+msgid "Demon"
+msgstr ""
+
+#: ../../source/guides/cards.rst:304 233b63ae0a7a482498ad8f4501340b69
+msgid "``demon``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:307 f10c61e0e8fc449f9514a2e1850fa68a
+msgid "Demon Lord"
+msgstr ""
+
+#: ../../source/guides/cards.rst:308 614ec114887246c2aa90f997eb25b550
+msgid "``demon_lord``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:311 59f7e0e0bedd48f59e1410579a41fdc2
+msgid "Demon of Sadness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:312 d829300cee1b4850899d69f7fdfe091c
+msgid "``sadness_demon``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:315 52654c1685264119bd6108099f539807
+msgid "Demon Sword"
+msgstr ""
+
+#: ../../source/guides/cards.rst:316 50a639c5eac045c2867d37d34e6e0400
+msgid "``demon_sword``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:319 01a06525a10d447c90e54a0161643d4f
+msgid "Distillery"
+msgstr ""
+
+#: ../../source/guides/cards.rst:320 e259d2f8fd584103b62b60aa673bd272
+msgid "``distillery``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:323 484c9684f27449218f01b451dd3adae7
+msgid "Dog"
+msgstr ""
+
+#: ../../source/guides/cards.rst:324 9a53c7c5459f4a7c9c9361533be4244a
+msgid "``dog``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:327 43e84ac9da9645e1b8bf8d26bfdc2c91
+msgid "Dough"
+msgstr ""
+
+#: ../../source/guides/cards.rst:328 8a7603340c4d447da696024a1de84334
+msgid "``dough``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:331 dfb8de425fb242be933508009485c162
+msgid "Dragon Egg"
+msgstr ""
+
+#: ../../source/guides/cards.rst:332 074cf5958da342d582179aa08344c8e6
+msgid "``dragon_egg``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:335 a89ae3534c364bf39e64718f59d912f0
+msgid "Dragonscale Armor"
+msgstr ""
+
+#: ../../source/guides/cards.rst:336 232be54c91684f7d930ffc7c4ee525da
+msgid "``dragon_scale_armor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:339 82a1f3c3d87a412ea8beb841127e9a9b
+msgid "Driftwood"
+msgstr ""
+
+#: ../../source/guides/cards.rst:340 e5bb702c06b54591afd93908f188d7e4
+msgid "``driftwood``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:343 61736aaa223e4c0b82194becfb74fd6e
+msgid "Dustbin"
+msgstr ""
+
+#: ../../source/guides/cards.rst:344 4116d87ffbb4427286b4216607ed85fb
+msgid "``trash_can``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:347 fd5572c30a844a59a03ab5b1883d7222
+msgid "Eel"
+msgstr ""
+
+#: ../../source/guides/cards.rst:348 23d77a8b7cb849ce99624a73eb788835
+msgid "``eel``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:351 e27ed352d359454689460e253460bbf6
+msgid "Egg"
+msgstr ""
+
+#: ../../source/guides/cards.rst:352 2919b8bd15d7479ab26ffbf5a4b9e1fa
+msgid "``egg``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:355 15ce36470ab64aad8a2ab6cb0cdbde6d
+msgid "Elf"
+msgstr ""
+
+#: ../../source/guides/cards.rst:356 158967b5763143d193fb157f24105914
+msgid "``elf``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:359 26309bd6d5a34d199552a19f970c1460
+msgid "Elf Archer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:360 2f4931a079ba43669de1612ae8c5f7bc
+msgid "``elf_archer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:363 df28a4c27d1d4dc8961756dfef5b1ebe
+msgid "Empty Bottle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:364 ae76048d880243eb8ee2ee995ea2670f
+msgid "``empty_bottle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:367 a263f7dd5aab4b16ae4c86d2c9a4031d
+msgid "Enchanted Shroom"
+msgstr ""
+
+#: ../../source/guides/cards.rst:368 062a2281d3974cb28d65a7827213a7d8
+msgid "``enchanted_shroom``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:371 8ec6b12428e04a0eb458990b4dd3f63a
+msgid "Ent"
+msgstr ""
+
+#: ../../source/guides/cards.rst:372 a7d94ea76f14437bbc9390c88b6195d3
+msgid "``ent``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:375 9d196849c94744138f84d322cf9bc0e5
+msgid "Euphoria"
+msgstr ""
+
+#: ../../source/guides/cards.rst:376 f65a3efa179b46b582a0d0651f341802
+msgid "``euphoria``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:379 6d195c84f4ba4ac88d24799e78fb37e1
+msgid "Explorer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:380 f335c09a42f7411ba7c07842e540b011
+msgid "``explorer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:383 c3067262840645a28cf030dfe0d150e1
+msgid "Fabric"
+msgstr ""
+
+#: ../../source/guides/cards.rst:384 0e201d15e5174d19b3035d5ed5e2851a
+msgid "``fabric``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:387 47309c6984d94d3cbf9fa56e7e26fe6f
+msgid "Fancy Dress"
+msgstr ""
+
+#: ../../source/guides/cards.rst:388 86de4a7f1d6947219f289e8c3207e606
+msgid "``wool_dress``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:391 c1519fd4cd8345ac86e27f61f6d07b2f
+msgid "Farm"
+msgstr ""
+
+#: ../../source/guides/cards.rst:392 28fda3824d9f44beac2a61a492226621
+msgid "``farm``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:395 b6f0b8bd4f164010a5bab78333112bdf
+msgid "Feral Cat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:396 e7b2f19481714bc497295fc3c452cfb4
+msgid "``feral_cat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:399 6729fa7546cc4ca48c48d0a34bba26c5
+msgid "Fiend"
+msgstr ""
+
+#: ../../source/guides/cards.rst:400 b73a3ac2cc2f471db20cef339b41b6eb
+msgid "``fiend``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:403 63c5af10a53142b093f58b98d095ea08
+msgid "Fire Cloak"
+msgstr ""
+
+#: ../../source/guides/cards.rst:404 4eee276aee0942958fc27c11021b3aab
+msgid "``fire_cloak``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:407 12c99cb28a41423bafde666f7652f5aa
+msgid "Fish and Chips"
+msgstr ""
+
+#: ../../source/guides/cards.rst:408 5f8b30f4390d4d94a9a25a1ff1b507e3
+msgid "``fish_chips``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:411 a39b70c95aea44b5a4a57e1ec255444e
+msgid "Fish Trap"
+msgstr ""
+
+#: ../../source/guides/cards.rst:412 2365cbda0f294c25bd58fb25cb7a1240
+msgid "``fish_trap``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:415 7d7f964992c64deb869484c493290604
+msgid "Fisher"
+msgstr ""
+
+#: ../../source/guides/cards.rst:416 46faf685e8a0449182bd6f9c24ba129e
+msgid "``fisher``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:419 601fd5f2d3784a7caea5f7d8af10e6f5
+msgid "Fishing Rod"
+msgstr ""
+
+#: ../../source/guides/cards.rst:420 7100b1605035432786eb13e3aaf6cd75
+msgid "``fishing_rod``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:423 9c2832888d854f2bbe1a5c3e747fc3e4
+msgid "Fishing Spot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:424 1c8a1e3bcd534a2da1b46a003fd2fabf
+msgid "``fishing_spot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:427 bf8f65d42925452aa7c4d298ec33b61f
+msgid "Flint"
+msgstr ""
+
+#: ../../source/guides/cards.rst:428 dc03f56cfebd4ad8953954b1932dd963
+msgid "``flint``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:431 e52599e27d1b446b8fcf9f2dc792f904
+msgid "Flour"
+msgstr ""
+
+#: ../../source/guides/cards.rst:432 78e29499a7f34b0c9ff4a6bb9e463409
+msgid "``flour``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:435 82e90dccde584a9b9071bfd0f66f3db8
+msgid "Flour Mill"
+msgstr ""
+
+#: ../../source/guides/cards.rst:436 f12c5157b0974215b230cbf136b53ed5
+msgid "``flour_mill``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:439 45a434dbf779410faa3e96146a9d2479
+msgid "Forest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:440 9f6f685b41744f539247b9117ef9726e
+msgid "``forest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:443 c23c73bee30948ed9a38472e0fcbbd50
+msgid "Forest Amulet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:444 a533967e4f27423e9dd35f106507409a
+msgid "``amulet_of_forest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:447 f72f4c03b4474ab2a90f24d7c6d79c0a
+msgid "Fountain of Youth"
+msgstr ""
+
+#: ../../source/guides/cards.rst:448 004a0fd8ebf64afe8c0fa0e062a924a5
+msgid "``fountain_of_youth``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:451 3f27d619593345ba9be58bf986360ada
+msgid "French Fries"
+msgstr ""
+
+#: ../../source/guides/cards.rst:452 9abdec98ff7441d78d34c82b27b191df
+msgid "``french_fries``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:455 da3c52d4dbae4b9c95e5e8e41ac30cc1
+msgid "Fried Fish"
+msgstr ""
+
+#: ../../source/guides/cards.rst:456 b99f098a762541dc888fb8921ef7892c
+msgid "``roasted_fish``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:459 1dff548dac714c6aab79aad5eb4482dc
+msgid "Fried Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:460 c4d2e1969e4d4bd5a9beb3a72e813fa3
+msgid "``roasted_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:463 8c16206b2dfc4681a201b4cf4340ffb2
+msgid "Friendly Pirate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:464 8ad7dea7e8d941f2bd59ef13fc300462
+msgid "``friendly_pirate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:467 a6216f724ef64a33a773081e8da60430
+msgid "Frigate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:468 d4823e2f0d084ba6bb6c66c6548a5c30
+msgid "``frigate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:471 339fba90a66c4781ad38cb6aceec65f1
+msgid "Frittata"
+msgstr ""
+
+#: ../../source/guides/cards.rst:472 00a87d1c24d14f9883421a11a7cc082b
+msgid "``frittata``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:475 d6e52c288fdb4515b170601f8b9f292d
+msgid "Frog Helmet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:476 0d2c2e098e1141dba9d73bc7557bd8fe
+msgid "``frog_helmet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:479 54a3aec6f9ee4043aca8978c9c583aca
+msgid "Frog Man"
+msgstr ""
+
+#: ../../source/guides/cards.rst:480 1cb4e4843a1a48e2bd5825dc48a8acdd
+msgid "``frog_man``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:483 0633abcd60ab42a3bb929aa27154dc74
+msgid "Fruit Salad"
+msgstr ""
+
+#: ../../source/guides/cards.rst:484 369ed1442b5a44c78dc148019a4bf65b
+msgid "``fruit_salad``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:487 78fd8220cfa44a14bcf8621ddae459d3
+msgid "Garden"
+msgstr ""
+
+#: ../../source/guides/cards.rst:488 a28c71db9de9416d9fc12397c8c15bba
+msgid "``garden``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:491 9244bf333e254a3eb8f5979c63848201
+msgid "Ghost"
+msgstr ""
+
+#: ../../source/guides/cards.rst:492 1b8c67acfc634ca99739510a12bc2006
+msgid "``ghost``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:495 761e364ea27e46d8aa90b839253d4f6f
+msgid "Ghoul"
+msgstr ""
+
+#: ../../source/guides/cards.rst:496 597c84dceb814c99b6d765e3192d9f39
+msgid "``ghoul``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:499 301b2be7170347f9bb3e8a91738239c0
+msgid "Giant Rat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:500 662624b5df704e77952bb8c6a3c3b748
+msgid "``giant_rat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:503 5a4710abd8e4495fbf7cccda6b4718ba
+msgid "Giant Snail"
+msgstr ""
+
+#: ../../source/guides/cards.rst:504 aea7e61e4aab440f91720dd3c7edec46
+msgid "``giant_snail``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:507 874606c0bb6442e598e352436866b507
+msgid "Glass"
+msgstr ""
+
+#: ../../source/guides/cards.rst:508 0da6b528ff8c47cbb51bdcef1e15b63b
+msgid "``glass``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:511 40f06c6d8dd54ef6bfe3cbb8c2d52234
+msgid "Goblin"
+msgstr ""
+
+#: ../../source/guides/cards.rst:512 cd166c9fdbc84c84bc2ae5cf485dcc87
+msgid "``goblin``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:515 4b74a5a8e36d463288aaa5a59895404a
+msgid "Goblin Archer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:516 0b5417581ba04c148e85bf178d327913
+msgid "``goblin_archer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:519 732d610b41954c1ebf029f0bce78ecc6
+msgid "Goblin Hat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:520 92e569fc7ce54223808276167896824e
+msgid "``goblin_hat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:523 4a3fb25d64c847e3912d364cd19abdcb
+msgid "Goblin Shaman"
+msgstr ""
+
+#: ../../source/guides/cards.rst:524 8256ce54bfa84bf58361982ae350dbdb
+msgid "``goblin_shaman``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:527 c3d5b2f0e8f045cd92c1953654f56e93
+msgid "Gold Bar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:528 8dc271508eb24dafbe40b435ccb2ce58
+msgid "``gold_bar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:531 9694da41b5234d6b99d4ce4095218e12
+msgid "Gold Deposit"
+msgstr ""
+
+#: ../../source/guides/cards.rst:532 71e63d4d6ffd4214a995c10c71145548
+msgid "``gold_deposit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:535 dcdb837f25344320bb3773c37fd1bf2b
+msgid "Gold Mine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:536 d8cc6658c6dc45eda623711f85b9acb3
+msgid "``gold_mine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:539 e2b76af6c3f24064aaea9ca1e3259147
+msgid "Gold Ore"
+msgstr ""
+
+#: ../../source/guides/cards.rst:540 34bbcac44e664a76aa77e32612e01113
+msgid "``gold_ore``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:543 b8210b517f7144f996cef983b5f34b9c
+msgid "Golden Chestplate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:544 d7d4375d2487479dbb078edc9e2b5083
+msgid "``gold_chestplate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:547 13146c2d0dbd492093ee26bfcb1e4e4d
+msgid "Golden Goblet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:548 f52d776245a94b588a7b8a43b77c072c
+msgid "``goblet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:551 6bbfcfb5c1e24c0095f3f98613c7a056
+msgid "Goop"
+msgstr ""
+
+#: ../../source/guides/cards.rst:552 4b651935315049bfbc7a631d9ea8f411
+msgid "``goop``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:555 fb5d84f762154e0e8ba898fc0112259a
+msgid "Grape"
+msgstr ""
+
+#: ../../source/guides/cards.rst:556 53dd5bc264d94cc894e96d9ce0c4ebc4
+msgid "``grape``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:559 0ae140f976a4406290e40db78b2a4358
+msgid "Grape Pulp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:560 4c7568002a344d68b1d10b7c516fa7ef
+msgid "``grape_pulp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:563 5bc42c167daa49eb90fa6398b4742c9b
+msgid "Grape Vine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:564 de3c77e31a24426e8fd0345f76105a28
+msgid "``grape_vine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:567 b6eeadc3417e44e980720d66c9ad6ba1
+msgid "Graveyard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:568 4235fe73620a437e9a8c0c2ec9c590c6
+msgid "``graveyard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:571 851f34ecb02241abbc248831cac98df6
+msgid "Greenhouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:572 3c7822c041484b63b6ee59e8cb0bae83
+msgid "``greenhouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:575 420c2d1807a744bd84ed41444f74f898
+msgid "Grilled Fish"
+msgstr ""
+
+#: ../../source/guides/cards.rst:576 dbab4bda71f24558bc437972f65a3a1a
+msgid "``cooked_fish``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:579 7fb7c1b3bbb44c209e51d9ab770cd2e0
+msgid "Guard's Tunic"
+msgstr ""
+
+#: ../../source/guides/cards.rst:580 52804aad152d4646ba3dd03f8b609573
+msgid "``royal_tunic``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:583 1cceba5238d542d0bf7a70f5bd3beaca
+msgid "Hammer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:584 aebb44b0c64e4ce6b21e135fb83daa94
+msgid "``hammer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:587 f82bbc31ceeb471ca4f894840a342f65
+msgid "Happiness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:588 65b972dbc9074a69b7de50e78d50bda8
+msgid "``happiness``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:591 551aab60e7c84e35818761dbc47a3e48
+msgid "Helmet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:592 ebdf6e2e1e8c4beeb07cfcb221033a09
+msgid "``helmet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:595 1d3cd1a570b64db5a1c421c7f97cd9ca
+msgid "Herbal Tea"
+msgstr ""
+
+#: ../../source/guides/cards.rst:596 58f9afb48c694d86a3d42fe507f844f8
+msgid "``herbal_tea``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:599 fef57205881f4564bf15a81689f96a98
+msgid "Herbs"
+msgstr ""
+
+#: ../../source/guides/cards.rst:600 35287e9838134b7ebed161e053c00a30
+msgid "``herbs``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:603 720b1df418b54361ad45b9c21affad26
+msgid "Horned Helmet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:604 ad53a2e44fe74945ad580123feee3ee7
+msgid "``horned_helmet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:607 48cef1de7f904b978ec161ac59271808
+msgid "Horse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:608 a0470549168f447d86e777225374679d
+msgid "``horse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:611 2bbc89e03a0249579ee0161b37d9e832
+msgid "Hotpot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:612 e3708af3e092464eb9f3f323ba979162
+msgid "``hotpot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:615 de2f3b066aa34c63b043003f1a26d5ca
+msgid "House"
+msgstr ""
+
+#: ../../source/guides/cards.rst:616 0df20110eb8f45fcaebccd63e7f179c6
+msgid "``house``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:619 ../../source/guides/cards.rst:623
+#: ../../source/guides/cards.rst:627 1446a4aa44874a03b4d0f06ef3936e83
+#: 5b41518f29f34eb19a7196b200d578b7 b70b06bb258d4b6aa59522bcd18ccd84
+msgid "Idea:"
+msgstr ""
+
+#: ../../source/guides/cards.rst:620 150a22891c3b4b72b4c3d711219a00fd
+msgid "``ideas_base``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:624 d2d729b258824644b90e3e2343472520
+msgid "``ideas_island``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:628 c50ff7cbc89b43689e10b04934c75b7d
+msgid "``ideas_spirit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:631 11d7cb80584e4944894d29f744427397
+msgid "Idea: Altar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:632 898971780b8e4945b024f96fcc8ed822
+msgid "``blueprint_altar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:635 753b472dae394e2b9b28f3f33effc4c6
+msgid "Idea: Animal Cage"
+msgstr ""
+
+#: ../../source/guides/cards.rst:636 a8e5317490804e209a98bc434aadd695
+msgid "``blueprint_animal_cage``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:639 ../../source/guides/cards.rst:643
+#: 68b7ad673fb34523b5c84e393c0bf184 b5544bfd2c8847ac873ab0598b456b3a
+msgid "Idea: Animal Pen"
+msgstr ""
+
+#: ../../source/guides/cards.rst:640 7ccdb8cda15742dd9dec2a23762ccd53
+msgid "``blueprint_animalpen``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:644 dd8cb8720b8e47cbab140a186501b8f0
+msgid "``blueprint_animalpen_2``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:647 2d398220bb9147ce9573b1aaca636c6c
+msgid "Idea: Aquarium"
+msgstr ""
+
+#: ../../source/guides/cards.rst:648 5bf71dbbabcc42478d5400e7e3920ccf
+msgid "``blueprint_aquarium``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:651 aadd9a0aad1b42ccb97fbd01a66e5064
+msgid "Idea: Axe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:652 19e261aaaebe4ca39048cc0b2ac215cf
+msgid "``blueprint_axe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:655 a84565b422734289b207e35e8a13d4a5
+msgid "Idea: Barrel"
+msgstr ""
+
+#: ../../source/guides/cards.rst:656 1753c11325d243ecbbe3a3171e1111b7
+msgid "``blueprint_barrel``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:659 0660a92e83e947bab715d0a8924fc975
+msgid "Idea: Beer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:660 f71d2a60be794102872ba9cc305d665b
+msgid "``blueprint_beer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:663 a4c4a4a9f1194e2996ae9a738f5adbee
+msgid "Idea: Blunderbuss"
+msgstr ""
+
+#: ../../source/guides/cards.rst:664 3b5808a759154e5ab99677ec957fa6b8
+msgid "``blueprint_blunderbuss``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:667 42e1e9fb1f7e4ff39e2dab28eb0b8c44
+msgid "Idea: Bone Spear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:668 651114fb90ad4bd79dbcc9441a8698c9
+msgid "``blueprint_bone_spear``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:671 74a417385cf64a6d95c32d6402c13581
+msgid "Idea: Bone Staff"
+msgstr ""
+
+#: ../../source/guides/cards.rst:672 4a57a9d818b84061a394be43e273b13e
+msgid "``blueprint_bone_staff``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:675 bca7c601df364117b2135a16d574b9d1
+msgid "Idea: Book"
+msgstr ""
+
+#: ../../source/guides/cards.rst:676 8910c546867c40cea1e61d6cba93d9f9
+msgid "``blueprint_book``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:679 2186636ef0a94ed6bf9f8ab60c39b2c3
+msgid "Idea: Boomerang"
+msgstr ""
+
+#: ../../source/guides/cards.rst:680 aaa653463ae8407b8c0770062a0f079a
+msgid "``blueprint_boomerang``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:683 b71b2bf1a7d7406aaf692d33422461ff
+msgid "Idea: Bottle of Rum"
+msgstr ""
+
+#: ../../source/guides/cards.rst:684 c3248f90a31a492dbe416daff4ae6434
+msgid "``blueprint_rum``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:687 02c2be3b52dc42c9910a005bccf31cb8
+msgid "Idea: Bow"
+msgstr ""
+
+#: ../../source/guides/cards.rst:688 518a62e3035e4e60949d77c02baff3be
+msgid "``blueprint_bow``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:691 63bab866f3a84fd0bd0165e2dcc67c6a
+msgid "Idea: Bread"
+msgstr ""
+
+#: ../../source/guides/cards.rst:692 5712cbff92054011974114055ee69cfc
+msgid "``blueprint_bread``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:695 3bc812f3776347a398790da5f7182e74
+msgid "Idea: Breeding Pen"
+msgstr ""
+
+#: ../../source/guides/cards.rst:696 72f78e7191c049e5a8f02dfb82fba21d
+msgid "``blueprint_breedingpen``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:699 151387699413447b8a4188a30a4a4aca
+msgid "Idea: Brick"
+msgstr ""
+
+#: ../../source/guides/cards.rst:700 7e47073ff0f74adca83bac5da05d2edb
+msgid "``blueprint_brick``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:703 ff363d40ccb54691a8b5792132d1de84
+msgid "Idea: Brickyard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:704 5811f39fdc2448d29dc2d14d64a79e60
+msgid "``blueprint_brickyard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:707 451bb85f2b2f44d2b5fe6db1b8d91486
+msgid "Idea: Broken Bottle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:708 07600bf321a64719992b579cee32dc19
+msgid "``blueprint_broken_bottle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:711 6aa6ce265a7240439862d1bac7b2540b
+msgid "Idea: Butchery"
+msgstr ""
+
+#: ../../source/guides/cards.rst:712 4caa645d6491405ba4466118fff8d559
+msgid "``blueprint_slaughterhouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:715 727d4e06505143b092c327ed48fefd4f
+msgid "Idea: Campfire"
+msgstr ""
+
+#: ../../source/guides/cards.rst:716 ff48c757694444649f09ee45cabda9ed
+msgid "``blueprint_campfire``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:719 aa57e088f2ce44718cdc2fb52e712bb5
+msgid "Idea: Cathedral"
+msgstr ""
+
+#: ../../source/guides/cards.rst:720 45d20a25266246219ca51184058278dc
+msgid "``blueprint_cathedral``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:723 f2ce5bfbc0484fd893c4a1564a4df9b2
+msgid "Idea: Ceviche"
+msgstr ""
+
+#: ../../source/guides/cards.rst:724 f9dbb0410688432a85235010e3e40d94
+msgid "``blueprint_ceviche``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:727 034929661ee74af98f2791d80d7e6d3b
+msgid "Idea: Chainmail Armor"
+msgstr ""
+
+#: ../../source/guides/cards.rst:728 8ad5dc95c622445981db0021dcd545a4
+msgid "``blueprint_chainmail_armor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:731 dc914a64f5ec4832b8d7ac5345d78117
+msgid "Idea: Charcoal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:732 c6611a0994d84d78a3e9e96c59212c22
+msgid "``blueprint_charcoal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:735 2648ec7057794b41af6fb8162daae018
+msgid "Idea: Charity"
+msgstr ""
+
+#: ../../source/guides/cards.rst:736 49affe8e6f03404db1fba219a5254309
+msgid "``blueprint_charity``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:739 c6e2d3f2b57d4156898e7f5878804e70
+msgid "Idea: Cheese"
+msgstr ""
+
+#: ../../source/guides/cards.rst:740 8f3e0a6788d3448ba501aa84a3a42291
+msgid "``blueprint_cheese``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:743 d243bdc29f274c9ead9fb8dd53917301
+msgid "Idea: Chicken"
+msgstr ""
+
+#: ../../source/guides/cards.rst:744 88ca56acd37d40de80a15536e98f4332
+msgid "``blueprint_chicken``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:747 a747a513d8cd4d14af6d2d4c93a9f1d7
+msgid "Idea: Club"
+msgstr ""
+
+#: ../../source/guides/cards.rst:748 734e11fdb7a4405381abe6d67c925aac
+msgid "``blueprint_club``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:751 e487b534ba1f4934aa7ce70fbada7363
+msgid "Idea: Coin"
+msgstr ""
+
+#: ../../source/guides/cards.rst:752 ff950ff3a3734711914a102ed3fb302c
+msgid "``blueprint_coin``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:755 4f5546ef90364624b82977df3acf0128
+msgid "Idea: Coin Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:756 2e991b5e960748369f1206ce5a6911a9
+msgid "``blueprint_coinchest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:759 2fec49d0ff4b47cc9ddafb189f4bc335
+msgid "Idea: Composter"
+msgstr ""
+
+#: ../../source/guides/cards.rst:760 dcdd556324184e80a82eef3b232dce75
+msgid "``blueprint_composter``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:763 b65b4fb9089745a8ac1d627cd9fbeb14
+msgid "Idea: Cooked Crab"
+msgstr ""
+
+#: ../../source/guides/cards.rst:764 8cdddfcd28bf4f8493668f43434aad01
+msgid "``blueprint_cooked_crab_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:767 56922d2ccf084902b10b08237e29a878
+msgid "Idea: Cooked Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:768 52a30f545e2c4f41924aec7d0f1afbe1
+msgid "``blueprint_cookedmeat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:771 3d13a1c6c4aa4096b55665e5a4b7ae83
+msgid "Idea: Crane"
+msgstr ""
+
+#: ../../source/guides/cards.rst:772 8c73017872914766959c3a1adf29f731
+msgid "``blueprint_conveyor``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:775 265d401d7f8647139c26f48a3346bd81
+msgid "Idea: Crossbow"
+msgstr ""
+
+#: ../../source/guides/cards.rst:776 28a3ac49e83641b2a0eec599eace037c
+msgid "``blueprint_crossbow``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:779 58ebf91cf438484593230a89388615b0
+msgid "Idea: Distillery"
+msgstr ""
+
+#: ../../source/guides/cards.rst:780 b05963c7efde41568ed7643817db9405
+msgid "``blueprint_distillery``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:783 a1823a4f55e848dc88020d89274b4881
+msgid "Idea: Dough"
+msgstr ""
+
+#: ../../source/guides/cards.rst:784 b917428a4e334c5e8944a2ba8190aa33
+msgid "``blueprint_dough``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:787 adc0bbc7662947179f91cfd310058b53
+msgid "Idea: Dustbin"
+msgstr ""
+
+#: ../../source/guides/cards.rst:788 15fd6cf525ef4e4d899d599b92a5f297
+msgid "``blueprint_trash_can``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:791 ../../source/guides/cards.rst:795
+#: 05cf8d91f76647f78d7f059766aba30e b972ef41c95048919a7643c38e3df9a8
+msgid "Idea: Empty Bottle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:792 e13b1dfab4f446b297ccf7a6f76a8b8b
+msgid "``blueprint_bottle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:796 2564741960da4d9e898aae415fd9222d
+msgid "``blueprint_fill_bottle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:799 282e7e5b68b9478b81c098a511a99823
+msgid "Idea: Euphoria"
+msgstr ""
+
+#: ../../source/guides/cards.rst:800 89c62a3b6063485e80350c68bb41bc39
+msgid "``blueprint_euphoria``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:803 ee53378342324e6d8dbb85a88628933b
+msgid "Idea: Fabric"
+msgstr ""
+
+#: ../../source/guides/cards.rst:804 00b06ed331c54ba28ebbd105a4e6332d
+msgid "``blueprint_fabric``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:807 698219d0d5cc44e69b57bc4b95afe43c
+msgid "Idea: Fancy Dress"
+msgstr ""
+
+#: ../../source/guides/cards.rst:808 d851017020874838bfe8af903ab0253f
+msgid "``blueprint_wool_dress``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:811 1a1e811da7b24f12962052bc95f35934
+msgid "Idea: Farm"
+msgstr ""
+
+#: ../../source/guides/cards.rst:812 f8a4c359801f46d2b5091011ba3afbe7
+msgid "``blueprint_farm``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:815 a9deac25045e4a8fa97a29221e59172b
+msgid "Idea: Fish and Chips"
+msgstr ""
+
+#: ../../source/guides/cards.rst:816 6755772fb0d4414aba465c1fef14e82f
+msgid "``blueprint_card_fish_chips``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:819 2cdd5645dfe8475cbb65d15d1a13a577
+msgid "Idea: Fish Trap"
+msgstr ""
+
+#: ../../source/guides/cards.rst:820 dd193e495b6a4f208118976a3567ff85
+msgid "``blueprint_fish_trap``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:823 50a66828726f43e2bec0b141a74d7720
+msgid "Idea: Fishing Rod"
+msgstr ""
+
+#: ../../source/guides/cards.rst:824 d3b1121f21a34e938f4bc591056ba173
+msgid "``blueprint_fishing_rod``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:827 a315963c665842929264d6bbbf29f315
+msgid "Idea: Flour"
+msgstr ""
+
+#: ../../source/guides/cards.rst:828 225b5e9b74184c61a194aac8bcf61bf0
+msgid "``blueprint_flour``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:831 eaf6f710fcee43868b5f338056db58af
+msgid "Idea: Flour Mill"
+msgstr ""
+
+#: ../../source/guides/cards.rst:832 326c7d9fccfd45979e8a7fbbdf64732a
+msgid "``blueprint_flour_mill``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:835 2a3ff6d5c234450f905722a2b20504c1
+msgid "Idea: Forest Amulet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:836 3e9cfdec70aa4259a55bae8b315d06b8
+msgid "``blueprint_amulet_of_forest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:839 dc875588a9f141cb8cd2bf9e1bcc104c
+msgid "Idea: Fountain of Youth"
+msgstr ""
+
+#: ../../source/guides/cards.rst:840 20d3583561284ed1bb1ab9da1c1a023f
+msgid "``blueprint_fountain_of_youth``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:843 461a2f69a8c54fbfb647a0585087da41
+msgid "Idea: French Fries"
+msgstr ""
+
+#: ../../source/guides/cards.rst:844 06d3da79a1a04637a0f3bbb2c9e1e436
+msgid "``blueprint_french_fries``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:847 63a9ce8bade34d769d98fbecd7112b40
+msgid "Idea: Fried Fish"
+msgstr ""
+
+#: ../../source/guides/cards.rst:848 d98e58eec39e44fcbcfb961bd68e5df1
+msgid "``blueprint_roasted_fish``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:851 6a9c0563b13d44dba2f1bae8a7d35fa6
+msgid "Idea: Fried Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:852 ee08472f90044cb68f9757927766623b
+msgid "``blueprint_roasted_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:855 a353c38545c44c2199152701403f3328
+msgid "Idea: Frigate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:856 9e941a56e34543d884a08f0dd3c84583
+msgid "``blueprint_frigate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:859 e521b533c9654426abfd81d98830b087
+msgid "Idea: Frittata"
+msgstr ""
+
+#: ../../source/guides/cards.rst:860 ebf504572848466f8ccf744a7175a14c
+msgid "``blueprint_frittata``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:863 ../../source/guides/cards.rst:867
+#: 7628d543cd0e4a4fbfef8d6d97aff8f5 f2e600bd71f14b068233a78f69babea8
+msgid "Idea: Fruit Salad"
+msgstr ""
+
+#: ../../source/guides/cards.rst:864 99d4b77cf18742af823cde390ff24e22
+msgid "``blueprint_fruitsalad``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:868 290cccc3cf154c8d8cc523ad2bda26a4
+msgid "``blueprint_fruitsalad_2``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:871 c02930fbc7334e719fe7378512f7ac95
+msgid "Idea: Garden"
+msgstr ""
+
+#: ../../source/guides/cards.rst:872 30e9a9036f6b48d9ba4503c726a0cd84
+msgid "``blueprint_garden``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:875 b272761aed62410dabef12f0a2e9e68e
+msgid "Idea: Glass"
+msgstr ""
+
+#: ../../source/guides/cards.rst:876 d3e4e40b684f49a48213cc2451ee048b
+msgid "``blueprint_glass``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:879 c0447dc29ecd4f298d56f7c0659d4dff
+msgid "Idea: Gold Bar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:880 54ccb5d54b454b27a578a1249485fbf0
+msgid "``blueprint_gold_bar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:883 2b1fbb81f52045cb933e4a5832fea883
+msgid "Idea: Gold Mine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:884 25bbadfe366f4a7b9fc264981b574003
+msgid "``blueprint_gold_mine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:887 bf761ac24fae466e89123926a7c572a3
+msgid "Idea: Golden Chestplate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:888 158cf21e7f104ce1973383fb089b50ea
+msgid "``blueprint_gold_chestplate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:891 c38fc22274154bbd929083beb52f7a97
+msgid "Idea: Grape Pulp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:892 a4a3bb91cdda4bc89ceef8187298ad2d
+msgid "``blueprint_grape_pulp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:895 ca14baf71aca467da57734c96a754f92
+msgid "Idea: Greenhouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:896 1bf04643aca0473a8b786ab2f7a565d5
+msgid "``blueprint_greenhouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:899 f7e81708790c4582a24fdb46451d080c
+msgid "Idea: Grilled Fish"
+msgstr ""
+
+#: ../../source/guides/cards.rst:900 b4f323d6b1734bd3ad204ed305a2ce6a
+msgid "``blueprint_cooked_fish``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:903 5b1875695d374fa9842c8dff1c96fc09
+msgid "Idea: Growth"
+msgstr ""
+
+#: ../../source/guides/cards.rst:904 ca9f1c298a5e44819a8c3292b9f90b5a
+msgid "``blueprint_growth``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:907 864c4d4a97b141aea3e25f70867e37e3
+msgid "Idea: Hammer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:908 ffe2983e9a0a4fb5ad979dab222ebff0
+msgid "``blueprint_hammer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:911 ../../source/guides/cards.rst:915
+#: 3ca9376d0312450fb3126c7d51149588 9e0382ee57284bdd9c4f0e49922516af
+msgid "Idea: Happiness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:912 b3f27bf1fcb945f3a56436bef44c406b
+msgid "``blueprint_admire_coin``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:916 d94a869311754b289d1dbf9c5c2b3e10
+msgid "``blueprint_happiness``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:919 1ad94e971416447dbf68f803702dd20c
+msgid "Idea: Herbal Tea"
+msgstr ""
+
+#: ../../source/guides/cards.rst:920 55c8432c22744e0ab173a19e8963d598
+msgid "``blueprint_herbal_tea``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:923 9798064a90d349bf8fc23c9cd6a5996b
+msgid "Idea: Hotpot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:924 25dcc848427a408b940f53065617ccc8
+msgid "``blueprint_hotpot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:927 f8f25e057a614d26b82e439be55b28ad
+msgid "Idea: House"
+msgstr ""
+
+#: ../../source/guides/cards.rst:928 76cc49e0f87941cda536d1759a0071c2
+msgid "``blueprint_house``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:931 b6ee7e1612dc4f159a77bb93a2bad662
+msgid "Idea: Iron Bar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:932 f7b653359df34584a3a4467df023fd24
+msgid "``blueprint_iron_bar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:935 99a9f6a3fc8c4748b87c253b6437ef4c
+msgid "Idea: Iron Mine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:936 a29749f7941f495a9afffcc44eabacb1
+msgid "``blueprint_mine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:939 074984ed15ae43e5aa21f38160d807c4
+msgid "Idea: Iron Shield"
+msgstr ""
+
+#: ../../source/guides/cards.rst:940 b9c4ec99e64b4163ae7399c221f3ade7
+msgid "``blueprint_iron_shield``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:943 f9a2acaf430c49869436b5a1f9061ac2
+msgid "Idea: Jester's Hat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:944 5e99b63388d44d65811df281840eecba
+msgid "``blueprint_jester_hat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:947 1922ba671f2e4fe4b5ea960c1ad260f3
+msgid "Idea: Lift Curse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:948 632cd1844af441d4b36913909f2406df
+msgid "``blueprint_happiness_curse_fix``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:951 cf98a2bdb1884ee389388d92bb3b0412
+msgid "Idea: Lift the Curse of Death"
+msgstr ""
+
+#: ../../source/guides/cards.rst:952 4d21e3ada85d495380a98f20f9b7bc32
+msgid "``blueprint_death_curse_fix``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:955 459a1140666d496ea8c7ebaa08910a32
+msgid "Idea: Lift the Curse of Greed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:956 d05cced75a6549bd8199105b2e0620f1
+msgid "``blueprint_greed_curse_fix``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:959 439aa24c21344ab58215cddace5e890d
+msgid "Idea: Lighthouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:960 62fd30a0f587431189bed39a60e6d24c
+msgid "``blueprint_lighthouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:963 4804ae1dd06245ea998996eac8a3bb1d
+msgid "Idea: Lumber Camp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:964 a5bb88ee0c764cda84d6a20105b2d052
+msgid "``blueprint_lumbercamp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:967 d6fa812ad7e14cde80c342a02c8b1e7c
+msgid "Idea: Magic Blade"
+msgstr ""
+
+#: ../../source/guides/cards.rst:968 f6cd3b7956814d55a77d6a85da713148
+msgid "``blueprint_magic_blade``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:971 3ff9b93997d24f6399b48f6385d379bc
+msgid "Idea: Magic Glue"
+msgstr ""
+
+#: ../../source/guides/cards.rst:972 0e7d1b4dd8f64224af518730357d4003
+msgid "``blueprint_heavy_foundation``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:975 c1a20d7c1dd9488abc51f576c919fd4a
+msgid "Idea: Magic Ring"
+msgstr ""
+
+#: ../../source/guides/cards.rst:976 386482bcb4fb42b894882db52512c379
+msgid "``blueprint_magic_ring``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:979 be1ceb2efb0a4a779c9564aec92c5533
+msgid "Idea: Magic Staff"
+msgstr ""
+
+#: ../../source/guides/cards.rst:980 c61ca05d9c424135a10900776d7004b9
+msgid "``blueprint_magic_staff``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:983 f0ce681826044f8e8d1f031970da02fe
+msgid "Idea: Magic Tome"
+msgstr ""
+
+#: ../../source/guides/cards.rst:984 07daa1a052274ebd8a4c9576945b4f4f
+msgid "``blueprint_magic_tome``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:987 5c8c2d23eb98418ea5b3655c4449bf99
+msgid "Idea: Magic Wand"
+msgstr ""
+
+#: ../../source/guides/cards.rst:988 c3a65c8217fa43ebae61ec2c24404a3a
+msgid "``blueprint_magic_wand``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:991 a4561457bc354188ba3d9ad578579dab
+msgid "Idea: Market"
+msgstr ""
+
+#: ../../source/guides/cards.rst:992 4f581434f4a44eb599142a9a30b88f89
+msgid "``blueprint_market``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:995 0159f24ebd6c436784a1ca9c82ba27bb
+msgid "Idea: Mess Hall"
+msgstr ""
+
+#: ../../source/guides/cards.rst:996 f28702a4181d4c40b91d3647c1f4e2ac
+msgid "``blueprint_mess_hall``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:999 ../../source/guides/cards.rst:1003
+#: 162bae5f059547d78a4e78ad8f0a5b6a f38ae1a6ca1b4c2a84eab9b25dc5b0ee
+msgid "Idea: Milkshake"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1000 c68682506fe34ab18d3bc3e1250e55dd
+msgid "``blueprint_milkshake``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1004 f26ab16da8624f508878f7a833d0fa21
+msgid "``blueprint_milkshake_2``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1007 d66b11cec8954a2fb302710312c29e68
+msgid "Idea: Mountain Amulet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1008 61640cfb7a3940f7ae223b13d655d61a
+msgid "``blueprint_amulet_of_mountain``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1011 06380b7f03054ef7a8eb84c5685a00d6
+msgid "Idea: Naming Stone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1012 1fc9418e8cf5414f89d1348cb57607b6
+msgid "``blueprint_naming_stone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1015 0e56f5ea215c4454bad4271b89f49f13
+msgid "Idea: Offspring"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1016 5d7b5d6cb275498fb06c85bd04ea8dd2
+msgid "``blueprint_offspring``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1019 359669cf7d43435b8e9b20d2981d99a9
+msgid "Idea: Olive Oil"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1020 6965791544094504add4b5810917aad0
+msgid "``blueprint_olive_oil``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1023 a50494ab495b4713814010bb725897fe
+msgid "Idea: Olive Pulp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1024 9116fd2e0a034cd3b5ae9dda71d63545
+msgid "``blueprint_olive_pulp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1027 793480094e5c4f45b8c73d6f2fbd3d6c
+msgid "Idea: Omelette"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1028 e8c541e5ddc84876be43f9f4824b1deb
+msgid "``blueprint_omelette``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1031 985c37e588474f4d997e762f3d3373e2
+msgid "Idea: Outhouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1032 12a4322a4eab44d6addc850c34000df4
+msgid "``blueprint_outhouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1035 189b93c84338418098cff05142a30e70
+msgid "Idea: Oven"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1036 c7ed3de5dd9f4511916af56d0272c8c3
+msgid "``blueprint_oven``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1039 c512c62f57c54148871a9f74319e552a
+msgid "Idea: Painting"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1040 e85741100acd478a8044ca40142f72e7
+msgid "``blueprint_painting``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1043 c51f9375488f4e31adaee9bd4d95e1ce
+msgid "Idea: Pancakes"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1044 9a12822bcf3d4ffdb867f16dd3ed6fd2
+msgid "``blueprint_pancakes``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1047 f5d55ffe80634274aa40d0aa1148af5b
+msgid "Idea: Paper"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1048 46a9a44e3a374f7291a8a8d5f77fd11e
+msgid "``blueprint_paper``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1051 eb4170b4775c4c1fa734f60b7464049b
+msgid "Idea: Petting Zoo"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1052 b8908b6e25394f40881972701916cfcc
+msgid "``blueprint_petting_zoo``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1055 48be45905dcd431487d4f905c67849e4
+msgid "Idea: Pickaxe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1056 85f7e5cf8b2145dcbf38d6ab8fe5f3f1
+msgid "``blueprint_pickaxe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1059 e1924ae99ee74ea495727bf1ef751406
+msgid "Idea: Pizza"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1060 7b54f5ea41b840f6aeb290e5d227e294
+msgid "``blueprint_pizza``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1063 1443c82e855d47058685335e27b106d5
+msgid "Idea: Plague Mask"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1064 084f419b0e7844c9ae740c2435cb5236
+msgid "``blueprint_plague_mask``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1067 3e71c392ff8940a89826c1462f673551
+msgid "Idea: Plank"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1068 25e93cfb7c4b403f8ac150d2aab3bb70
+msgid "``blueprint_planks``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1071 c0e455fcea5349fead5b8fee95d418db
+msgid "Idea: Purple Socks"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1072 0c5441b4cb004d91a3131838c5b5fc33
+msgid "``blueprint_wool_socks``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1075 9cba45e281db483dbcc9268620e08f48
+msgid "Idea: Quarry"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1076 900f556364b3422b90e05aff570559f3
+msgid "``blueprint_quarry``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1079 d58d02d08f954e18be7bf63b1c9b4185
+msgid "Idea: Resource Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1080 2ae2725d8f9c44c7be09d48142e3052a
+msgid "``blueprint_resourcechest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1083 3f874a17ec914d3b899f4b688b7fe073
+msgid "Idea: Resource Magnet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1084 e69036630ed54aa59155b76c5cba326b
+msgid "``blueprint_resource_magnet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1087 ../../source/guides/cards.rst:1091
+#: cf6d13dc71d34b41b9b88d04ea5eff47 e7ea55e37bb7425a81a65372990ab74c
+msgid "Idea: Rope"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1088 24cc5528568342db971be7fe83a718c8
+msgid "``blueprint_rope``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1092 ae3147b5d1144bd1ad072e116a736096
+msgid "``blueprint_rope2``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1095 236b1ca34166427f8187e04606bc5abc
+msgid "Idea: Rowboat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1096 d1d49f33faa94d56931d0631f0053f22
+msgid "``blueprint_rowboat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1099 58c06c34cc444ed6b3bf677b64cf8ff0
+msgid "Idea: Royal Banquet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1100 d56113c7f7924ba58dcbfac717a4018a
+msgid "``blueprint_royal_banquet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1103 b4acac5b41844291926a816e74051f83
+msgid "Idea: Sacred Key"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1104 bd5424455dc44ccc9c92bb13b93941dc
+msgid "``blueprint_sacred_key``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1107 5333b69c024f4338abf7697f31d14811
+msgid "Idea: Sail"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1108 23f3bf7f72064fdca5b42d9a601da85f
+msgid "``blueprint_sail``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1111 fe09a061b1bb4daa99366476e1fa8ca1
+msgid "Idea: Sand Quarry"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1112 56620dd31ea94839aaac8916c007b87e
+msgid "``blueprint_sand_quarry``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1115 b31a2ee963ee43adbef38833b254d77d
+msgid "Idea: Sandstone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1116 a0f2e68988f1438a92df184216fac480
+msgid "``blueprint_sandstone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1119 ea4fdd2115c7432c91066b3e98aa8e28
+msgid "Idea: Sawmill"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1120 962790f1426d4e03b647de6828f53fe4
+msgid "``blueprint_sawmill``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1123 2aefd0b46b334f79be141902c5219dbd
+msgid "Idea: Scythe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1124 636fa42df9c94cfb977aaf63570c0345
+msgid "``blueprint_scythe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1127 b8e0b35a30954eee9382fc77e5ad6cad
+msgid "Idea: Seafood Stew"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1128 ed3002766032465282da47057ba6d7e1
+msgid "``blueprint_seafood_stew``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1131 ca830489c91b423695f8d334a8cc2aed
+msgid "Idea: Sewer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1132 e0e9964e7c61425db2acafb2a4b9ce26
+msgid "``blueprint_sewer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1135 82e61c5bc31445a0aaf59f28762d51d1
+msgid "Idea: Shed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1136 f7df11f146d64a419adf8b7985fec332
+msgid "``blueprint_shed``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1139 2bce32b092424e288e33dd60c81efc1d
+msgid "Idea: Shell Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1140 0d16ebd653744ca19e1ee96c458dbbf1
+msgid "``blueprint_shell_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1143 d88213361a5148efb2677c5bd36160a4
+msgid "Idea: Slingshot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1144 a0363d9c93c54668b35b1c98d7cf208b
+msgid "``blueprint_slingshot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1147 d5974447a35940c6b683ba637c4f63f7
+msgid "Idea: Sloop"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1148 3cafeef70d8c46bab189cc9dd41208cc
+msgid "``blueprint_sloop``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1151 11871dbd82c24099ab7999fd7b36ad1e
+msgid "Idea: Smelter"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1152 57595d54249c4db8aeafdd8f0c605409
+msgid "``blueprint_smelting``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1155 3037b01cc1754bf4beea00465bef6585
+msgid "Idea: Smithy"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1156 bdcb401f47a64fa7b736ea97ffcdd8bc
+msgid "``blueprint_smithy``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1159 4bf850b3fa9146888e366c73ea75b282
+msgid "Idea: Spear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1160 e948f35e84d8489e8d6a277502487c76
+msgid "``blueprint_woodenweapons``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1163 e3779b779e7c4e249ab2399bd82ff3f7
+msgid "Idea: Spiked Plank"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1164 d3cb606302b04518af75fa2827b3fe65
+msgid "``blueprint_spiked_plank``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1167 bc24aa73ff89416892b4da91c9cff121
+msgid "Idea: Stable Portal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1168 1cba470b026345d2a6bb8982be599af8
+msgid "``blueprint_stable_portal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1171 ab717b398ec449248d8979d31ca06e3a
+msgid "Idea: Stew"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1172 e6d73e11868e4f75891d95062ea6417c
+msgid "``blueprint_stew``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1175 6dc9c9483eee40c78add425cd340db92
+msgid "Idea: Stick"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1176 4804a2bee52a47579d06be2806858a31
+msgid "``blueprint_carving``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1179 d89f6d7c51724a71acbaf2c7ba01ab55
+msgid "Idea: Stove"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1180 02745b97110a4da8b22f15ab2e6af332
+msgid "``blueprint_stove``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1183 92b29ba7425e4054ad7e0a984fd4048b
+msgid "Idea: Sushi"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1184 e52c2ec12fce4eadb2c396f8b7bc5aa0
+msgid "``blueprint_sushi``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1187 7ff0df892d984f439ae86a2fce1e642f
+msgid "Idea: Sword"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1188 939fe261ca784969a6816ff359904f5d
+msgid "``blueprint_ironweapons``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1191 5c7aa5ce044a41d2bb4a8e084f600dcd
+msgid "Idea: Tamago Sushi"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1192 eb497996178046d4920914309666e665
+msgid "``blueprint_tamago_sushi``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1195 69b72ae3d39e424fae3985bc29f4b1c8
+msgid "Idea: Tavern"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1196 9868e75c8a784c46a0810dfe2f893140
+msgid "``blueprint_tavern``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1199 4388ed019afb4aff89ee34d1577e571d
+msgid "Idea: Temple"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1200 b036ee25bb80404eb2f70a8c3c0b61b0
+msgid "``blueprint_temple``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1203 7499d452d55e4f229c5bad938d5245c3
+msgid "Idea: Throwing Stars"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1204 8f8d0e01b17f489da74d6930838af381
+msgid "``blueprint_throwing_star``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1207 c33c0440d714419996f1e093f9014505
+msgid "Idea: Tomatoes"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1208 6ed0c756f9a246a08efd9ceeab60047d
+msgid "``blueprint_throwing_tomatos``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1211 7e9e751bb09445a0a950a44c40b7a0ef
+msgid "Idea: University"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1212 fe04e90270c04a1a8f2ac76ec5b957fd
+msgid "``blueprint_university``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1215 916d86d640b44acebd29cc6d9ef74b75
+msgid "Idea: Warehouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1216 daafc4a7eb364bf79940a140e8ae11e1
+msgid "``blueprint_warehouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1219 60398bc021e449e1997eef6feef9f9e6
+msgid "Idea: Well"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1220 307cbbec345747858beb74e7fd69a43a
+msgid "``blueprint_well``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1223 26c1928386f5487693de1fa06e190229
+msgid "Idea: Wine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1224 0bab1db0f4a9417ba70a31e5967ea4f8
+msgid "``blueprint_wine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1227 e72cffaecd09477cbfc98fb6e9e40f7f
+msgid "Idea: Winter Coat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1228 6f0ae0da014a47118921115a0932bb5a
+msgid "``blueprint_winter_coat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1231 09688cffbd1a4ab5abd832c1f19f6886
+msgid "Idea: Wishing Well"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1232 950652ee7bb6419ab851fa76a83b432e
+msgid "``blueprint_wishing_well``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1235 e10314313aba4e299f9677fdb32d22e5
+msgid "Idea: Wizard Robe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1236 783dc4ab350b4aae93cb3e178bb436e3
+msgid "``blueprint_wizard_robe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1239 37a52657967a405d834a92b6f1281c1b
+msgid "Idea: Wooden Shield"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1240 3c1da375cd284f43ac9c113befd7ba2a
+msgid "``blueprint_wooden_shield``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1243 c954884bd45b45c8a4053d3d45309165
+msgid "Imp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1244 aff24db795ed4b2b9bf86cb3f0c599c9
+msgid "``imp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1247 88fe97f745c74f30a74d233310c1cfe1
+msgid "Iron Bar"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1248 1cb6740e7bad42edb2e534013f9891c8
+msgid "``iron_bar``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1251 cb36f3a453a046148fb7fbe70b0db595
+msgid "Iron Deposit"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1252 dbe4d9ddb470460aa0b1df52123042e6
+msgid "``iron_deposit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1255 c423cffe59904541b76501bd020ba598
+msgid "Iron Mine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1256 c0c779982d2e4b3f80a7613f901f64ab
+msgid "``mine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1259 c167ba165e7a4c07be15d353366b3177
+msgid "Iron Ore"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1260 5785c545635c438fa1838e33de28951b
+msgid "``iron_ore``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1263 85ee78d021dc42af8150a5aecd8e26fe
+msgid "Iron Shield"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1264 b1a8e5df6ed44b99ba3eb40268d34922
+msgid "``iron_shield``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1267 f048525247d441748defbd96a04e59ce
+msgid "Island Relic"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1268 4eda68519e014569b3f74534aa6a8000
+msgid "``island_relic``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1271 ecd47b1ea8aa484c8ba5cd4dc5ccdb12
+msgid "Jester"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1272 76ce83acda864803ab4a0174dbccfd0b
+msgid "``jester``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1275 68d0616d8b64490eaf4ff631feb619fc
+msgid "Jester's Hat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1276 df76147c5ee840b684ab960a60840cc8
+msgid "``jester_hat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1279 e55bfebd353047ddbff9df29a592627f
+msgid "Jungle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1280 d364e479824040efa89bcc3c85360c5e
+msgid "``jungle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1283 0ee3000aa99c4e3fb6c7d38513f9d8dc
+msgid "Key"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1284 be96fdb87bd64592a58e5b7b9623d3ab
+msgid "``key``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1287 92fdeb8f390943a1b05b9d048085e269
+msgid "Kitten"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1288 b6973a4f1bec475d8b32326eebfedf56
+msgid "``kitten``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1291 aa09552df2d348e3a98667c9d1cc6c9c
+msgid "Kraken"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1292 c0993f0c2bd740e2a9b9c0c4c26f7d18
+msgid "``kraken``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1295 0d1e1d6503754aea859e5206005e802f
+msgid "Kraken Tooth Axe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1296 b9d23744cc774698a138a78d689745a6
+msgid "``kraken_tooth_axe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1299 c854c1da450b457eb903909be4afd965
+msgid "Leather Tunic"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1300 5b627d2349b047759954cc2daaaf230f
+msgid "``leather_tunic``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1303 123fd1609a0949b1abcec787c3d4c3d0
+msgid "Lighthouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1304 ace783e3f7944c5694bcee1f1b67d13e
+msgid "``lighthouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1307 934d7e6fe4764a608836ea10d2200560
+msgid "Lime"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1308 59304b430889415eb2fa104153fa941d
+msgid "``lime``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1311 6b1b4e4ed31742aca9c26a91bbf4181d
+msgid "Lumber Camp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1312 31a81d806f224dfb8c4428e406fdbeba
+msgid "``lumbercamp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1315 aa28d39fc67841d3acc754299bededed
+msgid "Lumberjack"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1316 5b163796b0b048709f46ede03eefe5ae
+msgid "``lumberjack``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1319 479e26aeb2e543c190e9790a969bbd5d
+msgid "Mackerel"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1320 58b37dc818674a1fa0fc85b23e82f60a
+msgid "``mackerel``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1323 14687b186f944600854f49e203a38fae
+msgid "Mage"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1324 27fc38ac4ad44215b6af647792cd5065
+msgid "``mage``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1327 89b19aec1a3d4f42a26714053624429b
+msgid "Magic Blade"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1328 15d67f4e99ea4f718fd589e1d27b42c7
+msgid "``magic_blade``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1331 96d6e7610a904f40a8254ef3b67a8962
+msgid "Magic Broom"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1332 be11c156da54489c8520d444b4704da6
+msgid "``magic_broom``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1335 f0204ad01d554080af3e400d07c95073
+msgid "Magic Dust"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1336 63b5e00c0585412ab78b05ca482ce9ed
+msgid "``magic_dust``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1339 9d969fc05a064eea8f0a64285a7b576f
+msgid "Magic Glue"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1340 bb283f6a9fd1424a9e3e107ffac79d4e
+msgid "``heavy_foundation``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1343 e79405481d7540b6a5c81d912eda5ea6
+msgid "Magic Ring"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1344 2312cf57a72b44999a85508dc0e9bd2d
+msgid "``magic_ring``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1347 296653196ca44e6c97450937513bfbc6
+msgid "Magic Staff"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1348 cb08e88be9dc463dafc4bec618c4e3c5
+msgid "``magic_staff``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1351 33655894fa9c4355bf2943e075a4b4de
+msgid "Magic Tome"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1352 dab542c864084d1991e99de92a6ec779
+msgid "``magic_tome``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1355 42a1cd1b495443339616ef760cc652e7
+msgid "Magic Wand"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1356 5526801b2e914d8a82915c8c277008c7
+msgid "``magic_wand``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1359 4e36c4fc6e654c1eb1b833f1bc9ae4e2
+msgid "Map"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1360 940e4d25dff443008b70052422069d24
+msgid "``map``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1363 a576a29c689e43b99670b9e09335173e
+msgid "Market"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1364 4605fa063ad544439af57b00938a32e7
+msgid "``market``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1367 fba2b6b608804f2eaade53b3e637af8d
+msgid "Merchant"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1368 170bfdfcafd9445fab98001486206d26
+msgid "``merchant``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1371 ada1475065e741a6b44c461fc681773d
+msgid "Merman"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1372 b4a715066f4b4812995f53e12c4586a5
+msgid "``merman``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1375 e1b594444f844a428f5e6f3c6fdcbe98
+msgid "Mess Hall"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1376 5d4d617cdcef4008aaa92c537762fbe2
+msgid "``mess_hall``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1379 d52c8598552e4072b131cda4d0bdb664
+msgid "Militia"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1380 e995045cc4654900b5efff6f8ecf3adc
+msgid "``militia``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1383 77f7a6155f204ea0a2a6302fd2a68aca
+msgid "Milk"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1384 4e1a97cb71fc46fc836fdfa49f7ce272
+msgid "``milk``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1387 59007f8303554e0e8a26e443943fa88d
+msgid "Milkshake"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1388 d109646a0c4d469b9ad0b0c810bb628d
+msgid "``milkshake``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1391 87216eb1ce6a4591a772dc9b8f7c075c
+msgid "Mimic"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1392 45be5a1005ff4773b5aa01c644cd797e
+msgid "``mimic``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1395 318101705d924f67936da48acae3dbbb
+msgid "Miner"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1396 cbaeab1c3de54fc7a2675befd3284caf
+msgid "``miner``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1399 129c4b76386945108fab122c49836f3c
+msgid "Momma Crab"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1400 89296c242a6440f48eecd567d9dbffda
+msgid "``momma_crab``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1403 a2e41f56ce244c2680f02e9608020999
+msgid "Monkey"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1404 ac308ece8a5e4b2ababa419ed78fc79a
+msgid "``monkey``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1407 d6431797ed3a4b768a938702e2b6fbe0
+msgid "Morning Star"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1408 6c80c73be4c145ddaf0dbc07718716a5
+msgid "``morning_star``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1411 f86e4c55f248424fa561fd6d3580a9a6
+msgid "Mosquito"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1412 f8aea48f4c494859b5e53597d627d4bf
+msgid "``mosquito``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1415 91de0b39d5b54e429a6085ec7e61b868
+msgid "Mountain"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1416 df67b37f1e144142834b07f960ee8c70
+msgid "``mountain``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1419 80f65a7eb8d941e7931d09dfe76b84ad
+msgid "Mountain Amulet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1420 7704f9c4b85040afadaaf6cb53baa60c
+msgid "``amulet_of_mountain``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1423 7b7c2e4c8fad4cfc96e87b064b7c2d00
+msgid "Mushroom"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1424 47a17ef301b645169a61aaccf839677c
+msgid "``mushroom``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1427 45d897ddc7384e03a39f8c3804df9bcf
+msgid "Naming Stone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1428 efe91d2e94e6440386799a9ab6ea3f00
+msgid "``naming_stone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1431 cc257c85064d4dfea4112cfb5c1c38ea
+msgid "Ninja"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1432 996c85c249984ddfbc936d8c4d0f2c89
+msgid "``ninja``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1435 a36f9c11c7d348f7957d79375a3a022b
+msgid "Ogre"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1436 774529ac35fe42249ae6e297e8e634b8
+msgid "``ogre``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1439 0343635836bd41d1aea92591e25db76e
+msgid "Old Cat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1440 d914cfbee588430cb70641b58e3f8eb2
+msgid "``old_cat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1443 6db0cc2cec8f47efadf1b88dd2885506
+msgid "Old Dog"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1444 2422760e275a4ef5b5dbd3857a4e32ce
+msgid "``old_dog``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1447 7fec20f0210f481896a090221782978d
+msgid "Old Tome"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1448 b60ab6e4531c4ed0a756f6d8ee6138ee
+msgid "``old_tome``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1451 5e6522405e4f4911849bd64df80c2aee
+msgid "Old Village"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1452 2cf902598a0640d392f8e811d8af659a
+msgid "``old_village``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1455 ee5e58df9f8340e4b5b6e783e6d5524e
+msgid "Old Villager"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1456 628f8ffbc2964d3f97f50433cd43a241
+msgid "``old_villager``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1459 e6d21f28aee84bc899cf582a01b4d4ef
+msgid "Olive"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1460 4dbb31a956944204a66b1130e8d300f2
+msgid "``olive``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1463 41a9fc129cb84de98a956d40118585ae
+msgid "Olive Oil"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1464 208bda6957ef4217acd88ccace3d2027
+msgid "``olive_oil``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1467 e40d617a7de64d1da4a8720768e90eb2
+msgid "Olive Pulp"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1468 eb5b4fae19054ff1be9298188bcb95a7
+msgid "``olive_pulp``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1471 db35b42c9c6e48c3a116b14088291468
+msgid "Olive Tree"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1472 40db8579d88448868b5d8c21d6165d5f
+msgid "``olive_tree``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1475 f895d2e73a7a45bb939f871aedf847f3
+msgid "Omelette"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1476 c586a17f1b4149489c85a562c5d51057
+msgid "``omelette``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1479 2868aaf65f264073ad83ee2a9deaeaff
+msgid "Onion"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1480 2233bd10c21f4f3ea17b174a5cd6cf22
+msgid "``onion``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1483 19db2eb8b17a42b7b7e69f223e661bd5
+msgid "Orc Wizard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1484 a3fcf082019947f0acb30b124b630467
+msgid "``orc_wizard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1487 40fd331c3df7456cb7e13a585bcb66e9
+msgid "Outhouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1488 b2103a79927d4516af929277dc799484
+msgid "``outhouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1491 c209bca4895f48be8f2fbabc8a4d3410
+msgid "Oven"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1492 29a2731a0356449e9cb137aa2c3deea1
+msgid "``oven``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1495 2e63b01423af4076ac6691bddc390f6c
+msgid "Painting"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1496 c52b711a4cbc493eb321e17417558258
+msgid "``painting``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1499 7581316190d7435dbcbf375ee30141b1
+msgid "Pancakes"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1500 b7921d7b56724d76b5e6f0e69205a10e
+msgid "``pancakes``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1503 a1316e3091384eef8ecedda70211a78f
+msgid "Paper"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1504 ba1ce2ddeacc44bdb4a2c444f3318374
+msgid "``paper``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1507 c1c7938d5b98476fae3d31212304bb5a
+msgid "Parrot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1508 bf898fa5845a46ad924a860bb4b74215
+msgid "``parrot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1511 d287ee656d8845f9845ea9e3cff15a69
+msgid "Petting Zoo"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1512 cb5826f2ae454b6aa129925619870d04
+msgid "``petting_zoo``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1515 ba87ac6f6e6c4f0cb5fcf0471e414e4a
+msgid "Pickaxe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1516 9b279c0d0d6c40b59642158a81a0c0c3
+msgid "``pickaxe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1519 5be842ab5b3a4990b0814b4f5a8fe5fb
+msgid "Pirate"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1520 7857b601a6c34aa3885da1c56fbeb42d
+msgid "``pirate``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1523 33d82e665fe7494da2dfd7df10ee7de8
+msgid "Pirate Boat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1524 9c6631dc28104896a306ea3046a10edc
+msgid "``pirate_boat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1527 4fd89f3293b9423a8b94f2280d2f82c7
+msgid "Pirate Hat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1528 9c296f81f8e241da9ecd9e493cc6beda
+msgid "``pirate_hat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1531 b3fb640999a14cb6beb5e81a70659062
+msgid "Pirate Sabre"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1532 52e9e72c73c24733a8d699c47d879e0a
+msgid "``pirate_sword``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1535 ccc409d7b60a40a18bf745ca4af20ab3
+msgid "Pizza"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1536 4ca5f99ea79f4d978f5d563862daa0cb
+msgid "``pizza``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1539 b28d1c51314244a39a1b03b24c1ef7f1
+msgid "Plague Mask"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1540 ed3f6ce42e9943a88e457e57c4904293
+msgid "``plague_mask``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1543 88a97d2943e549119f5a5d2ccae85e4f
+msgid "Plains"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1544 f1bde1d4f5274d23979777f583289b83
+msgid "``plains``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1547 6bb576b838b84d7495c7566e7309b607
+msgid "Plank"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1548 e0e99fe0177548388827ae1f634eb1da
+msgid "``plank``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1551 f3241f6211784d9eb27df672b9f62210
+msgid "Poop"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1552 c30f3ce216ae43ebb1a0c3d065d7786e
+msgid "``poop``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1555 1f2db9e07669456f8d83e3c0a87c1876
+msgid "Poop Slime"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1556 2b47e718b9e54d109a0ebf919d0af39d
+msgid "``poop_slime``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1559 71534fc0e1c043b3a8d8cc042ed4c156
+msgid "Possessed Blade"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1560 57a1bd28245a44d38d08e9357c42f2f9
+msgid "``possessed_blade``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1563 1e1cbe6630ce45c3aaad9c34ad89b0bb
+msgid "Potato"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1564 1a0abf28ec19446c8a6852d3cd5158fd
+msgid "``potato``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1567 dd7ffd913b0449aeb4822de2eda43d70
+msgid "Puppy"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1568 b9fc6af4d8ea43cda9eca48c60903a9d
+msgid "``puppy``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1571 0fdb0f05db13496ebf5ba11d9d145922
+msgid "Purple Socks"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1572 366081a279eb4f0db252a6174fec104c
+msgid "``wool_socks``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1575 668a367a3f2241b78878bb7c4bcea477
+msgid "Quarry"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1576 fc97c027f1084bdda030a9bc7fcb73eb
+msgid "``quarry``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1579 5d83d0f05f4243b7bdaf6afd021d6872
+msgid "Quiver"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1580 82796cd5ac3f466e8ae0c258d1c6ca5b
+msgid "``quiver``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1583 d8e8708afd1a49c185a1e49c57ccca1b
+msgid "Rabbit"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1584 46ef7f886da7452d84062565cbfc6dc7
+msgid "``rabbit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1587 7c3f3a2831304f0ebb62284c5acd78aa
+msgid "Rabbit Hat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1588 de2f9dac343f47c3b1daccc89a915b00
+msgid "``bunny_hat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1591 3ce7b40c1f564c0abcd671a7e44938fd
+msgid "Rag"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1592 22c5c799c9ab4b7aa669f85c8dfc8ead
+msgid "``rag``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1595 88a0668fba5342b588a5f6784b61cdb2
+msgid "Rare Portal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1596 5fdb269168ac4371ab437eff8d1eaf3c
+msgid "``rare_portal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1599 641aa30eb1ec4dd7a6edd1f78fb6ba3c
+msgid "Rat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1600 db2501a8e8e84e44856a1821a87850ab
+msgid "``rat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1603 09593ed6be994338bbad6ec527aa54b0
+msgid "Rat Crown"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1604 f25f1f53684047389d74c9f3950635b3
+msgid "``rat_crown``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1607 c5b3a2cf45754764bae9fe2874eb9707
+msgid "Raw Crab Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1608 aec05cc0af36419c92983363a46d9207
+msgid "``raw_crab_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1611 eb01040d389645388c08eb74ba1205d1
+msgid "Raw Fish"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1612 89b82984cbc54dd8bf854d3a88aa826a
+msgid "``raw_fish``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1615 04184f50afbb4f2b8ea0a14ca89a5520
+msgid "Raw Meat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1616 7f116e532f56490995d4ba3b53af2569
+msgid "``raw_meat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1619 aeffaa9887e4416481b497478a5da920
+msgid "Resource Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1620 dd0b81d2abaa468599a20143b5551c5e
+msgid "``resource_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1623 627e2862f150440c926bb0490ad193cf
+msgid "Resource Magnet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1624 57da9a886c484f208f797db29671d78c
+msgid "``resource_magnet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1627 36e0eb557d464119b37c9fdbd63451fe
+msgid "Rock"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1628 195eab87cf6143a0ad20d18d9d32d9a1
+msgid "``rock``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1631 cda0d492951c444cb88d6c8d322914fa
+msgid "Rope"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1632 f78700e44e214d3ca5e92601ed305bc8
+msgid "``rope``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1635 3ae75002144f42579fb2a851cc0adcf2
+msgid "Rowboat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1636 ce5b2217ce134255820169ab61d319a4
+msgid "``rowboat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1639 36a2b0d142d94f98a25bb1c3f687dba7
+msgid "Royal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1640 d45167412c0d42c4b7fd7c8635ad65d6
+msgid "``royal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1643 4d1ca2abf2b24474947a5069cf066e57
+msgid "Royal Archer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1644 c182fb555cb545859a60062986612ff7
+msgid "``royal_archer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1647 fec09c970f994314b06b976c10e5f0b8
+msgid "Royal Banquet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1648 47a2a4b359bd44a1a678363dcedc513a
+msgid "``royal_banquet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1651 61d545f405e6481aaf592e5a4df16483
+msgid "Royal Crown"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1652 8e9d8b3acc9242ed9063eaa2ea169db7
+msgid "``royal_crown``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1655 9c4bad6da6f44ed5b6bcd741c3f3efea
+msgid "Royal Guard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1656 41dd841445e84ca2baac6b123fbb6053
+msgid "``royal_guard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1659 e685d36d236849b08b539a4e07dfca6b
+msgid "Royal Mage"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1660 af08976bbe094b0dbf96738d59d36de0
+msgid "``royal_mage``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1663 6fa393191d7c4afeaeb367cebe7d3480
+msgid "Ruins"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1664 b6507d8b1362415683d9d75357c6895a
+msgid "``ruins``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1667 4028f45f7dd04ffc94f951b46d8f2658
+msgid "Rumor: Combat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1668 8a5b7511b38242b89d27b6ebaead0072
+msgid "``rumor_combat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1671 28dcd0f4eeeb4a7c8b8252e667bfae67
+msgid "Rumor: Dark Forest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1672 93f00cae88d74058b9b13e44db749b77
+msgid "``rumor_dark_forest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1675 74103edbec1c4072a37214d08ce92f07
+msgid "Rumor: Eel Bait"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1676 1db9c60b5ed348fcb9345a70829c33d8
+msgid "``rumor_eel_bait``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1679 ce32721803df4450a6a054f2decd3045
+msgid "Rumor: Shark Bait"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1680 db36b1de62f24785a31f69285f9013df
+msgid "``rumor_shark_bait``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1683 3e0ced61c25244b394c31ee29031341d
+msgid "Rumor: The Island"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1684 246ce1741f2b426d817610b2f7bba5d1
+msgid "``rumor_island``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1687 8f6e97f2f96d43dab67e6d8d33c4a361
+msgid "Rumor: Tuna Bait"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1688 421dfb134b274772be5000945cbb6cf9
+msgid "``rumor_tuna_bait``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1691 a279299cc8d3486bb401d596cadc5c3f
+msgid "Rumor: World of Death"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1692 90482baa7b4e4d1396951b63c45c8888
+msgid "``death_recipe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1695 68edf50974fc4f78bf401be176f1a7b1
+msgid "Rumor: World of Greed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1696 e6ed74b1247945aeb0cd8a8bdb662855
+msgid "``greed_recipe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1699 9fc67cd4661b487f918d9e33cf135717
+msgid "Rumor: World of Sadness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1700 afd085e8701347b0939f0265b0d54d8a
+msgid "``happiness_recipe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1703 2cf9ab20f8b944c7a574eeb235058547
+msgid "Sacred Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1704 4b9eb853dbb84f36a13686776e077895
+msgid "``sacred_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1707 280f5cac8f4a4eb0bfcd9f0d81c9dce1
+msgid "Sacred Key"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1708 eb3961ecbbbc4a7bb50ee6a6a6e58c7b
+msgid "``sacred_key``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1711 39522268b68540a5a676e5660a535d28
+msgid "Sad Event"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1712 44b8ba9ffb4040909957d580a45f3fce
+msgid "``sad_event``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1715 cf665f930c3848488ad1e4f4e198096a
+msgid "Sadness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1716 24243e44f41445469287bc521e46d566
+msgid "``unhappiness``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1719 afc7606084bd4b13a24d60741623d54e
+msgid "Sail"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1720 321fe2c3cfc14967b86745b03d9662f9
+msgid "``sail``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1723 83e5fd1748ca4b9cac547b3debd7226d
+msgid "Sand"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1724 c7fd3998c1484c8badda8765491cf65e
+msgid "``sand``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1727 c463d3fd8bc0405d9a04ed67450a5adf
+msgid "Sand Quarry"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1728 3106ac61b4694c7a86febcdbf1fb1449
+msgid "``sand_quarry``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1731 d2b8806ffd364078b313f476815898f9
+msgid "Sandstone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1732 b61097da78004f60986fc8594abcb3e5
+msgid "``sandstone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1735 3c98fe45ef294012b81cc64f64e2f0a6
+msgid "Sawmill"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1736 b61cfddc3c234d9aad4ebc5a4bb2ba41
+msgid "``sawmill``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1739 38b46c3931fd4f45b24097bf1d789b4e
+msgid "Scythe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1740 1906df90609146f09787897802fb3eda
+msgid "``scythe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1743 3320906653ea4d98b8f966bd352d06fd
+msgid "Seafood Stew"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1744 d5ed4be8939f46f9b922b4b5dce6bad0
+msgid "``seafood_stew``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1747 dd214b95db79487b898f7a0d07739a9a
+msgid "Seagull"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1748 02d022bc1c244f50a3e8c3abb5a49927
+msgid "``seagull``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1751 1a9c5bba21a54065ab672ee14384f14f
+msgid "Seaweed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1752 5632acce4aec4dfe8129b4800ada29e5
+msgid "``seaweed``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1755 767c2d2086f14e1a8497e6bb53e03174
+msgid "Sewer"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1756 890d83db7ccf40e5b9b1455a8b67b23c
+msgid "``sewer``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1759 7dff06cd92c04a00a09f41b65e368f03
+msgid "Shaman"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1760 ac305679df1c4386be2dbc5712365f61
+msgid "``shaman``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1763 7d5dd7ca7fc14f20a13e82932ba79f85
+msgid "Shark"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1764 f4a82b85de2144e4bc375a293cf608dd
+msgid "``shark``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1767 32e1d10b02594f42b14a563166d7cfe7
+msgid "Shed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1768 157f500033a64afe8506201a85485135
+msgid "``shed``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1771 ae2969ea6bab4c9f9d7d9ada96ed500c
+msgid "Sheep"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1772 d9e9eb71761c48ab9238713295b2be32
+msgid "``sheep``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1775 f95366830993417c9c40724425600149
+msgid "Shell"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1776 40484dab230d4501a2a9d3e8886eda58
+msgid "``shell``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1779 c2328f2c4d7e42ecb1409cf7bf8cbdcb
+msgid "Shell Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1780 3a9baf376daa466dabd871a27dda9755
+msgid "``shell_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1783 5650dfff5b284f409006a6d66e6d32bb
+msgid "Skeleton"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1784 4cdf09e1cc104af4a2d0815a016cdbcf
+msgid "``skeleton``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1787 4626f0f50a1846a08cfd7d4ce0e6ba06
+msgid "Skull Helmet"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1788 613c93723336494cb6ab9ffb00578d71
+msgid "``skull_helmet``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1791 db5d7c8d15a246e0a30047c014f9b955
+msgid "Slime"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1792 1847e86a08dd41e8964206e342368920
+msgid "``slime``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1795 b7c490ad038d4cfba9ac83d94defda4c
+msgid "Slingshot"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1796 57be558cf8f14b27a75fb59aa83924f1
+msgid "``slingshot``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1799 a4e7e2c7857644dcb9eedd17957e1442
+msgid "Sloop"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1800 733231d9b9ae4a51b6e7e1f78bbb5bf9
+msgid "``sloop``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1803 80cd0cfa748643db9d56c248345b6f01
+msgid "Small Slime"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1804 8e9fbe9b88d4471e9c7fa0ca195f52f8
+msgid "``small_slime``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1807 d000e8ac1b0c4c4baba4996132c74fb4
+msgid "Smelter"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1808 30855b1026a3455e8bdc5077eda472ab
+msgid "``smelter``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1811 257f6287028e4e2aa492e7892c8f46b6
+msgid "Smithy"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1812 786598a7f6cb4e6b821e74269ddb0a1e
+msgid "``smithy``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1815 7d927db466794fc08a8ddb9a46f73f91
+msgid "Snake"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1816 e1988ccca6454b00b15e714637f34ac0
+msgid "``snake``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1819 af13b4960d4c4abfa06a92b9862052ef
+msgid "Soil"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1820 87483abf438f4d79a15c206d922c617e
+msgid "``soil``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1823 151113883c8044afbeb63f320280c2c7
+msgid "Spear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1824 dfea6883a9b6499e8f50c2f51f8a2fab
+msgid "``spear``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1827 2b7cee7d427b41d2bf4a30f106bd4aa1
+msgid "Spiked Plank"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1828 2d750a870a334728aca47f5e0d082fc3
+msgid "``spiked_plank``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1831 d41561dbdbb2441081ce6cb4fb5d65c3
+msgid "Spirit of Death"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1832 daa94d64041e4c3db05c9442974cbab0
+msgid "``death_spirit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1835 b154122595f741998804581e770222d5
+msgid "Spirit of Greed"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1836 25081f4d988a4ae08e4cb54709f2019e
+msgid "``greed_spirit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1839 fdf3b19f4fe04639b7289c81dadb21af
+msgid "Spirit of Sadness"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1840 9f6230e9cffa45999a6a173ddcc63862
+msgid "``happiness_spirit``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1843 58320611a4d345d88e9122142da6ca8f
+msgid "Spring"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1844 6e59e56b0d924fb58d376a527d9469d8
+msgid "``spring``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1847 87c9ba387e9b40c697c1460216532a27
+msgid "Stable Portal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1848 abd7c5ffd1634d12beac247c21a0d4ea
+msgid "``stable_portal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1851 d408c1ce0fec4f21973e10cea8236b3b
+msgid "Staff of Fear"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1852 8868a50dbfc14da097bc9849083b953e
+msgid "``staff_of_fear``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1855 95da6e39442348869b601bbe1d518603
+msgid "Stew"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1856 0af8d5de47e240e38adcea39cf2c81e1
+msgid "``stew``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1859 8a93489ec4984eeabd86957785aadc01
+msgid "Stick"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1860 2eb26b6ed800451e866d7ca917120f4d
+msgid "``stick``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1863 439a8a84b38b47c8b70575f3a8d7caca
+msgid "Stone"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1864 13514bacbf8b4152a750f9b0ca3c67d8
+msgid "``stone``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1867 4a6cca654a524234b341b7f1d13d32e1
+msgid "Stove"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1868 5665d8ac919e4f0aad483cdd32c3ca66
+msgid "``stove``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1871 66672d4c811d4423ac9ae3716626ac5a
+msgid "Strange Portal"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1872 2cc680df51754966872f563b9eb2db7f
+msgid "``strange_portal``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1875 a6d0106d2070486c9b48a5c1a34ed6a8
+msgid "Sugar Cane"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1876 2c0ce364040d4f7cb74462273b081242
+msgid "``sugar_cane``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1879 f03b8f20b05e4d7a92bf4474eb00c1b8
+msgid "Sushi"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1880 fa51222326a3486e8480d76026ea52b2
+msgid "``sushi``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1883 248f517081fb4f57a179cde2071e3caa
+msgid "Sword"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1884 adf8ef6ceb3f4eb1be131f2a7c6d8c4f
+msgid "``sword``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1887 a062864db54e4c1dabc7e920536debee
+msgid "Swordsman"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1888 29a202bf49ac400fb0326487577d65fd
+msgid "``swordsman``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1891 98d08859d20c40359495cdb418fe6a96
+msgid "Tamago Sushi"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1892 e3307e9f18b94d3782145e12cf478b2d
+msgid "``tamago_sushi``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1895 46d14d8ec7f04135b549e1fd6344af07
+msgid "Tavern"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1896 7cfa55072b3a4e4fa9260ffa36af4101
+msgid "``tavern``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1899 210012cd1d3b437099c1dabc734062d5
+msgid "Temple"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1900 70399783793f441b822475108cca52d2
+msgid "``temple``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1903 11e6be1ab1754a9f9699905ee744198c
+msgid "Tentacle"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1904 0bba9176502a4803b8fd7d1de607f90d
+msgid "``tentacle``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1907 50c1cb17415745d09166900c46def628
+msgid "Throwing Stars"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1908 88c406dd40f44d87afea6be64d908565
+msgid "``throwing_star``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1911 dc29cd1d2c63437296476c10b7e6e1bc
+msgid "Tiger"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1912 faf7148909544cb9802299c7dce503c9
+msgid "``tiger``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1915 f10b8957ed2c4e71aa33cd7ad4c0493e
+msgid "Tiger Fur Coat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1916 9e7420eb5ca740309dff5d5940bb1ab6
+msgid "``tiger_fur_coat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1919 16c429e43a8d460bb535a6bfdce9c687
+msgid "Tomato"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1920 19a3ce35cb3947bd8ea69a795af98d4d
+msgid "``tomato``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1923 9f76f735d9534ea3b3489b70e56fa067
+msgid "Tomato Plant"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1924 c362206a7b744ec59047c87dd5c517ed
+msgid "``tomato_plant``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1927 1260d7a77b3a47f3a843107c2ed85830
+msgid "Tomatoes"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1928 872e5aba961f48cd8d8822011de0f220
+msgid "``throwing_tomatos``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1931 b2fc6912efab483391c64b23b9aec0d7
+msgid "Trained Monkey"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1932 4a6c464684874d6f8e1e73d6c6b2348b
+msgid "``trained_monkey``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1935 0daa02cecf544102a3ff4daa4fe1ec46
+msgid "Travelling Cart"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1936 f9cf16dddee64492949e5e55cd2ec5cd
+msgid "``travelling_cart``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1939 9618eb73876b473db619d91ec599d7bd
+msgid "Treasure Chest"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1940 e17f2dff155b4b3d8ef9d94849451600
+msgid "``treasure_chest``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1943 c252c6b9f3214a67a63dffdf2916ea5b
+msgid "Treasure Map"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1944 3eb4af139ca5452cbf75d661168ef688
+msgid "``treasure_map``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1947 cee769c2a381439a93cc586d308abc5d
+msgid "Tree"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1948 f2f3f59f98d0478aafe7e2d73242d3ad
+msgid "``tree``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1951 db38b891fcc2430a9a73badcb45f50be
+msgid "Tuna"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1952 0bfddf0bd9614910b1c2e52278c76132
+msgid "``tuna``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1955 d6ec606c913b4b3b822bb75330d07f3a
+msgid "University"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1956 f97854d489ba46f898fb362fadd698db
+msgid "``university``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1959 719efa927383468487fb7a42309c8341
+msgid "Villager"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1960 cdbd3e09a940482a9929367b18bb7773
+msgid "``villager``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1963 5d8405e01ba446ce83b2953af708f0c4
+msgid "Villager Poop"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1964 2f51d5cb2a6142bda5d83b15e55be24e
+msgid "``human_poop``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1967 0564c734e0a94bfd87cd28c01b1acf3f
+msgid "Warehouse"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1968 dde4f5520add443fab0b0842767974cf
+msgid "``warehouse``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1971 83fe2e63a5754d96b5291a262eb5c7f9
+msgid "Warrior"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1972 d2290803e6c94c839eaef094f476fe12
+msgid "``warrior``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1975 558b2f95538a48c3b2b79d434c92e7a5
+msgid "Water"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1976 2018d449dd59489dabf6a69420ff3c79
+msgid "``water``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1979 1669b6672583442ab1918308d457a1c3
+msgid "Well"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1980 edf5bff83c4d4ac9b67ec3a1c010d2d9
+msgid "``well``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1983 bfbf4587d53b4dec9708908c3a90e918
+msgid "Wheat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1984 85cd36c72004446eb76f633f94602723
+msgid "``wheat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1987 c429f08c653548939b9784ccdb61dd4a
+msgid "Whip"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1988 0d924114a3614a8493dd29bafb3d983a
+msgid "``whip``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1991 a3ffe496e91a47ea8531dddfb5e5331a
+msgid "Wicked Witch"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1992 0c7bd914296842d0b556b482f9266f84
+msgid "``wicked_witch``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1995 7e51343076644779814a165fedf3b038
+msgid "Wine"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1996 c72632f2d2e142f6bf4864ea4e895867
+msgid "``wine``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:1999 70458bf492774080aef6d20901207440
+msgid "Winter Coat"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2000 aa7572931a424a6b8dcc92400f233faf
+msgid "``winter_coat``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2003 adf1603cca6b4eacaedd24b56857366b
+msgid "Wishing Well"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2004 a036438e2316466f8758a678133bfcd8
+msgid "``wishing_well``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2007 023113b2c0a94cd5b6dc322004fcc841
+msgid "Wizard"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2008 5bd7e2506a37413bbf312bd5323b9052
+msgid "``wizard``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2011 e0d2bfd3ea7540b599e865d150616656
+msgid "Wizard Robe"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2012 d2df5392177b4edd85576b6e44d12b8c
+msgid "``wizard_robe``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2015 af23f5d68ec34c298333c845bb1fb6d2
+msgid "Wolf"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2016 feb2856da6cb4a62b6714327cb8a74b2
+msgid "``wolf``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2019 3fc0a290f8514cc4b5bf033340a690cc
+msgid "Wolf Head"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2020 1ad78d9f3b15425db3d9f34bc2ee8a38
+msgid "``wolf_head``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2023 f24b866e468d4b73ad75bafdea38b9e1
+msgid "Wood"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2024 9991b0089f274e3cacb5c40d61f0e251
+msgid "``wood``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2027 e3d5ca804b32426ca9ee3f184fd2c3c7
+msgid "Wooden Shield"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2028 3e88940efcc64ed7af9290c351a4c13c
+msgid "``wooden_shield``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2031 d551360be666458cbb5e945874416a8c
+msgid "Wool"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2032 b2b1f9427e2447e3b130dd95f0bfffca
+msgid "``wool``"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2035 ac13613cf27d4d62b801060cc86a502e
+msgid "Young Villager"
+msgstr ""
+
+#: ../../source/guides/cards.rst:2036 0844f97633f94e54937788fcc26e6ad2
+msgid "``teenage_villager``"
+msgstr ""

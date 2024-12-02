@@ -79,7 +79,14 @@ Let's implement it with an underscore property:
 			"AttackDamage": 3,
 			"AttackSpeed": 1,
 			"Defence": 1,
-			"HitChance": 0.9
+			"HitChance": 0.9,
+			"SpecialHits": [
+				{
+					"Chance": 0.1,
+					"HitType": "Poison",
+					"Target":  "Target"
+				}
+			]
 		}
 	}
 

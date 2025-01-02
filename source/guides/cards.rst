@@ -5,8 +5,8 @@ This page documents the list of card IDs. These are available as static const va
 ``Cards`` class as well.
 
 .. note::
-	The names of the dollar cards from the Stacklands 2000 DLC have been adjusted on this page to improve
-  the readability of this page, please be aware of this when trying to find those cards by their names.
+	The names of the dollar cards from the Stacklands 2000 DLC have been adjusted on this page to
+  improve readability, please be aware of this when trying to find those cards by their names.
 
 .. list-table::
     :header-rows: 1

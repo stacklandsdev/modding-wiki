@@ -4,6 +4,10 @@ Card IDs
 This page documents the list of card IDs. These are available as static const values in the
 ``Cards`` class as well.
 
+.. note::
+	The names of the dollar cards from the Stacklands 2000 DLC have been adjusted on this page to improve
+  the readability of this page, please be aware of this when trying to find those cards by their names.
+
 .. list-table::
     :header-rows: 1
     :align: left
@@ -12,6 +16,41 @@ This page documents the list of card IDs. These are available as static const va
       - ID
       - DLC
       - Class
+
+    * - 10$
+      - ``ten_dollar``
+      - Stacklands 2000
+      - ``Dollar``
+
+    * - 100$
+      - ``hundred_dollar``
+      - Stacklands 2000
+      - ``Dollar``
+
+    * - 20$
+      - ``twenty_dollar``
+      - Stacklands 2000
+      - ``Dollar``
+
+    * - 50$
+      - ``fifty_dollar``
+      - Stacklands 2000
+      - ``Dollar``
+
+    * - Academy
+      - ``academy``
+      - Stacklands 2000
+      - ``Academy``
+
+    * - Airport
+      - ``airport``
+      - Stacklands 2000
+      - ``Landmark``
+
+    * - Alien
+      - ``alien``
+      - Stacklands 2000
+      - ``Worker``
 
     * - Altar
       - ``altar``
@@ -33,6 +72,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``AnimalPen``
 
+    * - Apartment
+      - ``apartment``
+      - Stacklands 2000
+      - ``Apartment``
+
     * - Apple
       - ``apple``
       - Base game
@@ -52,6 +96,21 @@ This page documents the list of card IDs. These are available as static const va
       - ``archer``
       - Base game
       - ``Villager``
+
+    * - Art Gallery
+      - ``art_gallery``
+      - Stacklands 2000
+      - ``ArtGallery``
+
+    * - Artwork
+      - ``artwork``
+      - Stacklands 2000
+      - ``Artwork``
+
+    * - Attack Helicopter
+      - ``attack_helicopter``
+      - Stacklands 2000
+      - ``CitiesCombatable``
 
     * - Axe
       - ``axe``
@@ -77,6 +136,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``banana_tree``
       - Base game
       - ``Harvestable``
+
+    * - Barracks
+      - ``barrack``
+      - Stacklands 2000
+      - ``Barrack``
 
     * - Barrel
       - ``barrel``
@@ -163,6 +227,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Food``
 
+    * - Bread 2000
+      - ``bread_2000``
+      - Stacklands 2000
+      - ``Food``
+
     * - Breeding Pen
       - ``breeding_pen``
       - Base game
@@ -187,6 +256,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``builder``
       - Base game
       - ``Villager``
+
+    * - Burner Generator
+      - ``steam_generator``
+      - Stacklands 2000
+      - ``ConsumingEnergyGenerator``
 
     * - Butchery
       - ``slaughter_house``
@@ -213,6 +287,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Villager``
 
+    * - Cat 2000
+      - ``cities_cat``
+      - Stacklands 2000
+      - ``Worker``
+
     * - Catacombs
       - ``catacombs``
       - Base game
@@ -227,6 +306,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``cave``
       - Base game
       - ``Harvestable``
+
+    * - Cement
+      - ``cement``
+      - Stacklands 2000
+      - ``Resource``
 
     * - Ceviche
       - ``ceviche``
@@ -263,6 +347,26 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Food``
 
+    * - Cinema
+      - ``cinema``
+      - Stacklands 2000
+      - ``Landmark``
+
+    * - City Advisor
+      - ``city_advisor``
+      - Stacklands 2000
+      - ``CityAdvisor``
+
+    * - City Hall
+      - ``city_hall``
+      - Stacklands 2000
+      - ``CityHall``
+
+    * - City Park
+      - ``park``
+      - Stacklands 2000
+      - ``Landmark``
+
     * - Club
       - ``club``
       - Base game
@@ -297,6 +401,26 @@ This page documents the list of card IDs. These are available as static const va
       - ``cooked_meat``
       - Base game
       - ``Food``
+
+    * - Copper Bar
+      - ``copper_bar``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Copper Deposit
+      - ``copper_deposit``
+      - Stacklands 2000
+      - ``Harvestable``
+
+    * - Copper Mine
+      - ``copper_mine``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
+
+    * - Copper Ore
+      - ``copper_ore``
+      - Stacklands 2000
+      - ``Resource``
 
     * - Corpse
       - ``corpse``
@@ -333,10 +457,25 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Conveyor``
 
+    * - Crashed UFO
+      - ``ufo_event``
+      - Stacklands 2000
+      - ``Harvestable``
+
+    * - Credit Card
+      - ``creditcard``
+      - Stacklands 2000
+      - ``Creditcard``
+
     * - Crossbow
       - ``crossbow``
       - Base game
       - ``Equipable``
+
+    * - Crossroads
+      - ``crossroad``
+      - Base game
+      - ``Junction``
 
     * - Curse of Death
       - ``death_curse``
@@ -403,6 +542,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Villager``
 
+    * - Dog 2000
+      - ``cities_dog``
+      - Stacklands 2000
+      - ``Worker``
+
     * - Dough
       - ``dough``
       - Cursed Worlds
@@ -423,10 +567,25 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Harvestable``
 
+    * - Drought
+      - ``drought``
+      - Stacklands 2000
+      - ``Drought``
+
     * - Dustbin
       - ``trash_can``
       - Base game
       - ``TrashCan``
+
+    * - Earthquake
+      - ``earthquake``
+      - Stacklands 2000
+      - ``EarthQuake``
+
+    * - Educated Worker
+      - ``educated_worker``
+      - Stacklands 2000
+      - ``Worker``
 
     * - Eel
       - ``eel``
@@ -437,6 +596,16 @@ This page documents the list of card IDs. These are available as static const va
       - ``egg``
       - Base game
       - ``Egg``
+
+    * - Electric Motor
+      - ``electric_motor``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Electricity Pylon
+      - ``transmission_tower``
+      - Stacklands 2000
+      - ``TransmissionTower``
 
     * - Elf
       - ``elf``
@@ -458,6 +627,16 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Enemy``
 
+    * - Energy Combiner
+      - ``energy_combiner``
+      - Stacklands 2000
+      - ``EnergyLogic``
+
+    * - Energy Splitter
+      - ``energy_splitter``
+      - Stacklands 2000
+      - ``EnergyLogic``
+
     * - Ent
       - ``ent``
       - Base game
@@ -473,10 +652,25 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Villager``
 
+    * - Export Center
+      - ``export_center``
+      - Stacklands 2000
+      - ``ExportCenter``
+
     * - Fabric
       - ``fabric``
       - Base game
       - ``Resource``
+
+    * - Factory
+      - ``factory``
+      - Stacklands 2000
+      - ``Factory``
+
+    * - Factory Parts
+      - ``factory_parts``
+      - Stacklands 2000
+      - ``FactoryParts``
 
     * - Fancy Dress
       - ``wool_dress``
@@ -488,15 +682,45 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Garden``
 
+    * - Farmland
+      - ``farmland``
+      - Stacklands 2000
+      - ``Farmland``
+
     * - Feral Cat
       - ``feral_cat``
       - Base game
       - ``Enemy``
 
+    * - Festival
+      - ``festival``
+      - Stacklands 2000
+      - ``Festival``
+
     * - Fiend
       - ``fiend``
       - Cursed Worlds
       - ``Enemy``
+
+    * - Fighter Jet
+      - ``fighter_jet``
+      - Stacklands 2000
+      - ``CitiesCombatable``
+
+    * - Filter Crossroads
+      - ``filtered_crossroad``
+      - Base game
+      - ``FilteredJunction``
+
+    * - Filter Junction
+      - ``filtered_junction``
+      - Stacklands 2000
+      - ``FilteredJunction``
+
+    * - Financial Crisis
+      - ``financial_crisis``
+      - Stacklands 2000
+      - ``FinancialCrisis``
 
     * - Fire Cloak
       - ``fire_cloak``
@@ -543,6 +767,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``FlourMill``
 
+    * - Food Warehouse
+      - ``food_warehouse``
+      - Stacklands 2000
+      - ``FoodWarehouse``
+
     * - Forest
       - ``forest``
       - Base game
@@ -552,6 +781,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``amulet_of_forest``
       - Base game
       - ``Equipable``
+
+    * - Fossil
+      - ``fossil``
+      - Stacklands 2000
+      - ``Resource``
 
     * - Fountain of Youth
       - ``fountain_of_youth``
@@ -608,6 +842,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Garden``
 
+    * - Genius
+      - ``genius``
+      - Stacklands 2000
+      - ``Worker``
+
     * - Ghost
       - ``ghost``
       - Base game
@@ -643,14 +882,49 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Enemy``
 
+    * - Goblin Chopper
+      - ``goblin_attack_helicopter``
+      - Stacklands 2000
+      - ``Enemy``
+
+    * - Goblin Commando
+      - ``goblin_soldier``
+      - Stacklands 2000
+      - ``Enemy``
+
+    * - Goblin Conflict
+      - ``event_goblin_attack``
+      - Stacklands 2000
+      - ``GoblinAttack``
+
     * - Goblin Hat
       - ``goblin_hat``
       - Base game
       - ``Equipable``
 
+    * - Goblin Marksman
+      - ``goblin_sniper``
+      - Stacklands 2000
+      - ``Enemy``
+
     * - Goblin Shaman
       - ``goblin_shaman``
       - Base game
+      - ``Enemy``
+
+    * - Goblin Tank
+      - ``goblin_tank``
+      - Stacklands 2000
+      - ``Enemy``
+
+    * - Goblin War Ship
+      - ``goblin_war_ship``
+      - Stacklands 2000
+      - ``Enemy``
+
+    * - Goblin Warplane
+      - ``goblin_fighter_jet``
+      - Stacklands 2000
       - ``Enemy``
 
     * - Gold Bar
@@ -688,6 +962,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Resource``
 
+    * - Grain
+      - ``grain``
+      - Stacklands 2000
+      - ``Food``
+
     * - Grape
       - ``grape``
       - Cursed Worlds
@@ -702,6 +981,21 @@ This page documents the list of card IDs. These are available as static const va
       - ``grape_vine``
       - Cursed Worlds
       - ``Harvestable``
+
+    * - Gravel
+      - ``gravel``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Gravel Deposit
+      - ``gravel_deposit``
+      - Stacklands 2000
+      - ``Harvestable``
+
+    * - Gravel Pit
+      - ``gravel_pit``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
 
     * - Graveyard
       - ``graveyard``
@@ -727,6 +1021,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``hammer``
       - Base game
       - ``Equipable``
+
+    * - Hamster Wheel
+      - ``treadmill``
+      - Stacklands 2000
+      - ``PassiveEnergyGenerator``
 
     * - Happiness
       - ``happiness``
@@ -758,6 +1057,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Animal``
 
+    * - Hospital
+      - ``hospital``
+      - Stacklands 2000
+      - ``Landmark``
+
     * - Hotpot
       - ``hotpot``
       - Base game
@@ -767,6 +1071,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``house``
       - Base game
       - ``House``
+
+    * - Hydroponic Farm
+      - ``hydroponic_farm``
+      - Stacklands 2000
+      - ``Farmland``
 
     * - Idea:
       - ``ideas_base``
@@ -781,6 +1090,16 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea:
       - ``ideas_spirit``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea:
+      - ``blueprint_copperbar``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Alien
+      - ``blueprint_alien``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Altar
@@ -803,14 +1122,34 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Blueprint``
 
+    * - Idea: Apartment
+      - ``blueprint_apartment``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Aquarium
       - ``blueprint_aquarium``
       - Base game
       - ``Blueprint``
 
+    * - Idea: Attack Helicopter
+      - ``blueprint_attack_helicopter``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Automatic Resources
+      - ``blueprint_automatic_resources``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Axe
       - ``blueprint_axe``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Barracks
+      - ``blueprint_barrack``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Barrel
@@ -863,6 +1202,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Blueprint``
 
+    * - Idea: Bread 2000
+      - ``blueprint_bread_2000``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Breeding Pen
       - ``blueprint_breedingpen``
       - Base game
@@ -883,6 +1227,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Burner Generator
+      - ``blueprint_steam_generator``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Butchery
       - ``blueprint_slaughterhouse``
       - Base game
@@ -896,6 +1245,11 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Cathedral
       - ``blueprint_cathedral``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Cement
+      - ``blueprint_cement``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Ceviche
@@ -928,6 +1282,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: City Hall
+      - ``blueprint_city_hall``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Club
       - ``blueprint_club``
       - Base game
@@ -958,13 +1317,28 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``BlueprintRecipe``
 
+    * - Idea: Copper Mine
+      - ``blueprint_copper_mine``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Crane
       - ``blueprint_conveyor``
       - Base game
       - ``Blueprint``
 
+    * - Idea: Credit Card
+      - ``blueprint_creditcard``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Crossbow
       - ``blueprint_crossbow``
+      - Base game
+      - ``Blueprint``
+
+    * - Idea: Crossroads
+      - ``blueprint_crossroad``
       - Base game
       - ``Blueprint``
 
@@ -983,6 +1357,16 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Electric Motor
+      - ``blueprint_electric_motor``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Electricity Pylon
+      - ``blueprint_transmission_tower``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Empty Bottle
       - ``blueprint_bottle``
       - Base game
@@ -993,14 +1377,49 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``BlueprintFillBottle``
 
+    * - Idea: Energy Combiner
+      - ``blueprint_energy_combiner``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Energy Splitter
+      - ``blueprint_energy_splitter``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Euphoria
       - ``blueprint_euphoria``
       - Cursed Worlds
       - ``Blueprint``
 
+    * - Idea: Export Center
+      - ``blueprint_export_center``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Fabric
       - ``blueprint_fabric``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Fabric
+      - ``blueprint_fabric_2``
+      - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Factory
+      - ``blueprint_factory``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Factory
+      - ``blueprint_factory_recipes``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Factory Parts
+      - ``blueprint_factory_parts``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Fancy Dress
@@ -1011,6 +1430,26 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Farm
       - ``blueprint_farm``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Farmland
+      - ``blueprint_farmland``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Fighter Jet
+      - ``blueprint_fighter_jet``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Filter Crossroads
+      - ``blueprint_filtered_crossroad``
+      - Base game
+      - ``Blueprint``
+
+    * - Idea: Filter Junction
+      - ``blueprint_filtered_junction``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Fish and Chips
@@ -1036,6 +1475,11 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Flour Mill
       - ``blueprint_flour_mill``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Food Warehouse
+      - ``blueprint_food_warehouse``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Forest Amulet
@@ -1133,6 +1577,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Hamster Wheel
+      - ``blueprint_treadmill``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Happiness
       - ``blueprint_admire_coin``
       - Cursed Worlds
@@ -1141,7 +1590,7 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Happiness
       - ``blueprint_happiness``
       - Cursed Worlds
-      - ``Blueprint``
+      - ``BlueprintHappiness``
 
     * - Idea: Herbal Tea
       - ``blueprint_herbal_tea``
@@ -1158,14 +1607,39 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Hydroponic Farm
+      - ``blueprint_hydroponic_farm``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Industrial Smelter
+      - ``blueprint_industrial_smelter``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Iron Bar
       - ``blueprint_iron_bar``
       - Base game
       - ``Blueprint``
 
+    * - Idea: Iron Bar
+      - ``blueprint_citiesironbar``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Iron Bar
+      - ``blueprint_iron_bar_scraps``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Iron Mine
       - ``blueprint_mine``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Iron Mine
+      - ``blueprint_cities_iron_mine``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Iron Shield
@@ -1176,6 +1650,21 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Jester's Hat
       - ``blueprint_jester_hat``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Junction
+      - ``blueprint_junction``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Laboratory
+      - ``blueprint_laboratory``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Landfill
+      - ``blueprint_landfill``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Lift Curse
@@ -1201,6 +1690,11 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Lumber Camp
       - ``blueprint_lumbercamp``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Luxury Apartment
+      - ``blueprint_fancy_apartment``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Magic Blade
@@ -1243,6 +1737,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Metal Scraps
+      - ``blueprint_metal_scraps``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Milkshake
       - ``blueprint_milkshake``
       - Base game
@@ -1258,15 +1757,35 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Muesli
+      - ``blueprint_muesli``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Naming Stone
       - ``blueprint_naming_stone``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Nuclear Power Plant
+      - ``blueprint_nuclear_power_plant``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Offspring
       - ``blueprint_offspring``
       - Base game
       - ``BlueprintOffspring``
+
+    * - Idea: Oil Power Plant
+      - ``blueprint_oil_power_plant``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Oil Rig
+      - ``blueprint_oil_rig``
+      - Stacklands 2000
+      - ``Blueprint``
 
     * - Idea: Olive Oil
       - ``blueprint_olive_oil``
@@ -1333,6 +1852,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Plastic
+      - ``blueprint_plastic``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Purple Socks
       - ``blueprint_wool_socks``
       - Cursed Worlds
@@ -1343,6 +1867,26 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Radar Station
+      - ``blueprint_radar_station``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Ready Meal
+      - ``blueprint_ready_meal``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Recruiting
+      - ``rumor_add_worker``
+      - Stacklands 2000
+      - ``Rumor``
+
+    * - Idea: Recycling Center
+      - ``blueprint_recycling_center``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Resource Chest
       - ``blueprint_resourcechest``
       - Base game
@@ -1351,6 +1895,26 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Resource Magnet
       - ``blueprint_resource_magnet``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Road Builder
+      - ``blueprint_road_builder``
+      - Base game
+      - ``Blueprint``
+
+    * - Idea: Robot Soldier
+      - ``blueprint_robot_soldier``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Robot Station
+      - ``blueprint_robot_station``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Robot Worker
+      - ``blueprint_robot_worker``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Rope
@@ -1408,9 +1972,19 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``BlueprintRecipe``
 
+    * - Idea: Septic Tank
+      - ``blueprint_septic_tank``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Sewer
       - ``blueprint_sewer``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Shack
+      - ``blueprint_shack``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Shed
@@ -1433,6 +2007,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Slums
+      - ``blueprint_slums``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Smelter
       - ``blueprint_smelting``
       - Base game
@@ -1441,6 +2020,21 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Smithy
       - ``blueprint_smithy``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Sniper
+      - ``blueprint_sniper``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Solar Panel
+      - ``blueprint_solar_panel``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Soldier
+      - ``blueprint_soldier``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Spear
@@ -1468,6 +2062,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Storage Container
+      - ``blueprint_storage_container``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Stove
       - ``blueprint_stove``
       - Base game
@@ -1486,6 +2085,11 @@ This page documents the list of card IDs. These are available as static const va
     * - Idea: Tamago Sushi
       - ``blueprint_tamago_sushi``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Tank
+      - ``blueprint_tank``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Tavern
@@ -1508,9 +2112,24 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Blueprint``
 
+    * - Idea: Toy
+      - ``blueprint_toy``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: University
       - ``blueprint_university``
       - Base game
+      - ``Blueprint``
+
+    * - Idea: Uranium Mine
+      - ``blueprint_uranium_mine``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: War Ship
+      - ``blueprint_war_ship``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Warehouse
@@ -1518,9 +2137,24 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Blueprint``
 
+    * - Idea: Water Treatment Plant
+      - ``blueprint_water_treatment_plant``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Idea: Water Wheel
+      - ``blueprint_water_wheel``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Idea: Well
       - ``blueprint_well``
       - Cursed Worlds
+      - ``Blueprint``
+
+    * - Idea: Wind Turbine
+      - ``blueprint_wind_turbine``
+      - Stacklands 2000
       - ``Blueprint``
 
     * - Idea: Wine
@@ -1553,6 +2187,16 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Enemy``
 
+    * - Industrial Revolution
+      - ``event_industrial_revolution``
+      - Stacklands 2000
+      - ``IndustrialRevolution``
+
+    * - Industrial Smelter
+      - ``industrial_smelter``
+      - Stacklands 2000
+      - ``IndustrialSmelter``
+
     * - Iron Bar
       - ``iron_bar``
       - Base game
@@ -1563,10 +2207,20 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Harvestable``
 
+    * - Iron Deposit
+      - ``iron_deposit_cities``
+      - Stacklands 2000
+      - ``Harvestable``
+
     * - Iron Mine
       - ``mine``
       - Base game
       - ``CombatableHarvestable``
+
+    * - Iron Mine
+      - ``cities_iron_mine``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
 
     * - Iron Ore
       - ``iron_ore``
@@ -1593,6 +2247,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Equipable``
 
+    * - Junction
+      - ``junction``
+      - Stacklands 2000
+      - ``Junction``
+
     * - Jungle
       - ``jungle``
       - Base game
@@ -1618,6 +2277,81 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Equipable``
 
+    * - Laboratory
+      - ``laboratory``
+      - Stacklands 2000
+      - ``Laboratory``
+
+    * - Landfill
+      - ``landfill``
+      - Stacklands 2000
+      - ``Landfill``
+
+    * - Landmark: Academy
+      - ``blueprint_academy``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Airport
+      - ``blueprint_airport``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Art Gallery
+      - ``blueprint_art_gallery``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Cinema
+      - ``blueprint_cinema``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: City Park
+      - ``blueprint_park``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Hospital
+      - ``blueprint_hospital``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Particle Collider
+      - ``blueprint_particle_collider``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Stadium
+      - ``blueprint_stadium``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Theme Park
+      - ``blueprint_themepark``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Toy Shop
+      - ``blueprint_toy_factory``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Unknown Machine
+      - ``blueprint_time_machine``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Villager Statue
+      - ``blueprint_villager_statue``
+      - Stacklands 2000
+      - ``Blueprint``
+
+    * - Landmark: Zoo
+      - ``blueprint_zoo``
+      - Stacklands 2000
+      - ``Blueprint``
+
     * - Leather Tunic
       - ``leather_tunic``
       - Base game
@@ -1628,20 +2362,40 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Building``
 
+    * - Lightning
+      - ``lightning``
+      - Stacklands 2000
+      - ``Resource``
+
     * - Lime
       - ``lime``
       - Base game
       - ``Food``
+
+    * - Lumber
+      - ``lumber``
+      - Stacklands 2000
+      - ``Resource``
 
     * - Lumber Camp
       - ``lumbercamp``
       - Base game
       - ``CombatableHarvestable``
 
+    * - Lumber Deposit
+      - ``lumber_deposit``
+      - Stacklands 2000
+      - ``Harvestable``
+
     * - Lumberjack
       - ``lumberjack``
       - Base game
       - ``Villager``
+
+    * - Luxury Apartment
+      - ``fancy_apartment``
+      - Stacklands 2000
+      - ``Apartment``
 
     * - Mackerel
       - ``mackerel``
@@ -1703,6 +2457,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Market``
 
+    * - Merch
+      - ``merch``
+      - Stacklands 2000
+      - ``Resource``
+
     * - Merchant
       - ``merchant``
       - Cursed Worlds
@@ -1717,6 +2476,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``mess_hall``
       - Base game
       - ``MessHall``
+
+    * - Metal Scraps
+      - ``metal_scraps``
+      - Stacklands 2000
+      - ``Resource``
 
     * - Militia
       - ``militia``
@@ -1773,6 +2537,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Equipable``
 
+    * - Muesli
+      - ``muesli``
+      - Stacklands 2000
+      - ``Food``
+
     * - Mushroom
       - ``mushroom``
       - Base game
@@ -1788,10 +2557,30 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Villager``
 
+    * - Nuclear Power Plant
+      - ``nuclear_power_plant``
+      - Stacklands 2000
+      - ``ConsumingEnergyGenerator``
+
     * - Ogre
       - ``ogre``
       - Base game
       - ``Enemy``
+
+    * - Oil
+      - ``oil``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Oil Power Plant
+      - ``oil_power_plant``
+      - Stacklands 2000
+      - ``ConsumingEnergyGenerator``
+
+    * - Oil Rig
+      - ``oil_rig``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
 
     * - Old Cat
       - ``old_cat``
@@ -1863,6 +2652,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Oven``
 
+    * - Pack Sale
+      - ``pack_sale``
+      - Stacklands 2000
+      - ``PackSale``
+
     * - Painting
       - ``painting``
       - Cursed Worlds
@@ -1882,6 +2676,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``parrot``
       - Base game
       - ``Parrot``
+
+    * - Particle Collider
+      - ``particle_collider``
+      - Stacklands 2000
+      - ``ParticleCollider``
 
     * - Petting Zoo
       - ``petting_zoo``
@@ -1933,6 +2732,16 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Resource``
 
+    * - Plastic
+      - ``plastic``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Pollution
+      - ``pollution``
+      - Stacklands 2000
+      - ``Pollution``
+
     * - Poop
       - ``poop``
       - Base game
@@ -1963,6 +2772,11 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Equipable``
 
+    * - Quantum Matter
+      - ``quantum_entangled_uranium``
+      - Stacklands 2000
+      - ``DissolvingResource``
+
     * - Quarry
       - ``quarry``
       - Base game
@@ -1983,10 +2797,20 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Equipable``
 
+    * - Radar Station
+      - ``radar_station``
+      - Stacklands 2000
+      - ``RadarStation``
+
     * - Rag
       - ``rag``
       - Cursed Worlds
       - ``Equipable``
+
+    * - Rain
+      - ``rain``
+      - Stacklands 2000
+      - ``Harvestable``
 
     * - Rare Portal
       - ``rare_portal``
@@ -2018,6 +2842,16 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Food``
 
+    * - Ready Meal
+      - ``ready_meal``
+      - Stacklands 2000
+      - ``Food``
+
+    * - Recycling Center
+      - ``recycling_center``
+      - Stacklands 2000
+      - ``RecyclingCenter``
+
     * - Resource Chest
       - ``resource_chest``
       - Base game
@@ -2027,6 +2861,31 @@ This page documents the list of card IDs. These are available as static const va
       - ``resource_magnet``
       - Base game
       - ``ResourceMagnet``
+
+    * - Road Builder
+      - ``road_builder``
+      - Base game
+      - ``RoadBuilder``
+
+    * - Robot Genius
+      - ``robot_genius``
+      - Stacklands 2000
+      - ``Worker``
+
+    * - Robot Soldier
+      - ``robot_soldier``
+      - Stacklands 2000
+      - ``CitiesCombatable``
+
+    * - Robot Station
+      - ``robot_station``
+      - Stacklands 2000
+      - ``Apartment``
+
+    * - Robot Worker
+      - ``robot_worker``
+      - Stacklands 2000
+      - ``Worker``
 
     * - Rock
       - ``rock``
@@ -2091,6 +2950,26 @@ This page documents the list of card IDs. These are available as static const va
     * - Rumor: Eel Bait
       - ``rumor_eel_bait``
       - Base game
+      - ``Rumor``
+
+    * - Rumor: Eureka!
+      - ``rumor_genius``
+      - Stacklands 2000
+      - ``Rumor``
+
+    * - Rumor: Extraction
+      - ``automatic_resources``
+      - Stacklands 2000
+      - ``Rumor``
+
+    * - Rumor: Industrial Revolution
+      - ``industrial_revolution``
+      - Stacklands 2000
+      - ``Rumor``
+
+    * - Rumor: Quantum Matter
+      - ``rumor_quantum_entangled_uranium``
+      - Stacklands 2000
       - ``Rumor``
 
     * - Rumor: Shark Bait
@@ -2168,6 +3047,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Sawmill``
 
+    * - Science
+      - ``science``
+      - Stacklands 2000
+      - ``Resource``
+
     * - Scythe
       - ``scythe``
       - Cursed Worlds
@@ -2188,10 +3072,20 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Food``
 
+    * - Septic Tank
+      - ``septic_tank``
+      - Stacklands 2000
+      - ``SepticTank``
+
     * - Sewer
       - ``sewer``
       - Cursed Worlds
       - ``Cesspool``
+
+    * - Shack
+      - ``shack``
+      - Stacklands 2000
+      - ``Apartment``
 
     * - Shaman
       - ``shaman``
@@ -2248,6 +3142,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Boat``
 
+    * - Slums
+      - ``slums``
+      - Stacklands 2000
+      - ``Apartment``
+
     * - Small Slime
       - ``small_slime``
       - Base game
@@ -2268,10 +3167,25 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Enemy``
 
+    * - Sniper
+      - ``sniper``
+      - Stacklands 2000
+      - ``CitiesCombatable``
+
     * - Soil
       - ``soil``
       - Base game
       - ``Resource``
+
+    * - Solar Panel
+      - ``solar_panel``
+      - Stacklands 2000
+      - ``PassiveEnergyGenerator``
+
+    * - Soldier
+      - ``soldier``
+      - Stacklands 2000
+      - ``CitiesCombatable``
 
     * - Spear
       - ``spear``
@@ -2296,17 +3210,32 @@ This page documents the list of card IDs. These are available as static const va
     * - Spirit of Sadness
       - ``happiness_spirit``
       - Cursed Worlds
-      - ``HappinessSpirit``
+      - ``Spirit``
 
     * - Spring
       - ``spring``
       - Base game
       - ``Spring``
 
+    * - Spy
+      - ``spy``
+      - Stacklands 2000
+      - ``CitiesCombatable``
+
     * - Stable Portal
       - ``stable_portal``
       - Base game
       - ``StablePortal``
+
+    * - Stacklands 2000
+      - ``display_2000_dlc``
+      - Base game
+      - ``DemoCard``
+
+    * - Stadium
+      - ``stadium``
+      - Stacklands 2000
+      - ``Stadium``
 
     * - Staff of Fear
       - ``staff_of_fear``
@@ -2328,6 +3257,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Resource``
 
+    * - Storage Container
+      - ``storage_container``
+      - Stacklands 2000
+      - ``ResourceChest``
+
     * - Stove
       - ``stove``
       - Base game
@@ -2342,6 +3276,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``sugar_cane``
       - Base game
       - ``Harvestable``
+
+    * - Sunshine
+      - ``sunshine``
+      - Stacklands 2000
+      - ``Weather``
 
     * - Sushi
       - ``sushi``
@@ -2363,6 +3302,11 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Food``
 
+    * - Tank
+      - ``tank``
+      - Stacklands 2000
+      - ``CitiesCombatable``
+
     * - Tavern
       - ``tavern``
       - Cursed Worlds
@@ -2377,6 +3321,11 @@ This page documents the list of card IDs. These are available as static const va
       - ``tentacle``
       - Base game
       - ``Tentacle``
+
+    * - Theme Park
+      - ``themepark``
+      - Stacklands 2000
+      - ``Landmark``
 
     * - Throwing Stars
       - ``throwing_star``
@@ -2408,10 +3357,25 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Equipable``
 
+    * - Toy
+      - ``toy``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Toy Shop
+      - ``toy_factory``
+      - Stacklands 2000
+      - ``ToyFactory``
+
     * - Trained Monkey
       - ``trained_monkey``
       - Base game
       - ``Villager``
+
+    * - Trash
+      - ``trash``
+      - Stacklands 2000
+      - ``Trash``
 
     * - Travelling Cart
       - ``travelling_cart``
@@ -2433,6 +3397,16 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``Harvestable``
 
+    * - Tree Plantation
+      - ``lumber_mill``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
+
+    * - T-Rex
+      - ``dino``
+      - Stacklands 2000
+      - ``Dino``
+
     * - Tuna
       - ``tuna``
       - Base game
@@ -2443,6 +3417,26 @@ This page documents the list of card IDs. These are available as static const va
       - Base game
       - ``University``
 
+    * - Unknown Machine
+      - ``time_machine``
+      - Stacklands 2000
+      - ``TimeMachine``
+
+    * - Uranium
+      - ``uranium``
+      - Stacklands 2000
+      - ``Resource``
+
+    * - Uranium Deposit
+      - ``uranium_deposit``
+      - Stacklands 2000
+      - ``Harvestable``
+
+    * - Uranium Mine
+      - ``uranium_mine``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
+
     * - Villager
       - ``villager``
       - Base game
@@ -2452,6 +3446,16 @@ This page documents the list of card IDs. These are available as static const va
       - ``human_poop``
       - Cursed Worlds
       - ``Poop``
+
+    * - Villager Statue
+      - ``villager_statue``
+      - Stacklands 2000
+      - ``Landmark``
+
+    * - War Ship
+      - ``war_ship``
+      - Stacklands 2000
+      - ``CitiesCombatable``
 
     * - Warehouse
       - ``warehouse``
@@ -2467,6 +3471,26 @@ This page documents the list of card IDs. These are available as static const va
       - ``water``
       - Base game
       - ``Food``
+
+    * - Water Deposit
+      - ``water_deposit``
+      - Stacklands 2000
+      - ``Harvestable``
+
+    * - Water Pump
+      - ``water_pump``
+      - Stacklands 2000
+      - ``EnergyHarvestable``
+
+    * - Water Treatment Plant
+      - ``water_treatment_plant``
+      - Stacklands 2000
+      - ``WaterTreatmentPlant``
+
+    * - Water Wheel
+      - ``water_wheel``
+      - Stacklands 2000
+      - ``ConsumingEnergyGenerator``
 
     * - Well
       - ``well``
@@ -2487,6 +3511,21 @@ This page documents the list of card IDs. These are available as static const va
       - ``wicked_witch``
       - Base game
       - ``WickedWitch``
+
+    * - Wildfire
+      - ``wildfire``
+      - Stacklands 2000
+      - ``WildFire``
+
+    * - Wind
+      - ``wind``
+      - Stacklands 2000
+      - ``Wind``
+
+    * - Wind Turbine
+      - ``wind_turbine``
+      - Stacklands 2000
+      - ``PassiveEnergyGenerator``
 
     * - Wine
       - ``wine``
@@ -2538,8 +3577,17 @@ This page documents the list of card IDs. These are available as static const va
       - Cursed Worlds
       - ``Resource``
 
+    * - Worker
+      - ``worker``
+      - Stacklands 2000
+      - ``Worker``
+
     * - Young Villager
       - ``teenage_villager``
       - Cursed Worlds
       - ``TeenageVillager``
 
+    * - Zoo
+      - ``zoo``
+      - Stacklands 2000
+      - ``Landmark``
